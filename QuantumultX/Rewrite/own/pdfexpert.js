@@ -1,7 +1,4 @@
-#!name=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/pdfexpert.js
-
-
-/******************************
+#!name=https://raw.githubusercontent.com/langkhach270389/Surge-LK/main/scripts/langkhach/pdfexpert.js/******************************
 
 脚本功能：documents文件管理器+解锁订阅
 下载地址：https://is.gd/DLjoIn
