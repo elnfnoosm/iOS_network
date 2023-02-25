@@ -4,7 +4,7 @@
 // ==/UserScript==
 
 [MITM]
-hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, hcz-member.pingan.com.cn, ad.12306.cn, adx-cn.anythinktech.com, vip7.fzwdyy.cn, sdk.alibaba.com.ailbaba.me, pan.baidu.com, client.app.coc.10086.cn, api.m.mi.com, mbs.boc.cn, app.zhuanzhuan.com, api.cloud.189.cn, appwk.baidu.com, us.l.qq.com, mi.gdt.qq.com, adm.10jqka.com, a.qiumibao.com, hcz-member.pingan.com, zconfig.alibabausercontent.com, g.alicdn.com, mpcs.suning.com, api.pinduoduo.com, api.yangkeduo.com, mime.baidu.com, open.e.kuaishou.com, client.qunar.com, ih2.ireader.com, api.haohaozhu.cn, list-app-m.i4.cn, api.xiachufang.com, peisongapi.meituan.com, app.yinxiang.com, syh.zybang.com, kad.gotokeep.com, img.meituan.net, api.shenyin.name, api.aliyundrive.com, app2.autoimg.cn, adproxy.autohome.com.cn, discardrp.umetrip.com, startup.umetrip.com, bp-api.bestv.com.cn, 118.178.214.118, dapis.mting.info, acs.m.taobao.com, ssp.dzh.com.cn, api-access.pangolin-sdk-toutiao.com, maicai.api.ddxq.mobi, www.meituan.com, client.mail.163.com, api.izuiyou.com, appapi.huazhu.com, api.wfdata.club, interface*.music.163.com, api.psy-1.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, api.coolapk.com, edith.xiaohongshu.com, ccsp-egmas.sf-express.com, api.yikaobang.com.cn, api-ad-product.huxiu.com, rtbapi.douyucdn.cn, service.busi.inke.cn, gab.122.gov.cn, dispatcher.camera360.com, m.sd.10086.cn, gw.alicdn.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, wap.js.10086.cn, tagit.hyhuo.com, top-widgets-api.xiaozujian.com, new-app-api.ylyk.com, gw.aihuishou.com, *.58cdn.com.cn, app.58.com, static.zhihu.com, res.xiaojukeji.com, 116.85.2.15, 116.85.2.14, lchttpapi.xczim.com, business.msstatic.com, api.gotokeep.com, api.jr.mi.com, api.m.mi.com, pages.xiaohongshu.com, www.xiaohongshu.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, api.douban.com, otheve.beacon.qq.com, m5.amap.com, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net, testflight.apple.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, ms.jr.jd.com, wmapi.meituan.com, appconf.mail.163.com, bdsp-x.jd.com, dsp-x.jd.com, api.m.jd.com, homefront.qunar.com, afd.baidu.com, *.bdstatic.com, j-image.missfresh.cn, ma-adx.ctrip.com, m.ctrip.com, mbd.baidu.com, img.rr.tv, api.rr.tv, capis.didapinche.com, capis*.didapinche.com, *.hoopchina.com, goblin.hupu.com, spclient.wg.spotify.com
+hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, hcz-member.pingan.com.cn, ad.12306.cn, adx-cn.anythinktech.com, vip7.fzwdyy.cn, sdk.alibaba.com.ailbaba.me, pan.baidu.com, api.m.mi.com, mbs.boc.cn, api.cloud.189.cn, appwk.baidu.com, us.l.qq.com, mi.gdt.qq.com, adm.10jqka.com, hcz-member.pingan.com, zconfig.alibabausercontent.com, g.alicdn.com, mpcs.suning.com, api.pinduoduo.com, api.yangkeduo.com, mime.baidu.com, open.e.kuaishou.com, client.qunar.com, ih2.ireader.com, api.haohaozhu.cn, list-app-m.i4.cn, api.xiachufang.com, peisongapi.meituan.com, app.yinxiang.com, kad.gotokeep.com, img.meituan.net, api.shenyin.name, api.aliyundrive.com, app2.autoimg.cn, adproxy.autohome.com.cn, discardrp.umetrip.com, startup.umetrip.com, bp-api.bestv.com.cn, 118.178.214.118, dapis.mting.info, acs.m.taobao.com, ssp.dzh.com.cn, api-access.pangolin-sdk-toutiao.com, maicai.api.ddxq.mobi, www.meituan.com, client.mail.163.com, appapi.huazhu.com, api.wfdata.club, interface*.music.163.com, api.psy-1.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, api.coolapk.com, edith.xiaohongshu.com, ccsp-egmas.sf-express.com, api-ad-product.huxiu.com, rtbapi.douyucdn.cn, gab.122.gov.cn, dispatcher.camera360.com, gw.alicdn.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, tagit.hyhuo.com, top-widgets-api.xiaozujian.com, gw.aihuishou.com, *.58cdn.com.cn, app.58.com, static.zhihu.com, res.xiaojukeji.com, 116.85.2.15, 116.85.2.14, lchttpapi.xczim.com, business.msstatic.com, api.gotokeep.com, api.jr.mi.com, api.m.mi.com, pages.xiaohongshu.com, www.xiaohongshu.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, api.douban.com, otheve.beacon.qq.com, m5.amap.com, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net, testflight.apple.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, ms.jr.jd.com, wmapi.meituan.com, appconf.mail.163.com, bdsp-x.jd.com, dsp-x.jd.com, api.m.jd.com, homefront.qunar.com, afd.baidu.com, *.bdstatic.com, j-image.missfresh.cn, ma-adx.ctrip.com, m.ctrip.com, mbd.baidu.com, img.rr.tv, api.rr.tv, capis.didapinche.com, capis*.didapinche.com, *.hoopchina.com, goblin.hupu.com, spclient.wg.spotify.com, app-gw.csdn.net, cn-acs.m.cainiao.com, api.caiyunapp.com, api.ahmobile.cn, acs.m.taobao.com, router-app-api.jdcloud.com, lban.spdb.com.cn, apps.api.ke.com, api-new.app.acfun.cn, m.client.10010.com
 
 [Script]
 # ～ BiliBili_哔哩哔哩_屏蔽首页右上活动@ddgksf2013
@@ -365,71 +365,23 @@ https://top-widgets-api.xiaozujian.com/api/ad/config url reject
 
 # ======= Y ======= #
 
-# > YiKaoBang
-^https?:\/\/api\.yikaobang\.com\.cn\/client\/main\/homePageSmallAd url reject
-^https?:\/\/api\.yikaobang\.com\.cn\/index\.php\/Client\/main\/startPage url reject
-# > YouLinYouKe
-https://new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
-# > YinkeZhiBo
-^https?:\/\/service\.busi\.inke\.cn\/api\/flash\/screen url reject
 # > YinxiangNote
 ^https?:\/\/app\.yinxiang\.com\/ads\/ url reject
-# > yonghui
-^https?:\/\/api\.yonghuivip\.com\/web\/shensuan\/ad\/getAd url reject
-# > yingshiyun
-^https?:\/\/i\.ys7\.com\/api\/ads\/ url reject
 
 
 # ======= Z ======= #
 
-# > zhangshangshenghuo
-#^https?:\/\/mlife\.cmbchina\.com\/ClientFaceService\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec url reject
-# > zhongguoyidong
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject
-^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject
-# > zhongguoyidongjiangsu
-^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
-# > zhongguoyidongshandong
-https?:\/\/m\.sd\.10086\.cn\/zapi\/app_common\/homeWelcome\/welcome.do url reject
-# > zhongguoyidongguangdong
-^https?:\/\/gd\.10086\.cn\/gmccapp\/serv\/\?servicename=GMCCAPP_704_002_001_001 url reject
-# > zhaoshangyinhang
-^https?:\/\/webappcfg\.paas\.cmbchina\.com\/v1\/func\/getmarketconfig url reject
 # > zhongguoliantong
 ^https?:\/\/m\.client\.10010\.com\/mobileService\/(activity|customer)\/(accountListData|get_client_adv|get_startadv) url reject
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject
-# > zhongguoyidongguangxi
-^https?:\/\/gx\.10086\.cn\/zt-portal\/gxhzg\/portal\/app\/api\/v url reject
-# > zhongguoyidonganhui*
-^https?:\/\/api\.ahmobile\.cn:443\/eip\?eip_serv_id=app\.getAllNew url reject
-# > zhuanzhuan
-^https?:\/\/app\.zhuanzhuan\.com\/zzx\/transfer\/getConfigInfo url reject
-# > zhiboba
-^https?:\/\/a\.qiumibao\.com\/activities\/config\.php$ url reject
-^https?:\/\/a\.qiumibao\.com\/ios\/config\/\?version_code= url reject
-# > zuoyebang
-^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject
-# > ZuiYou
-^https?:\/\/adapi\.izuiyou\.com\/ url reject
-^https?:\/\/api\.izuiyou\.com\/ad\/ url reject
 # > Zhihu
 ^https?:\/\/static\.zhihu\.com\/[^\/]+\/(main|column)\.signflow\.[^.]+.js url reject
 # > zhuishushenqi
 ^https?:\/\/adx-cn\.anythinktech\.com\/bid url reject
-# > zhangshangdaojucheng
-^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list url reject
 # > zhangyue
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/bookstore\/ad url reject
 ^https?:\/\/ih2\.ireader\.com\/zyapi\/self\/screen\/ad url reject
 ^https?:\/\/ih2\.ireader\.com\/zycl\/api\/ad url reject
 # > zhongguoyinhang
 #^https?:\/\/mbs\.boc\.cn\/ubas-mgateway-static\/images\/advertType\/.+.jpg url reject-img
-# > zhuijudaren
-^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) url reject
-# > zhangshangyingxionglianmeng
-^https?:\/\/mlol\.qt\.qq\.com\/go\/recommend url reject
 
-
-
-
-hostname = mlol.qt.qq.com, app-gw.csdn.net, djcapp.game.qq.com, cn-acs.m.cainiao.com, zjdr666.com, api.caiyunapp.com, api.ahmobile.cn, gx.10086.cn, acs.m.taobao.com, router-app-api.jdcloud.com, webappcfg.paas.cmbchina.com, lban.spdb.com.cn, adapi.izuiyou.com, i.ys7.com, apps.api.ke.com, api.yonghuivip.com, api-new.app.acfun.cn, m.client.10010.com, gd.10086.cn,
