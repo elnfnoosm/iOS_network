@@ -1,6 +1,6 @@
 // ==UserScript==
 // ScriptName：ELNF自用-去开屏广告V2.0+整合bilibili去广告
-//更新时间：同步墨鱼更新2023-01-13 V2.0(245)
+//更新时间：20230301精简内容为常用软件以减少mitm-20230113同步墨鱼更新V2.0(245)
 // ==/UserScript==
 
 [MITM]
@@ -22,7 +22,7 @@ http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1
 # ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
 http-response ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 # ～ BiliBili_哔哩哔哩_直播去广告@bm7
-http-response ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,script-path=github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
+http-response ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 # ～ BiliBili_哔哩哔哩_标签页处理@ddgksf2013
 http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 # ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
