@@ -1,66 +1,16 @@
 // ==UserScript==
-// ScriptName：ELNF自用-去开屏广告V2.0+整合bilibili去广告
+// ScriptName：ELNF自用-去开屏广告V2.0
 //更新时间：20230301精简内容为常用软件以减少mitm-20230113同步墨鱼更新V2.0(245)
 // ==/UserScript==
 
 [MITM]
-hostname = app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com, api.bilibili.com, manga.bilibili.com, grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, hcz-member.pingan.com.cn, ad.12306.cn, adx-cn.anythinktech.com, vip7.fzwdyy.cn, sdk.alibaba.com.ailbaba.me, pan.baidu.com, api.m.mi.com, mbs.boc.cn, api.cloud.189.cn, appwk.baidu.com, us.l.qq.com, mi.gdt.qq.com, adm.10jqka.com, hcz-member.pingan.com, zconfig.alibabausercontent.com, g.alicdn.com, mpcs.suning.com, api.pinduoduo.com, api.yangkeduo.com, mime.baidu.com, open.e.kuaishou.com, client.qunar.com, ih2.ireader.com, api.haohaozhu.cn, list-app-m.i4.cn, api.xiachufang.com, peisongapi.meituan.com, app.yinxiang.com, kad.gotokeep.com, img.meituan.net, api.shenyin.name, api.aliyundrive.com, app2.autoimg.cn, adproxy.autohome.com.cn, discardrp.umetrip.com, startup.umetrip.com, bp-api.bestv.com.cn, 118.178.214.118, dapis.mting.info, acs.m.taobao.com, ssp.dzh.com.cn, api-access.pangolin-sdk-toutiao.com, maicai.api.ddxq.mobi, www.meituan.com, client.mail.163.com, appapi.huazhu.com, api.wfdata.club, interface*.music.163.com, api.psy-1.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, api.coolapk.com, edith.xiaohongshu.com, ccsp-egmas.sf-express.com, api-ad-product.huxiu.com, rtbapi.douyucdn.cn, gab.122.gov.cn, dispatcher.camera360.com, gw.alicdn.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, tagit.hyhuo.com, top-widgets-api.xiaozujian.com, gw.aihuishou.com, *.58cdn.com.cn, app.58.com, static.zhihu.com, res.xiaojukeji.com, 116.85.2.15, 116.85.2.14, lchttpapi.xczim.com, business.msstatic.com, api.gotokeep.com, api.jr.mi.com, api.m.mi.com, pages.xiaohongshu.com, www.xiaohongshu.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, api.douban.com, otheve.beacon.qq.com, m5.amap.com, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net, testflight.apple.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, ms.jr.jd.com, wmapi.meituan.com, appconf.mail.163.com, bdsp-x.jd.com, dsp-x.jd.com, api.m.jd.com, homefront.qunar.com, afd.baidu.com, *.bdstatic.com, j-image.missfresh.cn, ma-adx.ctrip.com, m.ctrip.com, mbd.baidu.com, img.rr.tv, api.rr.tv, capis.didapinche.com, capis*.didapinche.com, *.hoopchina.com, goblin.hupu.com, spclient.wg.spotify.com, app-gw.csdn.net, cn-acs.m.cainiao.com, api.caiyunapp.com, api.ahmobile.cn, acs.m.taobao.com, router-app-api.jdcloud.com, lban.spdb.com.cn, apps.api.ke.com, api-new.app.acfun.cn, m.client.10010.com
+hostname =  grpc.biliapi.net,api.biliapi.net, -broadcast.chat.bilibili.com, -*cdn*.biliapi.net, -*tracker*.biliapi.net, hcz-member.pingan.com.cn, ad.12306.cn, adx-cn.anythinktech.com, vip7.fzwdyy.cn, sdk.alibaba.com.ailbaba.me, pan.baidu.com, api.m.mi.com, mbs.boc.cn, api.cloud.189.cn, appwk.baidu.com, us.l.qq.com, mi.gdt.qq.com, adm.10jqka.com, hcz-member.pingan.com, zconfig.alibabausercontent.com, g.alicdn.com, mpcs.suning.com, api.pinduoduo.com, api.yangkeduo.com, mime.baidu.com, open.e.kuaishou.com, client.qunar.com, ih2.ireader.com, api.haohaozhu.cn, list-app-m.i4.cn, api.xiachufang.com, peisongapi.meituan.com, app.yinxiang.com, kad.gotokeep.com, img.meituan.net, api.shenyin.name, api.aliyundrive.com, app2.autoimg.cn, adproxy.autohome.com.cn, discardrp.umetrip.com, startup.umetrip.com, bp-api.bestv.com.cn, 118.178.214.118, dapis.mting.info, acs.m.taobao.com, ssp.dzh.com.cn, api-access.pangolin-sdk-toutiao.com, maicai.api.ddxq.mobi, www.meituan.com, client.mail.163.com, appapi.huazhu.com, api.wfdata.club, interface*.music.163.com, api.psy-1.com, mp.weixin.qq.com, security.wechat.com, weixin110.qq.com, api.coolapk.com, edith.xiaohongshu.com, ccsp-egmas.sf-express.com, api-ad-product.huxiu.com, rtbapi.douyucdn.cn, gab.122.gov.cn, dispatcher.camera360.com, gw.alicdn.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, new.vip.weibo.cn, tagit.hyhuo.com, top-widgets-api.xiaozujian.com, gw.aihuishou.com, *.58cdn.com.cn, app.58.com, static.zhihu.com, res.xiaojukeji.com, 116.85.2.15, 116.85.2.14, lchttpapi.xczim.com, business.msstatic.com, api.gotokeep.com, api.jr.mi.com, api.m.mi.com, pages.xiaohongshu.com, www.xiaohongshu.com, elemecdn.com, fuss10.elemecdn.com, www1.elecfans.com, api.douban.com, otheve.beacon.qq.com, m5.amap.com, s3plus.meituan.net, flowplus.meituan.net, p*.meituan.net, testflight.apple.com, rich.kuwo.cn, *.kwcdn.kuwo.cn, mobilead.kuwo.cn, ms.jr.jd.com, wmapi.meituan.com, appconf.mail.163.com, bdsp-x.jd.com, dsp-x.jd.com, api.m.jd.com, homefront.qunar.com, afd.baidu.com, *.bdstatic.com, j-image.missfresh.cn, ma-adx.ctrip.com, m.ctrip.com, mbd.baidu.com, img.rr.tv, api.rr.tv, capis.didapinche.com, capis*.didapinche.com, *.hoopchina.com, goblin.hupu.com, spclient.wg.spotify.com, app-gw.csdn.net, cn-acs.m.cainiao.com, api.caiyunapp.com, api.ahmobile.cn, acs.m.taobao.com, router-app-api.jdcloud.com, lban.spdb.com.cn, apps.api.ke.com, api-new.app.acfun.cn, m.client.10010.com
 
 [Script]
-# ～ BiliBili_哔哩哔哩_屏蔽首页右上活动@ddgksf2013
-http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_观影页面去广告@ddgksf2013
-http-response ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\? requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
-http-response ^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\? requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
-http-response ^https://app.bilibili.com/x/v2/search/square requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
-http-response ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_直播去广告@bm7
-http-response ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_标签页处理@ddgksf2013
-http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
-http-response ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
-# ～ BiliBili_哔哩哔哩_Proto去广告@app2smile
-http-response ^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$ requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js
-# ～ BiliBili_哔哩哔哩_启动时开启直连模式[自行启用]@ddgksf2013
-;^http-response https?:\/\/app\.bilibili\.com\/x\/resource\/domain requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_startup_direct.js
-# ～ BiliBili_哔哩哔哩_繁体CC字幕转中文简体[自行启用]@ddgksf2013
-;http-response ^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$ requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js
 # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
 ;http-response ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\? requires-body=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js
 
 [URL Rewrite]
-
-# ======= bilibili ======= #
-# ～ BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗@ddgksf2013
-^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? url reject-dict
-# ～ BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
-^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive url reject-dict
-# ～ BiliBili_哔哩哔哩_屏蔽IP请求@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/x\/resource\/ip url reject
-# ～ BiliBili_哔哩哔哩_屏蔽DefaultWord@ddgksf2013
-^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default url reject
-# ～ BiliBili_哔哩哔哩_应用开屏去广告@bm7
-^https://app.bilibili.com/x/v2/splash/show url reject-dict
-# ～ BiliBili_哔哩哔哩_Defaultword@ddgksf2013
-^https://app.bilibili.com/x/v2/search/defaultwords url reject-dict
-# ～ BiliBili_哔哩哔哩_Material_Ad@ddgksf2013
-^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report url reject-dict
-# ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
-^https://api.bilibili.com/pgc/season/player/cards url reject-dict
-# ～ BiliBili_哔哩哔哩_去除动态中的话题@bm7
-^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr url reject-dict
-# ～ BiliBili_哔哩哔哩_漫画去广告@ddgksf2013
-^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash) url reject-dict
-
-
 # ======= ~ ====== #
 
 #以下重写请自行添加，本重写引用不含【喜马拉雅、哔哩哔哩、微博、Youtube、Keep、百度贴吧、知乎、什么值得买、高德地图、小红书】去广告
