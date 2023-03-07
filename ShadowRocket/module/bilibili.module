@@ -1,0 +1,82 @@
+#!name=哔哩哔哩
+#!desc=哔哩哔哩功能整合
+# ==UserScript==
+# @ScriptName        BiliBili_AdBlock_DIY
+# @Author            @ddgksf2013, @blackmatrix7, @app2smile, @yjqiang
+//B站解锁普通视频高码率仅适用国区粉色APP，外区为自我安慰
+[MITM]
+hostname = %APPEND% *.hdslb.com,app.bilibili.com,api.live.bilibili.com,api.vc.bilibili.com,api.bilibili.com,manga.bilibili.com,grpc.biliapi.net,api.biliapi.net,-broadcast.chat.bilibili.com,-*cdn*.biliapi.net,-*tracker*.biliapi.net,upos-hz-mirrorakam.akamaized.net
+
+
+[URL Rewrite]
+
+#UPOS服务器替换为腾讯Cos对象存储
+^https?:\/\/upos-hz-mirrorakam\.akamaized\.net\/(.*) https://upos-sz-mirrorcos.bilivideo.com/$1 302
+# ～ BiliBili_哔哩哔哩_屏蔽直播间商品广告浮窗@ddgksf2013
+^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? - reject-dict
+# ～ BiliBili_哔哩哔哩_屏蔽广告浮窗@ddgksf2013
+^https?:\/\/api\.bilibili\.com\/pgc\/activity\/deliver\/material\/receive - reject-dict
+# ～ BiliBili_哔哩哔哩_屏蔽IP请求@ddgksf2013
+^https?:\/\/app\.bilibili\.com\/x\/resource\/ip - reject
+# ～ BiliBili_哔哩哔哩_屏蔽DefaultWord@ddgksf2013
+^https?:\/\/app\.bilibili\.com\/bilibili\.app\.interface\.v1\.Search\/Default - reject
+# ～ BiliBili_哔哩哔哩_应用开屏去广告@bm7
+^https://app.bilibili.com/x/v2/splash/show - reject-dict
+# ～ BiliBili_哔哩哔哩_Defaultword@ddgksf2013
+^https://app.bilibili.com/x/v2/search/defaultwords - reject-dict
+# ～ BiliBili_哔哩哔哩_Material_Ad@ddgksf2013
+^https?:\/\/api\.bilibili\.com\/x\/vip\/ads\/material\/report - reject-dict
+# ～ BiliBili_哔哩哔哩_小卡片广告@ddgksf2013
+^https://api.bilibili.com/pgc/season/player/cards - reject-dict
+# ～ BiliBili_哔哩哔哩_漫画去广告@ddgksf2013
+^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/(Flash|ListFlash) - reject-dict
+
+[Script]
+
+# ～ BiliBili_哔哩哔哩_屏蔽首页右上活动@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_观影页面去广告@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/cinema\/tab\?,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_应用开屏广告预加载@yjqiang
+bilibili_json = type=http-response,pattern=^https:\/\/app\.bilibili\.com\/x\/v2\/splash\/list,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+#魔改皮肤脚本自带解锁4k，和我的页面处理功能，自行选择
+
+# ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+#魔改皮肤 作者@ClydeTime
+#魔改皮肤 = type=http-response,requires-body=1,max-size=3145728,timeout=60,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
+
+# ～ BiliBili_哔哩哔哩_热搜发现@ddgksf2013
+bilibili_json = type=http-response,pattern=^https://app.bilibili.com/x/v2/search/square,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_推荐去广告@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/feed\/index,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_直播去广告@bm7
+bilibili_json = type=http-response,pattern=^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_标签页处理@ddgksf2013
+bilibili_json = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_json.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_Proto去广告@app2smile
+bilibili_proto = type=http-response,pattern=^https:\/\/(grpc\.biliapi\.net|app\.bilibili\.com)\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll|playurl\.v1\.PlayURL\/PlayView)$,requires-body=1,max-size=3145728,binary-body-mode=1,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_proto.js,script-update-interval=0
+
+# ～ BiliBili_哔哩哔哩_繁体CC字幕转中文简体@ddgksf2013
+bilibili_cc = type=http-response,pattern=^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$,requires-body=1,max-size=3145728,script-path=https://github.com/ddgksf2013/Scripts/raw/master/bilibili_cc.js,script-update-interval=0
+
+#以下切区脚本仅国际版B站有效，需设置分流和策略组，教程链接https://t.me/weltyfjd/4  请看完教程再考虑是否启用
+
+#B站切区 作者@Nobyda
+#Bili Region = type=http-response,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/(pgc\/view\/v\d\/app\/season|x\/offline\/version)\?,requires-body=1,max-size=3145728,timeout=60,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js
+#可选, 适用于搜索指定地区的番剧 作者@Nobyda
+#Bili Search = type=http-request,timeout=60,pattern=^https:\/\/ap(p|i)\.bili(bili|api)\.(com|net)\/x\/v\d\/search(\/type)?\?.+?%20(%E6%B8%AF|%E5%8F%B0|%E4%B8%AD)&,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Bili_Auto_Regions.js

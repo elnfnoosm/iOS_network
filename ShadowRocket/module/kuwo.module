@@ -1,0 +1,8 @@
+#!name=酷我音乐
+#!desc=获取更多资源👉https://t.me/yqc_123
+#!搬运自nameking77👉https://github.com/nameking77?tab=repositories
+[MITM]
+hostname = %APPEND% *.kuwo.cn, *.lrts.me
+
+[Script]
+酷我音乐 = type=http-response,script-path=https://raw.githubusercontent.com/nameking77/Qx/main/rewrite/kw.js,pattern=^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/(a\.p|music\.pay|(vip\/(v2|enc)\/(theme|user\/vip))|(EcomResource|(Mobile)?Ad)Serv(er|ice)).*,max-size=131072,requires-body=true,timeout=10,script-update-interval=0,enable=true

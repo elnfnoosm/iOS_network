@@ -1,0 +1,11 @@
+#!name=喜马拉雅签到
+#!desc=喜马拉雅签到
+#原作者@ClydeTime，请将签到脚本剪切到配置文件中方便手动执行。
+[Script]
+#打开喜马拉雅客户端即可获取，获取到cookie后可关闭此模块
+喜马拉雅cookie = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js
+#建议将下面的脚本剪切到配置，方便手动执行
+喜马拉雅签到任务 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,timeout=15
+
+[MITM]
+hostname = %APPEND% mobile.ximalaya.com,180.153.255.10*,180.153.250.*,114.80.99.*,1.62.62.64

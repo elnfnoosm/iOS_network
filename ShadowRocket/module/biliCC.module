@@ -1,0 +1,8 @@
+#!name=B站简体字幕
+#!desc=B站cc字幕繁体转简体
+#搬运自ddgksf2013
+[Script]
+B站字幕转换 = type=http-response,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/bilibili_cc.js,pattern=^https?:\/\/i.\.hdslb\.com\/bfs\/subtitle\/.+\.json$,max-size=0,requires-body=true,timeout=10,script-update-interval=0,enable=true
+
+[MITM]
+hostname = %APPEND% i0.hdslb.com

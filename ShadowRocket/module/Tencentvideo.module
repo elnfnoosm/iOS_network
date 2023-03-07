@@ -1,0 +1,19 @@
+#!name=腾讯视频
+#!desc=去除腾讯视频广告
+#搬运自@天下第一小白脸，需先重装app，关掉模块，打开app登录账号后关掉app，再启用模块。
+
+[Rule]
+AND,((PROTOCOL,HTTPS), (DOMAIN,iacc.qq.com)),REJECT-NO-DROP
+
+[URL Rewrite]
+# > 腾讯开屏
+^http:\/\/pgdt\.gtimg\.cn - reject-dict
+^http:\/\/.+\/vmind\.qqvideo\.tc\.qq\.com\/.+mp4 - reject-dict
+
+[Script]
+#去片头广告
+腾讯 = type=http-request,pattern=^(https:\/\/i\.video|http:\/\/iacc)\.qq\.com\/$,requires-body=0,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/Tx.js
+
+
+[MITM]
+hostname = %APPEND% i.video.qq.com,iacc.qq.com

@@ -1,0 +1,14 @@
+#!name=自动监控TF并加入
+#!desc=小火箭没有HTTP API功能，并不能自动关闭模块，请夜间使用一定要静音，经验之谈
+#!author = DecoAri
+#!使用方法，开启小火箭的HTTPS解密并信任证书，打开TF app，提示获取信息成功后注释掉TF信息获取的脚本，打开boxjs 点"我的"→数据查看器→在 数据键(Key)一栏输入APP_ID→点VIEW→然后在下面数据编辑器一栏填入需要监控的appkey，多个appkey用英文符的","隔开，例如i37NXl07,uN1vTqxk→点保存→然后回到模块，将Auto join TF前的注释去掉 就ok了
+
+[Script]
+
+TF信息获取 = type=http-request,pattern=^https:\/\/testflight\.apple\.com\/v3\/accounts/.*\/apps$,requires-body=0,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/TF_keys.js
+
+#Auto join TF = type=cron,cronexp=*/1 * * * * *,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/Auto_Join_TF.js
+
+[MITM]
+
+hostname = %APPEND% testflight.apple.com

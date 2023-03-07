@@ -1,0 +1,16 @@
+#!name=定时任务
+#!desc=定时任务
+
+[Rule]
+
+URL-REGEX, baidu.com, DIRECT
+
+
+[Script]
+
+B站签到 = type=cron,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js,cronexpr="30 8 * * *",timeout=30,script-update-interval=0,enable=true
+Hifini签到 = type=cron,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/hifini/hifiniSign.js,cronexpr="0 0 * * *",timeout=10,script-update-interval=0,enable=true
+喜马拉雅签到任务 = type=cron,cronexp=35 8 * * *,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js,timeout=15
+10010v4-cron = type=cron,cronexp="0 0 0,12,23 * * *", timeout=60, script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/10010v4/10010.js
+阿里云盘签到 = type=cron,wake-system=1,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js,cronexp="0 40 8 * * *"
+

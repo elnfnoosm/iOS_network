@@ -1,0 +1,22 @@
+#!name=GitHub 增强
+#!desc=允许引用私有库、禁用缓存
+#!author=@xream
+# ❤️ 感谢 Peng-YM 佬的 https://raw.githubusercontent.com/Peng-YM/QuanX/master/Rewrites/GithubPrivate/github-private-repo.js
+
+# 🔧 设置方法
+# 使用 BoxJs 订阅: https://raw.githubusercontent.com/xream/scripts/main/boxjs/boxjs.json
+# 在 http://boxjs.net/#/app/xream.enhanced_github 中设置
+
+# 📃 使用方法
+# 在链接的末尾添加 enhanced-github
+# 如 https://raw.githubusercontent.com/1/2/master/3.txt
+# 应为 https://raw.githubusercontent.com/1/2/master/3.txtenhanced-github
+
+
+[Script]
+
+enhanced_github = type=http-request,pattern=^https?:\/\/(raw|gist)\.githubusercontent\.com/.*?enhanced-github$,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/enhanced-github/enhanced-github.js
+
+[MITM]
+
+hostname = %APPEND% raw.githubusercontent.com,gist.githubusercontent.com

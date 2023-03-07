@@ -1,0 +1,28 @@
+#!name=小火箭的模块商店
+#!desc=商店链接https://loon-gallery.vercel.app/
+#!author=@Peng-YM @小白脸 @chengkongyiban
+#!说明：打开商店后找到想要的插件，点左边插件的头像会自动转换为火箭支持的模块，复制链接添加到火箭模块即可 也可以在链接末尾加上 . 以自动跳转火箭安装
+#!集成了QX转火箭 链接末尾加qx Surge转火箭加sg 
+#!我是否已经安装好了模块商店?如何验证?访问此链接验证 https://raw.githubusercontent.com/chengkongyiban/Loon/main/Plugin/Check.plugin
+
+[URL Rewrite]
+
+(.+plugin)\.$ https://api.boxjs.app/shadowrocket/install?module=$1 302
+
+[Script]
+
+Loon-Gallery = type=http-request,pattern=https?:\/\/xn--ck8h\.com,script-path=https://raw.githubusercontent.com/Peng-YM/Loon-Gallery/master/backend/gallery.js, requires-body=true, timeout=120
+
+QX转换火箭 = type=http-request,pattern=\/.+?\..+?qx$|qx\?(jsc|hnadd|hndel|n|y|x|del|i)=,requires-body=1,max-size=0,script-path=https://github.com/chengkongyiban/stash/raw/main/js/QX_Rewrite_Parser.js, timeout=60
+
+Surge转换火箭 = type=http-request,pattern=\/.+?\..+?sg$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/Surge_to_Shadowrocket.js, timeout=60
+
+Loon转换火箭 = type=http-request,pattern=plugin$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/Loon_to_Shadowrocket.js, timeout=60
+
+规则集转换 = type=http-request,pattern=r_parser.list$|r_parser.list\?.*,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chengkongyiban/stash/main/js/rule_parser.js, timeout=60
+
+#在QX脚本结尾加上 _script-converter-(stash|surge|loon|shadowrocket).js 根据你自己的app填写
+脚本转换 = type=http-request,pattern=_script-converter-(stash|surge|loon|shadowrocket)\.js$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js, timeout=60
+
+[MITM]
+hostname = %APPEND% xn--ck8h.com,github.com:443, raw.githubusercontent.com:443,gitlab.com,gist.githubusercontent.com

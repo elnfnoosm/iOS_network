@@ -1,0 +1,86 @@
+#!name=All-In-One-Search
+#!desc=Safari全能搜索(需要把Safari的搜索引擎设置为：duckduckgo)
+#!system=ios
+#搬运自ATorNinja
+
+[URL Rewrite]
+# Safari全能搜索
+# 以下为Safari全能搜索、需要把Safari的搜索引擎设置为：duckduckgo
+
+#wk (Wikipedia中文)
+^https:\/\/duckduckgo.com\/\?q=wk\+([^&]+).+ https://zh.wikipedia.org/wiki/$1 302
+
+#wiki (Wikipedia)
+^https:\/\/duckduckgo.com\/\?q=wiki\+([^&]+).+ https://wikipedia.org/wiki/$1 302
+
+# yd  (有道词典)
+^https:\/\/duckduckgo.com\/\?q=yd\+([^&]+).+ https://dict.youdao.com/search?q=$1 302
+
+# trc  (Google 译至中)
+^https:\/\/duckduckgo.com\/\?q=trc\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=zh-CN&text=$1 302
+
+# tre  (Google 译至英)
+^https:\/\/duckduckgo.com\/\?q=tre\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=en&text=$1 302
+
+# trj  (Google 译至日)
+^https:\/\/duckduckgo.com\/\?q=trj\+([^&]+).+ https://translate.google.com/#view=home&op=translate&sl=auto&tl=ja&text=$1 302
+
+# gm (Google图片)
+^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ https://www.google.com/search?&tbm=isch&q=$1 302
+
+# gh (GitHub)
+^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ https://github.com/search?q=$1 302
+
+# tf (Google 搜索 TestFlight)
+^https:\/\/duckduckgo.com\/\?q=tf\+([^&]+).+ https://www.google.com/search?as_q=$1&as_sitesearch=testflight.apple.com 302
+
+# wb (微博)
+^https:\/\/duckduckgo.com\/\?q=wb\+([^&]+).+ https://s.weibo.com/weibo/$1 302
+
+# wx (微信)
+^https:\/\/duckduckgo.com\/\?q=wx\+([^&]+).+ https://weixin.sogou.com/weixinwap?query=$1 302
+
+# jd (京东)
+^https:\/\/duckduckgo.com\/\?q=jd\+([^&]+).+ https://so.m.jd.com/ware/search.action?keyword=$1 302
+
+# tb (淘宝)
+^https:\/\/duckduckgo.com\/\?q=tb\+([^&]+).+ https://s.m.taobao.com/h5?q=$1 302
+
+# tm (天猫)
+^https:\/\/duckduckgo.com\/\?q=tm\+([^&]+).+ https://s.m.tmall.com/m/search.htm?q=$1 302
+
+# ytb (YouTube)
+^https:\/\/duckduckgo.com\/\?q=ytb\+([^&]+).+ https://www.youtube.com/results?search_query=$1 302
+
+#vf（voflix视频网站）
+^https:\/\/duckduckgo.com\/\?q=vf\+([^&]+).+ https://www.voflix.com/search/-------------.html?wd=$1 302
+
+# ph (PornHub)
+^https:\/\/duckduckgo.com\/\?q=ph\+([^&]+).+ https://cn.pornhub.com/video/search?search=$1 302
+
+# bi (必应)
+^https:\/\/duckduckgo.com\/\?q=bi\+([^&]+).+ https://cn.bing.com/search?q=$1 302
+
+# bd (百度)
+^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ https://www.baidu.com/s?wd=$1 302
+
+# ccn (App Store 临时换至中国区)
+^https:\/\/duckduckgo.com\/\?q=ccn&. https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143465&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=cn&urlDesc= 302
+
+# uus (App Store 临时换至美国区)
+^https:\/\/duckduckgo.com\/\?q=uus&. https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143441&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=us&urlDesc= 302
+
+# jjp （APP Store 切换至JP）
+^https:\/\/duckduckgo.com\/\?q=jjp&. https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143462&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=jp&urlDesc= 302
+
+# ttr （APP Store 切换至TR）
+^https:\/\/duckduckgo.com\/\?q=ttr&. https://itunes.apple.com/WebObjects/MZStore.woa/wa/resetAndRedirect?dsf=143480&mt=8&url=/WebObjects/MZStore.woa/wa/viewSoftware?mt=8&id=1108187390&cc=tr&urlDesc= 302
+
+# ddg (DuckDuckGo)
+^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ https://duckduckgo.com/?ia=about&q=$1 302
+
+# 无指令 (Google)
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ https://www.google.com/search?q=$1 302
+
+[MITM]
+hostname = %APPEND% duckduckgo.com

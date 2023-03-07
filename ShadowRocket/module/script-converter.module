@@ -1,0 +1,11 @@
+#!name=脚本转换
+#!desc=目前在测试 QX 脚本(二进制请求暂不支持) 在结尾加上 _script-converter-(stash|surge|loon|shadowrocket).js 根据你自己的app填写
+#!author=@Peng-YM @xream
+
+[Script]
+
+#在QX脚本结尾加上 _script-converter-(stash|surge|loon|shadowrocket).js 根据你自己的app填写
+脚本转换 = type=http-request,pattern=_script-converter-(stash|surge|loon|shadowrocket)\.js$,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/xream/scripts/main/surge/modules/script-converter/script-converter.js
+
+[MITM]
+hostname = %APPEND% github.com:443, raw.githubusercontent.com:443,gist.githubusercontent.com,gitlab.com

@@ -1,0 +1,13 @@
+#!name=网易云音乐去广告
+#!desc=网易云音乐去广告
+#!搬运自DivineEngine
+
+[URL Rewrite]
+^https?:\/\/p\.du\.163\.com\/ad\/ - reject
+^https?:\/\/support\.you\.163\.com\/xhr\/boot\/getBootMedia\.json - reject
+^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ - reject
+^https?:\/\/appconf\.mail\.163\.com\/mmad\/ - reject
+^https?:\/\/interface3\.music\.163\.com\/eapi\/ad\/.+ - reject
+
+[MITM]
+hostname = %APPEND% appconf.mail.163.com,interface*.music.163.com,support.you.163.com,p.du.163.com

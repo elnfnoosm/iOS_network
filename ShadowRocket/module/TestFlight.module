@@ -1,0 +1,8 @@
+#!name=TF监控
+#!desc=TestFlight监控
+#搬运自songyangzz
+#订阅boxjs，https://raw.githubusercontent.com/songyangzz/QuantumultX/master/syzzzf.box.json在boxjs中填入appkey
+#pluwen的TF收集仓库https://github.com/pluwen/awesome-testflight-link/blob/main/scripts/data/ios.md
+
+[Script]
+TF监控 = type = cron,cronexp=0 */30 * * * *,timeout=30,script-path=https://raw.githubusercontent.com/seirhsiao/config/main/scripts/testflight.js

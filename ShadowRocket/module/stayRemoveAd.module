@@ -1,0 +1,9 @@
+#!name=stay去广告
+#!desc=stay去仓库广告
+#搬运自@ddgksf2013
+[Script]
+# ～ Stay（2022-10-17）@ddgksf2013
+去仓库广告 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.shenyin\.name\/stay-fork\/browse\/featured$,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/stay.js
+
+[MITM]
+hostname = %APPEND% api.shenyin.name

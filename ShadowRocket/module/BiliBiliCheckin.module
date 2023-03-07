@@ -1,0 +1,16 @@
+#!name=B站签到
+#!desc=B站签到
+#搬运自MartinsKing，感谢@mw418适配surge，loon等
+#使用方法：建议将B站签到脚本单独添加至配置文件里方便手动执行。
+#    1.打开手机B站客户端，提示获取cookie成功,获取成功后注释掉获取B站cookie脚本，cookie过期后可再次启用。
+#    2.等待定时任务执行，或手动执行。
+#    3.提示投币失败可尝试多次手动执行。
+
+[Script]
+# BiliBili cookie
+获取B站cookie = type=http-request,requires-body=0,max-size=0,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js
+
+B站签到 = type=cron,cronexp=30 8 * * *,timeout=30,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/BiliBili.js
+
+[MITM]
+hostname = %APPEND% app.bilibili.com

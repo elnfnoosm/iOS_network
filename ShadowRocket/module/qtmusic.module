@@ -1,0 +1,12 @@
+#!name=趣听去弹窗
+#!desc=趣听去弹窗
+#作者@ddgksf2013
+#AppStore地址:https://apps.apple.com/us/app/%E9%9F%B3%E4%B9%90%E5%BC%B9%E5%B9%95-%E6%89%8B%E6%8C%81led%E9%9F%B3%E4%B9%90%E5%BC%B9%E5%B9%95/id1640507964?l=zh
+[Script]
+
+# ～ 趣听音乐☆自动激活APP（2022-10-26）@ddgksf2013
+趣听去弹窗 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/api\.bspapp\.com\/client$,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/qtmusic.js
+
+[MITM]
+
+hostname=%APPEND% api.bspapp.com

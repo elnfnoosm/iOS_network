@@ -1,0 +1,10 @@
+#!name=买单吧
+#!desc=旧版买单吧去升级提示
+[URL Rewrite]
+#买单吧4.7.2去开屏广告、升级提示
+^https:\/\/creditcardapp\.bankcomm\.com\/mappweb_interaction\/json\/app\/appManage\/getApkUpdateInfo\.do - reject
+^https:\/\/creditcardapp\.bankcomm\.com\/mappweb_interaction\/common\/getPopAds\.do - reject
+^https:\/\/creditcardapp\.bankcomm\.com\/mappweb_interaction\/common\/queryGuidePageAds\.do - reject
+
+[MITM]
+hostname = %APPEND% *.bankcomm.com

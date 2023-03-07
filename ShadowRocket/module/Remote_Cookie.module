@@ -1,0 +1,28 @@
+#!name=Cookie获取
+#!desc=自用Cookie获取
+
+[Script]
+#Safari浏览器打开登录 https://home.m.jd.com/myJd/newhome.action 点击"我的"页面
+#或者使用旧版网址 https://bean.m.jd.com/bean/signIndex.action 点击签到并且出现签到日历
+#如果通知获取Cookie成功, 则可以使用此签到脚本. 注: 请勿在京东APP内获取!!!
+#获取京东金融签到Body说明: 正确添加脚本配置后, 进入"京东金融"APP, 在"首页"点击"签到"并签到一次, 待通知提示成功即可.
+获取京东Cookie = type=http-request,requires-body=1,pattern=^https:\/\/(api\.m|me-api|ms\.jr)\.jd\.com\/(client\.action\?functionId=signBean|user_new\/info\/GetJDUserInfoUnion\?|gw\/generic\/hy\/h5\/m\/appSign\?),script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+
+#打开B站客户端首页即可获取
+获取B站cookie = type=http-request,requires-body=0,max-size=0,pattern=^https:\/\/app\.bilibili\.com\/x\/resource\/domain\?,script-path=https://raw.githubusercontent.com/chengkongyiban/shadowrocket/main/scripts/bilibiliSign.js
+
+#打开https://www.hifini.com/my.htm获取cookie
+hifini签到cookie = type=http-request,pattern=https:\/\/www.hifini.com\/my.htm,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/hifini/hifiniSign.js
+
+#打开喜马拉雅客户端即可获取
+喜马拉雅cookie = type=http-request,pattern=^https?:\/\/mobile\.ximalaya\.com\/app-skin-service\/skin\/,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/Task/xmlySign.js
+
+#使用方法：打开 交管12123支付宝小程序 登录即可自动抓取
+交管12123 = type=http-request,pattern=^https:\/\/miniappcsfw\.122\.gov\.cn:8443\/openapi\/invokeApi\/business\/biz,requires-body=1,max-size=0,timeout=1000,script-path=https://raw.githubusercontent.com/dompling/Script/master/12123/index.js
+
+# > 阿里云盘签到 https://auth.aliyundrive.com/v2/account/token
+阿里云盘签到cookie = requires-body=1,type=http-response,pattern=https:\/\/auth.aliyundrive.com\/v2\/account\/token,script-path=https://raw.githubusercontent.com/lowking/Scripts/master/ali/aliYunPanCheckIn.js
+
+[MITM]
+
+hostname = %APPEND% *.hifini.com,app.bilibili.com,ms.jr.jd.com,me-api.jd.com,api.m.jd.com,mobile.ximalaya.com,180.153.255.10*,180.153.250.*,114.80.99.*,1.62.62.64,miniappcsfw.122.gov.cn:8443,miniappcsfw.122.gov.cn,auth.aliyundrive.com

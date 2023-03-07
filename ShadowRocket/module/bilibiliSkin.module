@@ -1,0 +1,8 @@
+#!name=B站魔改皮肤
+#!desc=魔改皮肤
+#作者@ClydeTime
+[Script]
+魔改皮肤 = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*,script-path=https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
+
+[MITM]
+hostname = %APPEND% api.bilibili.com,app.bilibili.com
