@@ -36,7 +36,7 @@ def load_file(rules_dict, file_dir):
     for key in rules_dict:
         response = requests.get(rules_dict[key], headers=HEADER)
         if response.status_code == 200:
-            with open(f"./{file_dir}/{key}.list", "wb") as f:
+            with open(f"./rule/{file_dir}/{key}.list", "wb") as f:
                 with response, io.BytesIO(response.content) as stream:
                     shutil.copyfileobj(stream, f)
             time.sleep(1)
