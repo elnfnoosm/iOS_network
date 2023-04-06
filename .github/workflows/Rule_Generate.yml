@@ -39,15 +39,15 @@ jobs:
         #run: for f in Script/*.py; do python "$f"; done
         run: python rule/Script/Get_File.py
         env:
-          REPOSITORY_NAME: elnfnoosm/iOS_network
-          BRANCH: main
-          FOLDER: rule
+          TARGET_REPO: elnfnoosm/iOS_network
+          TARGET_BRANCH: main
+          TARGET_FOLDER: rule
       - name: "合并"
         run: python rule/Script/Merge_File.py
         env:
-          REPOSITORY_NAME: elnfnoosm/iOS_network
-          BRANCH: main
-          FOLDER: rule        
+          TARGET_REPO: elnfnoosm/iOS_network
+          TARGET_BRANCH: main
+          TARGET_FOLDER: rule   
       - name: Commit files
         run: |
           git config --local user.email "wwfnle@gmail.com"
