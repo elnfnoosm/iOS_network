@@ -48,13 +48,13 @@ def remove():
     """
     移除所有规则文件
     """
-    shutil.rmtree("Reject")
-    shutil.rmtree("Proxy")
-    shutil.rmtree("China")
+    shutil.rmtree("Reject-rule")
+    shutil.rmtree("Proxy-rule")
+    shutil.rmtree("China-rule")
     print("移除所有文件夹")
 
 if __name__ == '__main__':
     remove()
-    load_file(REJECT_RULES, "Reject")
-    load_file(PROXY_RULES, "Proxy")
-    load_file(DIRECT_RULES, "China")
+    load_file(REJECT_RULES, "Reject-rule")
+    load_file(PROXY_RULES, "Proxy-rule")
+    load_file(DIRECT_RULES, "China-rule")
