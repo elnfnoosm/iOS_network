@@ -1,5 +1,8 @@
 import os
 
+print (os.getcwd())
+os.chdir("./rule")
+
 # 文件夹列表
 file_paths = ["China", "Proxy", "Reject"]
 
