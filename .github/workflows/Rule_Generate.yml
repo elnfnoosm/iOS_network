@@ -41,8 +41,8 @@ jobs:
         run: python rule/Script/Merge_File.py
       - name: Commit files
         run: |
-          git config --local user.email "123@gmail.com"
-          git config --local user.name "Code-Dramatist"
+          git config --local user.email "wwfnle@gmail.com"
+          git config --local user.name "elnfnoosm"
           git add ./*
           git commit -m "Update Rules" -a
       - name: Push changes
