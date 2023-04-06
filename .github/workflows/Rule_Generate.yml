@@ -4,7 +4,7 @@ name: Rule_Generate
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     - cron: '0 20 * * *'
   
@@ -36,9 +36,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: "拉取"
         #run: for f in Script/*.py; do python "$f"; done
-        run: python Script/Get_File.py
+        run: python rule/Script/Get_File.py
       - name: "合并"
-        run: python Script/Merge_File.py
+        run: python rule/Script/Merge_File.py
       - name: Commit files
         run: |
           git config --local user.email "123@gmail.com"
@@ -48,5 +48,5 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GIT_TOKEN }}
           branch: ${{ github.ref }}
