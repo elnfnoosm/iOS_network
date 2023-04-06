@@ -5,8 +5,8 @@
 
 2、规则list文件一般通用于Quantumultx、Loon、Stash、Shadowrocket等，部分软件语法用法略用差异。
 
-国内直连（China）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/China/China.list
+国内直连（China）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/China-rule/China-rule.list
 
-国际加速（Proxy）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Proxy/Proxy.list
+国际加速（Proxy）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Proxy-rule/Proxy-rule.list
 
-广告拦截（Reject）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Reject/Reject.list
+广告拦截（Reject）链接：https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Reject-rule/Reject-rule.list
