@@ -1,5 +1,5 @@
 # iOS_network
-iOS平台上的Quantumultx、Loon、Stash、Shadowrocket等软件规则、重写及插件等。
+iOS平台上的Quantumultx、Loon、Stash、Shadowrocket等软件规则、重写及插件等。规则每日更新。
 
 1、配置文件稳定后无需经常更新，仅定期更新规则，增减插件模块等即可。
 
