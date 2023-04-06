@@ -41,12 +41,12 @@ jobs:
         run: python Script/Merge_File.py
       - name: Commit files
         run: |
-          git config --local user.email "123@gmail.com"
-          git config --local user.name "Code-Dramatist"
+          git config --local user.email "wwfnle@gmail.com"
+          git config --local user.name "elnfnoosm"
           git add ./*
           git commit -m "Update Rules" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.GIT_TOKEN }}
           branch: ${{ github.ref }}
