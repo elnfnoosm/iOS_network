@@ -3,8 +3,8 @@ import io
 import shutil
 import time
 import requests
+print (os.getcwd())
 
-os.chdir (./rule/)
 
 RULE_URL = "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/"
 REJECT_RULES = {
