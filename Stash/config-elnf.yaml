@@ -1,0 +1,179 @@
+# 更新于：20230401
+# 关注https://github.com/elnfnoosm/iOS_network
+# 使用说明：
+# 1、找到 {远程订阅} 部分，将MyProxy 的空缺替换为自己的机场订阅链接
+# 2、将下方subscribe-url同样替换为自己的机场订阅链接，可以让Stash获取机场流量信息并在主页显示
+subscribe-url: XXXX
+
+
+#混合端口
+mixed-port: 7890
+#允许局域网
+allow-lan: true
+#绑定地址
+bind-address: '*'
+#模式:rule（规则） / global（全局代理）/ direct（全局直连）
+mode: Rule
+#日志级别（日志输出级别：分级如后silent / info / warning / error / debug级别越高日志输出量越大）
+log-level: silent
+#外部控制器
+external-controller: 127.0.0.1:9090
+
+#DNS设置
+dns:
+  enable: true
+  listen: 0.0.0.0:1053
+  #DNS服务器
+  default-nameserver:
+    - 119.29.29.29
+    - 119.28.28.28
+    - 223.5.5.5
+    - 114.114.114.114
+  #DoH服务器
+  nameserver:
+    - https://dns.alidns.com/dns-query
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  #列表中的域名将不会被解析为fake ip，这些域名相关的解析请求将会返回它们真实的IP地址
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+    - '+.srv.nintendo.net'
+    - '+.stun.playstation.net'
+    - '+.msftconnecttest.com'
+    - '+.msftncsi.com'
+    - '+.xboxlive.com'
+    - 'msftconnecttest.com'
+    - 'xbox.*.microsoft.com'
+    - '*.battlenet.com.cn'
+    - '*.battlenet.com'
+    - '*.blzstatic.cn'
+    - '*.battle.net'
+
+#本地代理
+proxies:
+
+#远程订阅
+proxy-providers:
+
+  MyProxy: &MyProxy 
+    url: "XXXX"
+    # 使用Clash类型订阅链接替换掉引号""内的链接使用。
+    # 或可使用通用订阅链接通过Sub-Store进行订阅转换。
+    interval: 86400
+    filter: "^(?=.*((.*)))(?!.*((?i)EXPIRE|TRAFFIC|网站|网址|获取|订阅|流量|到期|群|GAME|TG)).*$"
+    health-check:
+      enable: true
+      interval: 3600
+      url: http://cp.cloudflare.com/generate_204
+    
+  #所有节点
+  #MyProxy-ALL:
+    #<<: *MyProxy
+    #filter: "^(?=.*((.*)))(?!.*((?i)EXPIRE|TRAFFIC|网站|网址|获取|订阅|流量|到期|群|GAME|TG)).*$"
+
+#策略组
+proxy-groups:
+
+  - name: 手动选择
+    type: select
+    use:
+      - MyProxy
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Rocket.png
+
+  - name: 自动选择
+    type: url-test
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
+    use: 
+       - MyProxy
+    url: "http://cp.cloudflare.com/generate_204"
+    interval: 600
+
+  - name: 国内直连
+    type: select
+    proxies:
+      - DIRECT
+      - 手动选择
+      - 自动选择
+      - 兜底分流
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Heart.png
+  
+  - name: 国际加速
+    type: select
+    proxies: &G
+      - DIRECT
+      - 手动选择
+      - 自动选择
+      - 兜底分流
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/World_Map.png
+  
+  - name: 国际媒体
+    type: select
+    proxies:
+      - DIRECT
+      - 手动选择
+      - 自动选择
+      - 兜底分流
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Media.png
+  
+  - name: 哔哩哔哩
+    type: select
+    proxies:
+      - DIRECT
+      - 手动选择
+    icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Bilibili.png
+
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - 手动选择
+      - 自动选择
+      - 兜底分流
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
+  
+  - name: 兜底分流
+    type: select
+    proxies:
+      - DIRECT
+      - 手动选择
+      - 自动选择
+    icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Pig.png
+
+
+#远程规则集合
+rule-providers:
+
+  Bilibili-rules:
+    behavior: classical
+    interval: 86400
+    name: Bilibili
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/BiliBili/BiliBili.yaml
+
+  Apple-rules:
+    behavior: classical
+    interval: 86400
+    name: Apple
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/Apple/Apple.yaml
+
+  Mainland-rules:
+    behavior: domain-text
+    interval: 86400
+    name: Mainland
+    url: https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/China-rule/China-rule.list
+
+  Global-rules:
+    behavior: domain-text
+    interval: 86400
+    name: Outside
+    url: https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Proxy-rule/Proxy-rule.list
+
+
+#分流规则引用
+rules:
+  - RULE-SET,Bilibili-rules,哔哩哔哩
+  - RULE-SET,Apple-rules,Apple
+  - RULE-SET,Mainland-rules,国内直连
+  - RULE-SET,Global-rules,国际加速
+  - GEOIP,CN,DIRECT
+  - MATCH,兜底分流
