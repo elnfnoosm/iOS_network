@@ -2,7 +2,7 @@
 
 2、Loon插件推荐
 
-得益于各位大佬的付出和整理，推荐使用以下链接查看各类最新Loon的插件、去广告等内容。
+得益于Loon群各位大佬的付出和整理，推荐使用以下链接查看各类最新Loon的插件、去广告等内容。
 
 [插件大全]：https://getupnote.com/share/notes/zSn1ShBmzNYISKcTgjXE5oHMrNf2/4a3b6152-3dd3-46da-b479-8c30ef6ef8d1
 
