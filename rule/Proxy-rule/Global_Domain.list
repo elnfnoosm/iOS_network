@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-16 02:11:32
+# UPDATED: 2023-04-17 02:10:21
 # DOMAIN: 156
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 37382
+# DOMAIN-SUFFIX: 37384
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 37733
+# TOTAL: 37735
 adobeereg.com
 angle.com.tw
 anime-rule34-world.b-cdn.net
@@ -11285,6 +11285,7 @@ www-cdn.icloud.com.akadns.net
 .ero-anime.net
 .ero-comic-hunter.net
 .ero-kawa.com
+.ero-labs.cloud
 .ero-labs.com
 .ero-labs.net
 .ero-labs.online
@@ -11319,6 +11320,7 @@ www-cdn.icloud.com.akadns.net
 .erolabs.com
 .erolabs.game
 .erolabs.net
+.erolabs.online
 .erolord.com
 .eromanga-ace.com
 .eromanga-cafe.com
