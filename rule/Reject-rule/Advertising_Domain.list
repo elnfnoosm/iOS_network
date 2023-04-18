@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-18 02:07:22
+# UPDATED: 2023-04-19 02:07:27
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 15669
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 85172
+# DOMAIN-SUFFIX: 85219
 # IP-CIDR: 241
 # URL-REGEX: 285
-# TOTAL: 101443
+# TOTAL: 101490
 00-gov.cn
 0026645142c89aeb1.com
 006a039c957c142bb.com
@@ -18389,6 +18389,7 @@ zzxosget.com
 .7f59b515a6.com
 .7fb60feaa4.com
 .7fc0966988.com
+.7ff83b4a34.com
 .7fkm2r4pzi.com
 .7frenchweb.fr
 .7fva8algp45k.com
@@ -18451,6 +18452,7 @@ zzxosget.com
 .7xc4n.com
 .7xi9g1.com1.z0.glb.clouddn.com
 .7xsf3h.com1.z0.glb.clouddn.com
+.7xwx.cn
 .7xz3.com
 .7y6.xyz
 .7z66.com
@@ -18851,6 +18853,7 @@ zzxosget.com
 .9735476.sender.skyscanner.com
 .9735476.sender.skyscanner.net
 .9735476.test.skyscanner.net
+.9738624519.com
 .978655.online
 .978ea72276.com
 .979067.com
@@ -20739,6 +20742,7 @@ zzxosget.com
 .ad-img.diyidan.net
 .ad-indicator.com
 .ad-locus.com
+.ad-log-upload-os.hoyoverse.com
 .ad-log.wemakeprice.com
 .ad-loupe.com
 .ad-m.asia
@@ -27840,6 +27844,7 @@ zzxosget.com
 .aqnpbpa.cn
 .aqpmzoomqab.com
 .aqpogwawr.com
+.aqpvglv.cn
 .aqqgli3vle.bid
 .aqsj.xyz
 .aqtcw.cn
@@ -28202,6 +28207,7 @@ zzxosget.com
 .asgclickpop.com
 .asgclickpp.com
 .asgg.ghostbin.me
+.asgildedall.info
 .asgildedalloverw.com
 .asgmofqnjs.com
 .asgorebysschan.com
@@ -28532,6 +28538,7 @@ zzxosget.com
 .atombearable.com
 .atomex.net
 .atomhike.com
+.atomicarot.com
 .atomicblast.lol
 .atomieswidener.com
 .atomikad.com
@@ -30201,6 +30208,7 @@ zzxosget.com
 .bbgtranst.com
 .bbhyqp.com
 .bbk5921.yncjsc.cn
+.bbmlhsehxwi.com
 .bbn.img.com.ua
 .bbnfcfrvjs.com
 .bbs.kiiqnnx.cn
@@ -31106,6 +31114,7 @@ zzxosget.com
 .bgkrbh.com
 .bglbsb.cn
 .bglog.bitauto.com
+.bgn.gg
 .bgnlaigv.fun
 .bgpng.me
 .bgre.kozow.com
@@ -35801,6 +35810,7 @@ zzxosget.com
 .clktrk.com
 .clktrk.display.io
 .clkxgnekgqnss.com
+.cllctr.any.run
 .cllkxhssihweca.com
 .clmawdd9chhcaii.ru
 .clmbtech.com
@@ -37007,6 +37017,7 @@ zzxosget.com
 .contextuads.com
 .contextualadv.com
 .contextweb.com
+.contfor.fun
 .contiamo.com
 .contih.com
 .contineljs.com
@@ -37330,6 +37341,7 @@ zzxosget.com
 .counter.advancewebhosting.com
 .counter.ajansspor.com
 .counter.all.biz
+.counter.any.run
 .counter.aport.ru
 .counter.avp2000.com
 .counter.bizland.com
@@ -39452,6 +39464,7 @@ zzxosget.com
 .d985a9d2clzq5.cloudfront.net
 .d9ad.com
 .d9b5gfwt6p05u.cloudfront.net
+.d9c5dterekrjd.cloudfront.net
 .d9kvn70l4ogn.com
 .d9lq0o81skkdj.cloudfront.net
 .d9tnvwv7i2n85.cloudfront.net
@@ -40225,6 +40238,7 @@ zzxosget.com
 .ddhtek.com
 .ddhuangchao.com
 .ddioce.wolverine.com
+.ddkep.xyz
 .ddkkrrla.m.qxs.la
 .ddlbr.timesclub.co
 .ddlh1467paih3.cloudfront.net
@@ -41772,7 +41786,6 @@ zzxosget.com
 .dmzjmp.com
 .dmzls.safe-installation.com
 .dn-growing.qbox.me
-.dn.msmstatic.com
 .dn0qt3r0xannq.cloudfront.net
 .dn189.com
 .dn3.ixinwei.com
@@ -42321,6 +42334,7 @@ zzxosget.com
 .dreamteaser.ru
 .dreamvids.pro
 .dreanrh.cn
+.dreary-east.pro
 .dreaty.com
 .drebz4f.shop
 .drecentreshu.info
@@ -45285,6 +45299,7 @@ zzxosget.com
 .everydayporn.co
 .everypilaus.com
 .everythingtoknows.com
+.everywheresavourblouse.com
 .eveteaemo.com
 .evgywgur.com
 .eviclick.pro
@@ -46238,6 +46253,7 @@ zzxosget.com
 .fdlvnldfnyhicc.xyz
 .fdorxsat.com
 .fdoun.com
+.fdpfkdnpvpmb.com
 .fdplttrk.com
 .fdrhbw.com
 .fds-1230.cc
@@ -49389,6 +49405,7 @@ zzxosget.com
 .glerteeb.com
 .glestpeoples.buzz
 .glevoloo.com
+.gliceebe.xyz
 .gliffyfreaked.com
 .glihelethy.com
 .glijai.ten-navi.com
@@ -50959,6 +50976,7 @@ zzxosget.com
 .hangoverineffectivecorners.com
 .hangoverrapidlygreat.com
 .hangtagcomonte.com
+.hangtuo.pub
 .hanhooo.cn
 .hanju18.net
 .hanldsw.cn
@@ -51520,6 +51538,7 @@ zzxosget.com
 .hepburn.net.cn
 .hephedronwa.ru
 .heprisitho.ru
+.hepsaign.com
 .heptaneleaner.com
 .heqinyyds.com
 .heqishengcai1006.xyz
@@ -52902,6 +52921,7 @@ zzxosget.com
 .hxbt.alading123.com
 .hxcav77.com
 .hxcrlt.cn
+.hxes.cn
 .hxfjbdgjscufctm.xyz
 .hxgccl.cn
 .hxgqqxopf.com
@@ -56416,6 +56436,7 @@ zzxosget.com
 .journalismdived.com
 .journera.com
 .journey.unicef.de
+.journeyembankmentsubjects.com
 .journity.com
 .jouteetu.net
 .jouwaist.net
@@ -58519,6 +58540,7 @@ zzxosget.com
 .lajna.fr
 .lake.joongang.co.kr
 .lakequincy.com
+.lakfbvoskxlc.com
 .laksdn.com
 .laksjd4.com
 .lakvandula.com
@@ -59252,6 +59274,7 @@ zzxosget.com
 .lg.tr.pandora.tv
 .lgad.cjpowercast.com.edgesuite.net
 .lgbxelnukhsil.xyz
+.lgfiufyaycsh.com
 .lgh2.fun
 .lgjxw.xyz
 .lgjygg.com
@@ -61784,6 +61807,7 @@ zzxosget.com
 .mangoalmahs.com
 .maniacalappliance.com
 .maniconclavis.com
+.manicurereprimand.com
 .manivalyrid.com
 .manjakquizzy.com
 .mankindcopiesrichest.com
@@ -66664,6 +66688,7 @@ zzxosget.com
 .ngecity.com
 .ngegas.files.im
 .ngeoziadiyc4hi2e.com
+.ngfruitiesmatc.info
 .ngghll.me.co.kr
 .nghan.com
 .nghcxtmsbqcmpv.com
@@ -69311,6 +69336,7 @@ zzxosget.com
 .otween.com
 .otwiss.xyz
 .otwwiuphp.com
+.otwwtutujwa.com
 .ou15r.cn
 .ou188.com
 .ouc82i67pytg.www.emanualonline.com
@@ -69517,6 +69543,7 @@ zzxosget.com
 .ow.biqugego.com
 .ow.s1.shuhuangge.org
 .ow.s2.shuhuangge.org
+.owa.any.run
 .owabgxis.wp.pl
 .owadakesk.cyou
 .owap.su
@@ -70607,6 +70634,7 @@ zzxosget.com
 .pelicula20.com
 .peliomaafb.com
 .pelisnetwork.com
+.pelisrev.live
 .pema.cl
 .pemainedperio.com
 .pemsecuy.net
@@ -72114,6 +72142,7 @@ zzxosget.com
 .pongidsrunback.com
 .pongsone.uno
 .ponk.pro
+.pontent.powzers.lol
 .pontiflex.com
 .pontymonti.com
 .ponymi.xyz
@@ -74720,6 +74749,7 @@ zzxosget.com
 .quicksandear.com
 .quiddity.goguardian.com
 .quideo.men
+.quietannouncementdove.com
 .quietknowledge.com
 .quietlybananasmarvel.com
 .quietlyrosebudagreeing.com
@@ -75508,6 +75538,7 @@ zzxosget.com
 .reddsdainful.com
 .reddwarf.till-sanders.de
 .redeastbay.com
+.redeemlesson.com
 .redeemspectacular.com
 .redemptionphrase.com
 .redemw.com
@@ -75725,6 +75756,7 @@ zzxosget.com
 .regume.com
 .rehearsallung.com
 .rehearsemeltdownrust.com
+.rehearsepouredhysteria.com
 .reheatmontia.com
 .rei9jc56oyqux0rcpcquqmm7jc5freirpsquqkope3n3axrjacg8ipolxvbm.codes
 .reichelcormier.bid
@@ -76690,6 +76722,7 @@ zzxosget.com
 .rnybul.gismeteo.kz
 .rnybul.gismeteo.ru
 .rnzqde.xyz
+.ro55cpi1.xhamster.com
 .roadmappenal.com
 .roadwide.net
 .roagreed.com
@@ -77039,6 +77072,7 @@ zzxosget.com
 .rsnignsz.xyz
 .rsnoownmz.fun
 .rsntcgoowyxsu.com
+.rsodmwkxkioj.xyz
 .rss.dtiserv.com
 .rss.tmgrup.com.tr
 .rss9f.top
@@ -77306,6 +77340,7 @@ zzxosget.com
 .rustds.click
 .rustgenerations.com
 .rusticprice.com
+.rusticsnoop.com
 .rusticswollenbelonged.com
 .rustiz.ru
 .rustizer.com
@@ -79351,6 +79386,7 @@ zzxosget.com
 .seriousfiles.com
 .seriouspartner.biz
 .seriouspartner.ru
+.serioussuit.com
 .seriy2sviter11o9.com
 .serl.mooo.com
 .sermondirt.com
@@ -80556,6 +80592,7 @@ zzxosget.com
 .skoovyads.com
 .skroutza.skroutz.gr
 .skryptcookies.pl
+.skt-asum.com
 .skukfaokdm.com
 .skwstat.ru
 .sky.dunsuan.com
@@ -84597,6 +84634,7 @@ zzxosget.com
 .stiffgame.com
 .stiffstem.com
 .stifletunnelsang.com
+.stigat.com
 .stilaikr.com
 .stilanzeigen.net
 .stilfb.com
@@ -84782,6 +84820,7 @@ zzxosget.com
 .streem.com.au
 .streetcoddiffident.com
 .streetmetrics.io
+.streetupwind.com
 .stremanp.com
 .strenuoustarget.com
 .stressfulconsumerdumbest.com
@@ -86506,6 +86545,7 @@ zzxosget.com
 .tchpniy.cn
 .tcimg.com
 .tcjy66.cc
+.tcjyhblfmcl.xyz
 .tck.bangbros.com
 .tck.photobox.com
 .tckn-code.com
@@ -93247,6 +93287,7 @@ zzxosget.com
 .vexacion.com
 .vexevutus.com
 .vextjoexig.com
+.veyjdaswregbj.com
 .vezetmne.ru
 .vf5yb4.cn
 .vfbvcshnc.com
@@ -95387,6 +95428,7 @@ zzxosget.com
 .wfnetwork.com
 .wfpersonal.site
 .wfuxwegisqhe.com
+.wfvmgfid.com
 .wfxoi.xyz
 .wfyovpolha.com
 .wfyqc.com
@@ -95709,6 +95751,7 @@ zzxosget.com
 .widnd.dajiadou6.com
 .widow5blackfr.com
 .widton.com
+.widual.com
 .wifelovers.com
 .wifi.com
 .wifi33.com
@@ -97622,6 +97665,7 @@ zzxosget.com
 .xeozir.com
 .xepkfd.com
 .xertive.com
+.xeuswz.com
 .xexyc.com
 .xf2pf.top
 .xfdqxfpm.cn
@@ -100558,6 +100602,7 @@ zzxosget.com
 .zqworks.com
 .zqzxz.com
 .zrav2wkbrs.com
+.zrbabog.cn
 .zrbn.ltd
 .zrcir.com
 .zreder.com
@@ -100585,7 +100630,9 @@ zzxosget.com
 .zs.dhl.de
 .zs1111.youzue.com
 .zsasvs.hey.car
+.zsblog.vip
 .zsbwoqpcxj.com
+.zscgoqt.cn
 .zscwdu.com
 .zsdexun.com.cn
 .zsedu99.cn
