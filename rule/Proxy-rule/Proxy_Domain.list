@@ -1,14 +1,14 @@
 # NAME: Proxy
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-24 02:13:07
+# UPDATED: 2023-04-25 02:11:07
 # DOMAIN: 7
 # DOMAIN-KEYWORD: 31
-# DOMAIN-SUFFIX: 5878
+# DOMAIN-SUFFIX: 5882
 # IP-CIDR: 88
 # IP-CIDR6: 3
 # USER-AGENT: 9
-# TOTAL: 6016
+# TOTAL: 6020
 api.waqi.info
 aqi.aqicn.org
 assets-priconne-redive-us.akamaized.net
@@ -1809,6 +1809,7 @@ voice.telephony.goog
 .freewww.info
 .freexinwen.com
 .freeyellow.com
+.freezhihu.org
 .frienddy.com
 .friendfeed-media.com
 .friendfeed.com
@@ -4719,6 +4720,7 @@ voice.telephony.goog
 .teamviewer.com
 .techcrunch.com
 .technews.tw
+.technorati.com
 .techsmith.com
 .techspot.com
 .techviz.net
@@ -5064,6 +5066,7 @@ voice.telephony.goog
 .tweepmag.com
 .tweepml.org
 .tweetbackup.com
+.tweetboard.com
 .tweetboner.biz
 .tweetcs.com
 .tweetdeck.com
@@ -5546,6 +5549,7 @@ voice.telephony.goog
 .wikipedia.org
 .wikiquote.org
 .wikisource.org
+.wikiunblocked.org
 .wikiversity.org
 .wikivoyage.org
 .wikiwand.com

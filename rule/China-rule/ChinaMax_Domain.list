@@ -1,15 +1,15 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-24 02:14:56
+# UPDATED: 2023-04-25 02:12:30
 # DOMAIN: 166
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 66882
+# DOMAIN-SUFFIX: 66884
 # IP-ASN: 1216
 # IP-CIDR: 5414
 # IP-CIDR6: 4183
 # USER-AGENT: 65
-# TOTAL: 77939
+# TOTAL: 77941
 265.com
 2mdn-cn.net
 accounts.googlers.com
@@ -23983,6 +23983,7 @@ xn--flw351e.com
 .gdwca.com
 .gdwlgp.com
 .gdwlife.com
+.gdxinya.com
 .gdysdz.com
 .gdyunyin.net
 .gdyxc.com
@@ -50330,6 +50331,7 @@ xn--flw351e.com
 .soucai.com
 .souche-fin.com
 .souche-inc.com
+.souche.com
 .soucod.com
 .soudao.com
 .soudoc.com
