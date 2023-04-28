@@ -1,21 +1,19 @@
 # NAME: ChinaMax
 # AUTHOR: blackmatrix7
 # REPO: https://gitlab.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-04-28 02:13:05
-# DOMAIN: 166
+# UPDATED: 2023-04-29 02:14:48
+# DOMAIN: 160
 # DOMAIN-KEYWORD: 13
-# DOMAIN-SUFFIX: 66890
+# DOMAIN-SUFFIX: 66892
 # IP-ASN: 1216
-# IP-CIDR: 5419
-# IP-CIDR6: 4183
+# IP-CIDR: 5410
+# IP-CIDR6: 4223
 # USER-AGENT: 65
-# TOTAL: 77952
+# TOTAL: 77979
 265.com
-2mdn-cn.net
 accounts.googlers.com
 accounts.xn--9trs65b.com
 accounts.xn--ggle-55da.com
-admob-cn.com
 adservice.google.com
 ai.ytimg.com
 analytics.strava.com
@@ -50,7 +48,6 @@ distribution.qcpp1.net
 distribution.qpdp1.net
 dl.google.com
 dl.l.google.com
-doubleclick-cn.net
 doubleclick.net
 download.jetbrains.com
 download.mlcc.google.com
@@ -73,17 +70,14 @@ googleanalytics.com
 googleapis-cn.com
 googleapps-cn.com
 googleflights-cn.net
-googleoptimize-cn.com
 googleoptimize.com
 googleplex.com
 googlesyndication-cn.com
 googlesyndication.com
-googletagmanager-cn.com
 googletagmanager.com
 googletagservices-cn.com
 googletagservices.com
 googletraveladservices-cn.com
-googlevads-cn.com
 goto.google.com
 gstatic-cn.com
 gstaticadssl.l.google.com
@@ -22345,7 +22339,9 @@ xn--flw351e.com
 .feiren.com
 .feisan.net
 .feishu-3rd-party-services.com
+.feishu.net
 .feishucdn.com
+.feishupkg.com
 .feisu.com
 .feitianwu7.com
 .feitsui.com
