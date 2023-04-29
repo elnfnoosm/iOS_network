@@ -66891,6 +66891,7 @@
 .zzzzmall.com
 .zzzzzz.me
 265.com
+2mdn-cn.net
 DOMAIN-KEYWORD,.tmall.com
 DOMAIN-KEYWORD,alicdn
 DOMAIN-KEYWORD,alipay
@@ -68271,7 +68272,6 @@ IP-CIDR,103.100.56.0/22,no-resolve
 IP-CIDR,103.100.88.0/22,no-resolve
 IP-CIDR,103.101.121.0/24,no-resolve
 IP-CIDR,103.101.122.0/23,no-resolve
-IP-CIDR,103.101.126.0/23,no-resolve
 IP-CIDR,103.101.144.0/21,no-resolve
 IP-CIDR,103.101.184.0/22,no-resolve
 IP-CIDR,103.101.4.0/22,no-resolve
@@ -68286,7 +68286,6 @@ IP-CIDR,103.102.76.0/22,no-resolve
 IP-CIDR,103.102.80.0/22,no-resolve
 IP-CIDR,103.103.16.0/22,no-resolve
 IP-CIDR,103.103.188.0/22,no-resolve
-IP-CIDR,103.103.204.0/22,no-resolve
 IP-CIDR,103.103.224.0/22,no-resolve
 IP-CIDR,103.103.36.0/22,no-resolve
 IP-CIDR,103.103.72.0/22,no-resolve
@@ -68519,6 +68518,7 @@ IP-CIDR,103.146.236.0/23,no-resolve
 IP-CIDR,103.146.252.0/23,no-resolve
 IP-CIDR,103.146.6.0/23,no-resolve
 IP-CIDR,103.146.72.0/23,no-resolve
+IP-CIDR,103.146.8.0/23,no-resolve
 IP-CIDR,103.147.12.0/23,no-resolve
 IP-CIDR,103.147.206.0/23,no-resolve
 IP-CIDR,103.147.211.0/24,no-resolve
@@ -69236,7 +69236,7 @@ IP-CIDR,103.40.4.0/22,no-resolve
 IP-CIDR,103.40.76.0/22,no-resolve
 IP-CIDR,103.40.88.0/22,no-resolve
 IP-CIDR,103.40.96.0/22,no-resolve
-IP-CIDR,103.41.112.0/22,no-resolve
+IP-CIDR,103.41.112.0/21,no-resolve
 IP-CIDR,103.41.129.0/24,no-resolve
 IP-CIDR,103.41.131.0/24,no-resolve
 IP-CIDR,103.41.136.0/21,no-resolve
@@ -69799,6 +69799,7 @@ IP-CIDR,110.76.0.0/18,no-resolve
 IP-CIDR,110.76.132.0/22,no-resolve
 IP-CIDR,110.76.192.0/18,no-resolve
 IP-CIDR,110.77.0.0/17,no-resolve
+IP-CIDR,110.79.78.0/24,no-resolve
 IP-CIDR,110.80.0.0/13,no-resolve
 IP-CIDR,110.88.0.0/14,no-resolve
 IP-CIDR,110.92.68.0/22,no-resolve
@@ -70938,8 +70939,6 @@ IP-CIDR,165.154.112.0/20,no-resolve
 IP-CIDR,165.154.128.0/18,no-resolve
 IP-CIDR,165.154.192.0/19,no-resolve
 IP-CIDR,165.156.17.0/24,no-resolve
-IP-CIDR,165.156.19.0/24,no-resolve
-IP-CIDR,165.156.20.0/23,no-resolve
 IP-CIDR,165.156.23.0/24,no-resolve
 IP-CIDR,165.156.30.0/24,no-resolve
 IP-CIDR,165.254.82.27/32,no-resolve
@@ -72416,7 +72415,6 @@ IP-CIDR,203.93.0.0/16,no-resolve
 IP-CIDR,203.95.128.0/18,no-resolve
 IP-CIDR,203.95.200.0/21,no-resolve
 IP-CIDR,203.95.224.0/19,no-resolve
-IP-CIDR,203.99.16.0/22,no-resolve
 IP-CIDR,203.99.8.0/21,no-resolve
 IP-CIDR,203.99.80.0/20,no-resolve
 IP-CIDR,204.55.160.0/24,no-resolve
@@ -72427,6 +72425,7 @@ IP-CIDR,204.74.113.0/24,no-resolve
 IP-CIDR,204.74.114.0/23,no-resolve
 IP-CIDR,204.74.67.0/24,no-resolve
 IP-CIDR,204.74.96.0/24,no-resolve
+IP-CIDR,206.119.53.0/24,no-resolve
 IP-CIDR,206.206.126.0/24,no-resolve
 IP-CIDR,206.219.44.0/23,no-resolve
 IP-CIDR,206.219.50.0/23,no-resolve
@@ -72453,8 +72452,6 @@ IP-CIDR,210.2.0.0/23,no-resolve
 IP-CIDR,210.2.2.0/24,no-resolve
 IP-CIDR,210.2.22.0/23,no-resolve
 IP-CIDR,210.2.24.0/21,no-resolve
-IP-CIDR,210.2.5.0/24,no-resolve
-IP-CIDR,210.2.6.0/23,no-resolve
 IP-CIDR,210.2.8.0/21,no-resolve
 IP-CIDR,210.201.32.11/32,no-resolve
 IP-CIDR,210.201.32.8/32,no-resolve
@@ -72707,10 +72704,7 @@ IP-CIDR,221.208.0.0/12,no-resolve
 IP-CIDR,221.224.0.0/12,no-resolve
 IP-CIDR,221.8.0.0/14,no-resolve
 IP-CIDR,222.125.0.0/16,no-resolve
-IP-CIDR,222.126.176.0/21,no-resolve
-IP-CIDR,222.126.200.0/24,no-resolve
-IP-CIDR,222.126.208.0/20,no-resolve
-IP-CIDR,222.126.224.0/19,no-resolve
+IP-CIDR,222.126.128.0/17,no-resolve
 IP-CIDR,222.128.0.0/12,no-resolve
 IP-CIDR,222.16.0.0/12,no-resolve
 IP-CIDR,222.160.0.0/14,no-resolve
@@ -72821,6 +72815,8 @@ IP-CIDR,37.209.192.0/24,no-resolve
 IP-CIDR,37.209.196.0/24,no-resolve
 IP-CIDR,37.209.198.0/24,no-resolve
 IP-CIDR,38.102.232.0/23,no-resolve
+IP-CIDR,38.126.44.0/24,no-resolve
+IP-CIDR,38.126.46.0/23,no-resolve
 IP-CIDR,38.142.239.114/32,no-resolve
 IP-CIDR,38.181.1.0/24,no-resolve
 IP-CIDR,38.60.149.0/24,no-resolve
@@ -72858,6 +72854,7 @@ IP-CIDR,42.123.128.0/17,no-resolve
 IP-CIDR,42.123.36.0/22,no-resolve
 IP-CIDR,42.123.40.0/21,no-resolve
 IP-CIDR,42.123.48.0/20,no-resolve
+IP-CIDR,42.129.0.0/16,no-resolve
 IP-CIDR,42.156.0.0/19,no-resolve
 IP-CIDR,42.156.36.0/22,no-resolve
 IP-CIDR,42.156.40.0/21,no-resolve
@@ -77821,6 +77818,7 @@ USER-AGENT,网易云音乐**
 accounts.googlers.com
 accounts.xn--9trs65b.com
 accounts.xn--ggle-55da.com
+admob-cn.com
 adservice.google.com
 ai.ytimg.com
 analytics.strava.com
@@ -77855,6 +77853,7 @@ distribution.qcpp1.net
 distribution.qpdp1.net
 dl.google.com
 dl.l.google.com
+doubleclick-cn.net
 doubleclick.net
 download.jetbrains.com
 download.mlcc.google.com
@@ -77877,14 +77876,17 @@ googleanalytics.com
 googleapis-cn.com
 googleapps-cn.com
 googleflights-cn.net
+googleoptimize-cn.com
 googleoptimize.com
 googleplex.com
 googlesyndication-cn.com
 googlesyndication.com
+googletagmanager-cn.com
 googletagmanager.com
 googletagservices-cn.com
 googletagservices.com
 googletraveladservices-cn.com
+googlevads-cn.com
 goto.google.com
 gstatic-cn.com
 gstaticadssl.l.google.com
