@@ -10710,6 +10710,7 @@
 .bhnsh.com
 .bhpiano.com
 .bhrencai.com
+.bhsr.com
 .bhuitong.com
 .bhxww.com
 .bhzck.club
@@ -72407,6 +72408,7 @@ IP-CIDR,203.9.76.0/23,no-resolve
 IP-CIDR,203.9.96.0/22,no-resolve
 IP-CIDR,203.90.0.0/22,no-resolve
 IP-CIDR,203.90.128.0/18,no-resolve
+IP-CIDR,203.90.8.0/22,no-resolve
 IP-CIDR,203.91.96.0/20,no-resolve
 IP-CIDR,203.92.0.0/22,no-resolve
 IP-CIDR,203.92.160.0/19,no-resolve
