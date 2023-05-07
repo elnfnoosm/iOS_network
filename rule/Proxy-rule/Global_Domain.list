@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-05-07 02:11:01
-# DOMAIN: 158
+# UPDATED: 2023-05-08 02:11:17
+# DOMAIN: 159
 # DOMAIN-KEYWORD: 39
 # DOMAIN-SUFFIX: 19004
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 19357
+# TOTAL: 19358
 adobeereg.com
 angle.com.tw
 anime-rule34-world.b-cdn.net
@@ -35,6 +35,7 @@ cbsplaylistserver.aws.syncbak.com
 cbsservice.aws.syncbak.com
 certs-lb.apple.com.akadns.net
 cisco.evergage.com
+cloud.oracle.com
 clubhouse.pubnubapi.com
 courier-push-apple.com.akadns.net
 crl-lb.apple.com.akadns.net
@@ -9591,6 +9592,7 @@ www-cdn.icloud.com.akadns.net
 .javhub.me
 .javhub.net
 .javhuge.com
+.javidol.org
 .javjack.com
 .javjunkies.com
 .javkiki.com
@@ -10552,9 +10554,6 @@ www-cdn.icloud.com.akadns.net
 .m5ir5np1.shop
 .ma.hao123.com
 .ma1lib.org
-.maa1809.com
-.maa1815.com
-.maa1818.com
 .mac-mini.com
 .mac.com
 .mac.wang
@@ -14653,6 +14652,7 @@ www-cdn.icloud.com.akadns.net
 .sans.edu
 .sanspo.com
 .sanvaras.com
+.sanwapub.com
 .sapikachu.net
 .sapphicerotica.com
 .sapphicpornonly.com
@@ -16081,6 +16081,7 @@ www-cdn.icloud.com.akadns.net
 .teamamericany.com
 .teamneedforspeed.com
 .teamskeet.com
+.teamviewer.cn
 .teamviewer.com
 .tearapeak.com
 .teatroporno.com
