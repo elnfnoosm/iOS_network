@@ -21607,6 +21607,7 @@
 .eznowdns.net
 .ezone-h5.com
 .ezpaychain.com
+.ezpro.pro
 .ezrpro.com
 .ezsmth.com
 .eztcn.com
@@ -54432,6 +54433,7 @@
 .uiste.com
 .uiu.cc
 .uiusc.com
+.uiwow.com
 .ujakn.com
 .ujia007.com
 .ujiaoshou.com
@@ -70869,9 +70871,6 @@ IP-CIDR,165.154.104.0/21,no-resolve
 IP-CIDR,165.154.112.0/20,no-resolve
 IP-CIDR,165.154.128.0/18,no-resolve
 IP-CIDR,165.154.192.0/19,no-resolve
-IP-CIDR,165.156.17.0/24,no-resolve
-IP-CIDR,165.156.19.0/24,no-resolve
-IP-CIDR,165.156.20.0/23,no-resolve
 IP-CIDR,165.156.23.0/24,no-resolve
 IP-CIDR,165.156.30.0/24,no-resolve
 IP-CIDR,165.254.82.27/32,no-resolve
@@ -72748,7 +72747,6 @@ IP-CIDR,37.209.196.0/24,no-resolve
 IP-CIDR,37.209.198.0/24,no-resolve
 IP-CIDR,38.102.232.0/23,no-resolve
 IP-CIDR,38.102.234.0/24,no-resolve
-IP-CIDR,38.126.44.0/24,no-resolve
 IP-CIDR,38.126.46.0/23,no-resolve
 IP-CIDR,38.142.239.114/32,no-resolve
 IP-CIDR,38.181.1.0/24,no-resolve
