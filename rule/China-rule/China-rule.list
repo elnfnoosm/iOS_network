@@ -28217,6 +28217,7 @@
 .huangye88.com
 .huangye88.net
 .huangyixiaoshuo.com
+.huangyuhui.net
 .huangyunkun.com
 .huangz.me
 .huangze.net
@@ -69188,6 +69189,7 @@ IP-CIDR,103.41.224.0/21,no-resolve
 IP-CIDR,103.41.232.0/22,no-resolve
 IP-CIDR,103.41.240.0/22,no-resolve
 IP-CIDR,103.41.252.0/22,no-resolve
+IP-CIDR,103.41.3.0/24,no-resolve
 IP-CIDR,103.41.48.0/21,no-resolve
 IP-CIDR,103.41.60.0/22,no-resolve
 IP-CIDR,103.41.72.0/22,no-resolve
@@ -72331,7 +72333,6 @@ IP-CIDR,203.9.76.0/23,no-resolve
 IP-CIDR,203.9.96.0/22,no-resolve
 IP-CIDR,203.90.0.0/22,no-resolve
 IP-CIDR,203.90.128.0/18,no-resolve
-IP-CIDR,203.90.8.0/22,no-resolve
 IP-CIDR,203.91.96.0/20,no-resolve
 IP-CIDR,203.92.0.0/22,no-resolve
 IP-CIDR,203.92.160.0/19,no-resolve
@@ -72486,9 +72487,6 @@ IP-CIDR,218.108.0.0/15,no-resolve
 IP-CIDR,218.185.192.0/19,no-resolve
 IP-CIDR,218.185.240.0/21,no-resolve
 IP-CIDR,218.192.0.0/12,no-resolve
-IP-CIDR,218.213.119.0/24,no-resolve
-IP-CIDR,218.213.120.0/23,no-resolve
-IP-CIDR,218.213.122.0/24,no-resolve
 IP-CIDR,218.213.71.0/24,no-resolve
 IP-CIDR,218.213.85.0/24,no-resolve
 IP-CIDR,218.240.0.0/14,no-resolve
