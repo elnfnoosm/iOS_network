@@ -3311,6 +3311,7 @@
 .400-lighting.com
 .400.com
 .4000034168.com
+.4000066666.com
 .4000278400.com
 .4000500521.com
 .4000730138.com
@@ -3623,6 +3624,7 @@
 .5068.com
 .5068yx.com
 .506fhq.com
+.506u5nf5j5.com
 .50970.com
 .50bangzh.com
 .50fff.net
@@ -4479,6 +4481,7 @@
 .52yawa.com
 .52yh.com
 .52yifei.com
+.52yitian.com
 .52ykjob.com
 .52youju.com
 .52youpiao.com
@@ -8818,6 +8821,7 @@
 .aozhougoufang.com
 .aozhuanyun.com
 .ap1983.com
+.ap4r.com
 .ap88.com
 .apa.me
 .apaas-zone-test.com
@@ -18922,6 +18926,7 @@
 .diyitech.com
 .diyixiazai.com
 .diyiyou.com
+.diyiyt.com
 .diyiyunshi.com
 .diyiziti.com
 .diyju.com
@@ -34963,6 +34968,7 @@
 .ksria.com
 .ksrong.com
 .kstao.com
+.kstv.com
 .kstz1.com
 .ksudi.com
 .ksupdate.com
@@ -35039,6 +35045,9 @@
 .kuai.ma
 .kuai65.com
 .kuai666aa8e43gomqhzeg.com
+.kuai666bj7tu65rkdz82.com
+.kuai666bjeve6ks43qyw4vc8.com
+.kuai666bjs3gsymi6v4h5pz.com
 .kuai666e9rqs5wumk7at3.com
 .kuai666gki3osg54rx7a.com
 .kuai666gkq3semv1r34.com
@@ -35125,6 +35134,7 @@
 .kuaishouapp.net
 .kuaishouapps.com
 .kuaishouba.com
+.kuaishougroup.com
 .kuaishoupay.com
 .kuaishouzt.com
 .kuaishuru.net
@@ -35149,6 +35159,7 @@
 .kuaiyunds.com
 .kuaizhan.com
 .kuaizhang.com
+.kuaizhaogong.com
 .kuaizhe.com
 .kuaizhihui.com
 .kuaizi.co
@@ -35332,6 +35343,11 @@
 .kvogues.com
 .kvov.com
 .kvrmicit.com
+.kwai-group.com
+.kwai-pro.com
+.kwai.com
+.kwai.net
+.kwai.xyz
 .kwai666.com
 .kwaiadapp.com
 .kwaiads.com
@@ -35342,7 +35358,9 @@
 .kwaiekow98icxsp7fz.com
 .kwaiesovc9xgzfcmt.com
 .kwaigobuy.com
+.kwaigroup.com
 .kwailai.com
+.kwailala.com
 .kwailine.com
 .kwairga8upiycbiv.com
 .kwairia4qs5e76v52z.com
@@ -40406,6 +40424,7 @@
 .mvben.com
 .mvc188.com
 .mvhere.com
+.mvmaster.com
 .mvoicer.com
 .mvopri5ac153.com
 .mvorgexv.com
@@ -42534,6 +42553,7 @@
 .origincn.com
 .originlee.com
 .originoo.com
+.originpic.com
 .orihard.com
 .oritive.com
 .orleto.com
@@ -57582,6 +57602,7 @@
 .woair.com
 .woaishouban.com
 .woaixiao.com
+.woaiyt.com
 .woaizr.com
 .woaizuji.com
 .woaoo.net
@@ -57603,6 +57624,7 @@
 .wodedagong.com
 .wodeoffice.com
 .wodeshebao.com
+.wodeyt.com
 .wodiancan.net
 .wodidashi.com
 .wodingche.com
@@ -70275,6 +70297,7 @@ IP-CIDR,120.138.32.224/29,no-resolve
 IP-CIDR,120.143.128.0/19,no-resolve
 IP-CIDR,120.192.0.0/10,no-resolve
 IP-CIDR,120.24.0.0/14,no-resolve
+IP-CIDR,120.29.252.0/23,no-resolve
 IP-CIDR,120.30.0.0/15,no-resolve
 IP-CIDR,120.32.0.0/12,no-resolve
 IP-CIDR,120.48.0.0/15,no-resolve
@@ -72736,6 +72759,9 @@ IP-CIDR,36.69.80.0/20,no-resolve
 IP-CIDR,36.69.96.0/19,no-resolve
 IP-CIDR,36.96.0.0/11,no-resolve
 IP-CIDR,37.128.240.0/21,no-resolve
+IP-CIDR,37.209.192.0/24,no-resolve
+IP-CIDR,37.209.196.0/24,no-resolve
+IP-CIDR,37.209.198.0/24,no-resolve
 IP-CIDR,38.102.232.0/22,no-resolve
 IP-CIDR,38.126.46.0/23,no-resolve
 IP-CIDR,38.142.239.114/32,no-resolve
