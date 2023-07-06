@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-04 02:10:42
+# UPDATED: 2023-07-07 02:12:52
 # DOMAIN: 159
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 19156
+# DOMAIN-SUFFIX: 19157
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 19510
+# TOTAL: 19511
 adobeereg.com
 angle.com.tw
 anime-rule34-world.b-cdn.net
@@ -14918,6 +14918,7 @@ www-cdn.icloud.com.akadns.net
 .seiroganmania.com
 .seiron-sankei.com
 .sejie.com
+.sekai.colorfulpalette.org
 .selectanescort.com
 .selectyourgame.com
 .selfloversworld.com

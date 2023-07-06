@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-06 02:08:19
+# UPDATED: 2023-07-07 02:08:38
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 15811
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 91322
+# DOMAIN-SUFFIX: 91352
 # IP-CIDR: 248
 # URL-REGEX: 285
-# TOTAL: 107742
+# TOTAL: 107772
 00-gov.cn
 0026645142c89aeb1.com
 006a039c957c142bb.com
@@ -20830,6 +20830,7 @@ zzxosget.com
 .abrinchapper.com
 .abrittel.fr
 .abrjsiuuhet.com
+.abrnfctkn.xyz
 .abroad-ad.kingsoft-office-service.com
 .abroadlynijiz.site
 .abroniamarkup.com
@@ -21275,6 +21276,7 @@ zzxosget.com
 .ad-analysis.pconline.com.cn
 .ad-analytics-bootstrap.metaps.com
 .ad-android.51wnl.com
+.ad-api-log.colopl.jp
 .ad-api.cnblogs.com
 .ad-api.ehawk.com
 .ad-arata.com
@@ -24341,6 +24343,7 @@ zzxosget.com
 .adstats.tencentmusic.com
 .adsterra.com
 .adsterra.org
+.adsterratech.com
 .adstest.weather.com
 .adstextview.qq.com
 .adstico.io
@@ -30011,6 +30014,7 @@ zzxosget.com
 .avdego.net
 .avdpmeated.uno
 .avellingand.xyz
+.avenaryconcent.com
 .avencio.de
 .avenseo.com
 .avenuea.com
@@ -32908,6 +32912,7 @@ zzxosget.com
 .blitz-analytics-batch-server.blitz.gg
 .blizzardcinnamonappointed.com
 .bljlrl.xyz
+.blkwrjerbklya.top
 .bllbaby.cn
 .blmetabemj.xyz
 .blnojxqob.top
@@ -37852,6 +37857,7 @@ zzxosget.com
 .coalbagbices.website
 .coaphauk.net
 .coaraije.com
+.coarooro.net
 .coastlineahead.com
 .coastlinebravediffers.com
 .coastpreachshrink.com
@@ -46868,6 +46874,7 @@ zzxosget.com
 .enwingdondia.com
 .enyayinxiang.com
 .enzagpt.cn
+.enzajjbrrbbvw.top
 .eo62cocntx.com
 .eoaktaposh.com
 .eoapxl.com
@@ -47772,6 +47779,7 @@ zzxosget.com
 .excellenceads.com
 .excellent-closet.pro
 .excellent-vids.online
+.excellentvids.online
 .excellernod.xyz
 .exceph.com
 .exceptexchange.com
@@ -50478,6 +50486,7 @@ zzxosget.com
 .funintheuk.com
 .funkerpep.com
 .funklicks.com
+.funkydeplane.com
 .funlife.info
 .funn.graphiq.com
 .funnelchair.com
@@ -53794,6 +53803,7 @@ zzxosget.com
 .habitofstic.xyz
 .habitofsticklik.com
 .habitualhumor.com
+.habitueflasque.com
 .habrasysteleii.xyz
 .habrox.xyz
 .habusima.uno
@@ -53961,6 +53971,7 @@ zzxosget.com
 .hansaisai.top
 .hansetwangy.com
 .hantana.org
+.hanwdsii.com
 .hanxin.me
 .hanyingmall.cn
 .hao.315hyw.com
@@ -55584,6 +55595,7 @@ zzxosget.com
 .hs-scripts.com
 .hs1s1.cn
 .hs89.cn
+.hsadeg.site
 .hsadspixel.net
 .hsaxca.americatv.com.pe
 .hsb-canada.com
@@ -58454,6 +58466,7 @@ zzxosget.com
 .ip.cliphunter.com
 .ip.goguardian.com
 .ip.hivps.xyz
+.ip.lovely-app.com
 .ip.momentummedia.com.au
 .ip.pichunter.com
 .ip.prvtx.net
@@ -58749,6 +58762,7 @@ zzxosget.com
 .itadapi.ithome.com.tw
 .itageli.ru
 .itahandkeight.xyz
+.itaisabirs.com
 .italianadirectory.com
 .italianforesee.com
 .italy-lottery.com
@@ -59990,6 +60004,7 @@ zzxosget.com
 .jotpoolwarren.com
 .jotrening.com
 .jounaque.com
+.joupteni.xyz
 .journalforum.org
 .journalismdived.com
 .journera.com
@@ -64229,6 +64244,7 @@ zzxosget.com
 .log.kienthuc.net.vn
 .log.kinhdoanhhoinhap.vn
 .log.kinhtedouong.vn
+.log.klook.com
 .log.krs-ix.ru
 .log.ltype.baofeng.com
 .log.m.sm.cn
@@ -64272,6 +64288,7 @@ zzxosget.com
 .log.rabobank.nl
 .log.radiko.jp
 .log.rc.hunantv.com
+.log.recommend.nicovideo.jp
 .log.reformal.ru
 .log.ren.tv
 .log.rhythmtowers.com
@@ -67199,6 +67216,7 @@ zzxosget.com
 .medtronicsolutions.com
 .medusasglance.com
 .medya.e-kolay.net
+.medyanative.com
 .medyanetads.com
 .meebeeps.com
 .meebo.com
@@ -67309,6 +67327,7 @@ zzxosget.com
 .mellow-game.pro
 .mellowads.com
 .mellowbike.com
+.mellsrecta.com
 .melo.space
 .meloads.com
 .melodicminute.com
@@ -73802,6 +73821,7 @@ zzxosget.com
 .ourtherss.top
 .ourtoolbar.com
 .ourzitemu.com
+.ousinouk.xyz
 .ouslayer.co
 .oussaute.net
 .ousseghu.net
@@ -74227,6 +74247,7 @@ zzxosget.com
 .p7m1rc80jdum.com
 .p8s.oxbowshop.com
 .p8u.hinet.net
+.p97387hj.xyz
 .pa-oa.com
 .pa-stats.encore.dev
 .pa-voyance.fr
@@ -76440,6 +76461,7 @@ zzxosget.com
 .playwrightgrant.com
 .playzee.fr
 .plbcsd.vidaxl.se
+.plbs9k.icu
 .plbusiness.samsung.com
 .pleagaietyparalysis.com
 .pleasantlyrevenge.com
@@ -77083,6 +77105,7 @@ zzxosget.com
 .povoarge.com
 .powdermealfilth.com
 .powderprofit.com
+.powedw.com
 .power.adhacker.online
 .powerad.ai
 .poweradblocker.com
@@ -82993,6 +83016,7 @@ zzxosget.com
 .sandcomemunicat.info
 .sandelf.com
 .sandensi.ru
+.sandflyligules.com
 .sange20221226.xyz
 .sanggilregard.com
 .sanglah.com
@@ -84543,7 +84567,6 @@ zzxosget.com
 .sezvc.com
 .sf.groc.press
 .sf14g.com
-.sf16-scmcdn-sg.ibytedtos.com
 .sfads.osdn.com
 .sfajfu.boulanger.com
 .sfanf.com
@@ -84955,6 +84978,7 @@ zzxosget.com
 .shoogloonetwork.com
 .shooinghelibus.com
 .shookahi.xyz
+.shookssuluan.com
 .shoop4.com
 .shoopusahealth.com
 .shooter.m.jd.com
@@ -86938,6 +86962,7 @@ zzxosget.com
 .sordidsmile.com
 .sordidstation.com
 .sordorcourtin.com
+.sorelyafric.com
 .soresneeze.com
 .sorethunder.com
 .soretrain.com
@@ -87532,6 +87557,7 @@ zzxosget.com
 .spywords.com
 .sq.requestads.com
 .sq2trk2.com
+.sq59.cn
 .sq7.co.uk
 .sqa4e.xyz
 .sqate.io
@@ -91998,6 +92024,7 @@ zzxosget.com
 .tedxffemqblmk.xyz
 .teefuthe.com
 .teeglimu.com
+.teelconch.com
 .teemingaymoro.com
 .teemooge.net
 .teen-qa.zubie.com
@@ -93919,6 +93946,7 @@ zzxosget.com
 .tpycithabalj.com
 .tpyshaaxps.com
 .tpyxplkcap.top
+.tqdctl.xyz
 .tqdpqq.com
 .tqkfrdcwht.xyz
 .tqlkg.com
@@ -96906,6 +96934,7 @@ zzxosget.com
 .tv1s4d6klh4n.com
 .tvbxrr4ym3.click
 .tvbyb04.com
+.tvc.biphim.club
 .tvcoag.brw.pl
 .tveta.naver.net
 .tveyut.justaway.com
@@ -100767,6 +100796,7 @@ zzxosget.com
 .wbies.com
 .wbiev.com
 .wbilvnmool.com
+.wbjjkdofo.xyz
 .wbkqzx.decantalo.com
 .wbkval.ecco.com
 .wblt.oui.sncf
@@ -104718,7 +104748,6 @@ zzxosget.com
 .y900.greenwichtime.com
 .y9062t.cn
 .ya-counter.ru
-.ya.domain-vip.net
 .ya.vteplom.ru
 .yab-adimages.s3.amazonaws.com
 .yaba.org.cn
@@ -106602,6 +106631,7 @@ zzxosget.com
 .zipmonster.biz
 .zipovoma.com
 .zipperxray.com
+.zippingcare.com
 .zippyfrog.co
 .zippyswacken.com
 .zippywind.com
