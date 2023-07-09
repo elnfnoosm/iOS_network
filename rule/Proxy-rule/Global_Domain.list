@@ -1,14 +1,14 @@
 # NAME: Global
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-07-09 02:10:43
+# UPDATED: 2023-07-10 02:10:37
 # DOMAIN: 159
 # DOMAIN-KEYWORD: 39
-# DOMAIN-SUFFIX: 19159
+# DOMAIN-SUFFIX: 19157
 # IP-CIDR: 106
 # IP-CIDR6: 4
 # USER-AGENT: 46
-# TOTAL: 19513
+# TOTAL: 19511
 adobeereg.com
 angle.com.tw
 anime-rule34-world.b-cdn.net
@@ -16616,8 +16616,6 @@ www-cdn.icloud.com.akadns.net
 .tik-tokapi.com
 .tiktok.com
 .tiktokcdn.com
-.tiktokd.net
-.tiktokd.org
 .tiktokv.com
 .tiltbrush.com
 .timdir.com
