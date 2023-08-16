@@ -69146,7 +69146,13 @@ IP-CIDR,103.186.224.0/19,no-resolve
 IP-CIDR,103.186.64.0/19,no-resolve
 IP-CIDR,103.186.96.0/21,no-resolve
 IP-CIDR,103.187.0.0/16,no-resolve
-IP-CIDR,103.188.0.0/16,no-resolve
+IP-CIDR,103.188.0.0/18,no-resolve
+IP-CIDR,103.188.112.0/21,no-resolve
+IP-CIDR,103.188.122.0/23,no-resolve
+IP-CIDR,103.188.124.0/22,no-resolve
+IP-CIDR,103.188.128.0/17,no-resolve
+IP-CIDR,103.188.64.0/19,no-resolve
+IP-CIDR,103.188.96.0/20,no-resolve
 IP-CIDR,103.189.0.0/18,no-resolve
 IP-CIDR,103.189.64.0/20,no-resolve
 IP-CIDR,103.189.80.0/21,no-resolve
