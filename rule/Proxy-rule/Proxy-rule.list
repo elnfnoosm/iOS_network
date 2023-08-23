@@ -44,8 +44,6 @@
 .132288.cc
 .1337x.to
 .138.com
-.14.102.250.18
-.14.102.250.19
 .141hongkong.com
 .141jav.com
 .141jj.com
@@ -59,7 +57,6 @@
 .16honeys.com
 .171xx.com
 .173ng.com
-.174.142.105.153
 .177pic.info
 .177picyy.com
 .179na.com
@@ -326,13 +323,9 @@
 .66.ca
 .666kb.com
 .66wwmm.com
-.67.220.91.15
-.67.220.91.18
-.67.220.91.23
 .67id.com
 .67maoab.com
 .69-sexgames.com
-.69.65.19.160
 .69bag.xyz
 .69femdom.com
 .69flv.com
@@ -361,7 +354,6 @@
 .6twseb.com
 .6xxxvideos.com
 .7-zip.org
-.72.52.81.22
 .721av.com
 .748av.com
 .75m.co
@@ -19601,7 +19593,6 @@ DOMAIN-KEYWORD,skydrive
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,spotify.com
 DOMAIN-KEYWORD,telegram
-DOMAIN-KEYWORD,tesla
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,ttvnw
@@ -19662,6 +19653,7 @@ IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,139.45.192.1/32,no-resolve
 IP-CIDR,139.45.206.1/32,no-resolve
 IP-CIDR,139.45.234.1/32,no-resolve
+IP-CIDR,14.102.250.18/31,no-resolve
 IP-CIDR,14.136.135.180/32,no-resolve
 IP-CIDR,14.136.135.196/32,no-resolve
 IP-CIDR,14.136.137.68/32,no-resolve
@@ -19740,6 +19732,7 @@ IP-CIDR,173.219.75.19/32,no-resolve
 IP-CIDR,173.235.1.133/32,no-resolve
 IP-CIDR,173.244.134.58/32,no-resolve
 IP-CIDR,173.252.64.0/18,no-resolve
+IP-CIDR,174.142.105.153/32,no-resolve
 IP-CIDR,174.37.0.0/16,no-resolve
 IP-CIDR,179.60.192.0/22,no-resolve
 IP-CIDR,18.184.0.0/15,no-resolve
@@ -20431,6 +20424,9 @@ IP-CIDR,66.90.138.94/32,no-resolve
 IP-CIDR,66.90.139.90/32,no-resolve
 IP-CIDR,67.218.93.89/32,no-resolve
 IP-CIDR,67.218.93.91/32,no-resolve
+IP-CIDR,67.220.91.15/32,no-resolve
+IP-CIDR,67.220.91.18/32,no-resolve
+IP-CIDR,67.220.91.23/32,no-resolve
 IP-CIDR,67.221.221.17/32,no-resolve
 IP-CIDR,67.221.221.29/32,no-resolve
 IP-CIDR,67.221.221.31/32,no-resolve
@@ -20441,6 +20437,7 @@ IP-CIDR,69.160.211.50/32,no-resolve
 IP-CIDR,69.171.224.0/19,no-resolve
 IP-CIDR,69.53.224.0/19,no-resolve
 IP-CIDR,69.63.176.0/20,no-resolve
+IP-CIDR,69.65.19.160/32,no-resolve
 IP-CIDR,70.33.57.75/32,no-resolve
 IP-CIDR,71.169.136.4/30,no-resolve
 IP-CIDR,71.169.137.4/32,no-resolve
@@ -20496,6 +20493,7 @@ IP-CIDR,72.23.10.194/32,no-resolve
 IP-CIDR,72.23.10.198/32,no-resolve
 IP-CIDR,72.240.7.141/32,no-resolve
 IP-CIDR,72.252.113.189/32,no-resolve
+IP-CIDR,72.52.81.22/32,no-resolve
 IP-CIDR,74.119.76.0/22,no-resolve
 IP-CIDR,74.125.0.0/16,no-resolve
 IP-CIDR,74.204.125.22/32,no-resolve
