@@ -7064,6 +7064,7 @@ DOMAIN,emoi-cncdn.bing.com
 DOMAIN,fontfiles.googleadapis.com
 DOMAIN,fonts.googleadapis.com
 DOMAIN,gcpnode.com
+DOMAIN,global.prd.cdn.globalsign.com
 DOMAIN,gogalaxy.gog-statics.com
 DOMAIN,gonglchuangl.net
 DOMAIN,gongyichuangyi.net
@@ -12872,6 +12873,7 @@ IP-CIDR,36.96.0.0/11,no-resolve
 IP-CIDR,37.128.240.0/21,no-resolve
 IP-CIDR,38.102.232.0/22,no-resolve
 IP-CIDR,38.105.24.0/21,no-resolve
+IP-CIDR,38.126.44.0/24,no-resolve
 IP-CIDR,38.126.46.0/23,no-resolve
 IP-CIDR,38.142.239.114/32,no-resolve
 IP-CIDR,38.181.1.0/24,no-resolve
@@ -13159,7 +13161,6 @@ IP-CIDR,43.254.184.0/21,no-resolve
 IP-CIDR,43.254.208.0/22,no-resolve
 IP-CIDR,43.254.224.0/20,no-resolve
 IP-CIDR,43.254.24.0/22,no-resolve
-IP-CIDR,43.254.252.0/22,no-resolve
 IP-CIDR,43.254.36.0/22,no-resolve
 IP-CIDR,43.254.64.0/22,no-resolve
 IP-CIDR,43.254.72.0/22,no-resolve
@@ -35311,6 +35312,7 @@ global-ks-cdn.com
 global-scsl.com
 global-tractor.com
 global-trade-center.com
+global.prd.cdn.globalsign.com
 globalaccentchinese.com
 globalbuy.cc
 globalcompressor.com
