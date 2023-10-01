@@ -476,6 +476,7 @@ DOMAIN,blizzard.nefficient.co.kr
 DOMAIN,cbsi.live.ott.irdeto.com
 DOMAIN,cbsplaylistserver.aws.syncbak.com
 DOMAIN,cbsservice.aws.syncbak.com
+DOMAIN,cdn-spotify-experiments.conductrics.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,cisco.evergage.com
 DOMAIN,cloud.oracle.com
@@ -4621,6 +4622,7 @@ DOMAIN-SUFFIX,cloudconvert.com
 DOMAIN-SUFFIX,cloudcraze.com
 DOMAIN-SUFFIX,cloudcredibility.com
 DOMAIN-SUFFIX,cloudflare-dns.com
+DOMAIN-SUFFIX,cloudflare-ech.com
 DOMAIN-SUFFIX,cloudflare-gateway.com
 DOMAIN-SUFFIX,cloudflare-ipfs.com
 DOMAIN-SUFFIX,cloudflare-quic.com
@@ -24458,6 +24460,7 @@ cdig.info
 cdjp.org
 cdkworkshop.com
 cdmatech.com
+cdn-spotify-experiments.conductrics.com
 cdn-terapeak.com
 cdn.angruo.com
 cdn.optimizely.com
@@ -24885,6 +24888,7 @@ cloudconvert.com
 cloudcraze.com
 cloudcredibility.com
 cloudflare-dns.com
+cloudflare-ech.com
 cloudflare-gateway.com
 cloudflare-ipfs.com
 cloudflare-quic.com
