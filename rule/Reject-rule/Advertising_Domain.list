@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-11 02:08:19
+# UPDATED: 2023-10-12 02:07:48
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 16179
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 96756
+# DOMAIN-SUFFIX: 96777
 # IP-CIDR: 330
 # URL-REGEX: 285
-# TOTAL: 113626
+# TOTAL: 113647
 .0-000.store
 .0.code.cotsta.ru
 .0.nextyourcontent.com
@@ -5633,6 +5633,7 @@
 .actpx.com
 .actressact.com
 .actrkn.com
+.actrqdr.cn
 .actsdk.idreamsky.com
 .actu24.online
 .actualdeals.com
@@ -8857,6 +8858,7 @@
 .adt328.com
 .adt545.net
 .adt567.net
+.adt574.com
 .adt598.com
 .adtag.cc
 .adtag.msn.ca
@@ -17123,6 +17125,7 @@
 .bnet.com
 .bnetds.cn
 .bnets1.icu
+.bnets9.icu
 .bnfoeabisp.com
 .bnfyzszm.icu
 .bngdyn.com
@@ -20100,6 +20103,7 @@
 .ceilingbruiseslegend.com
 .ceillons.site
 .ceincreatedaughtcha.info
+.ceiuip.icu
 .ceiyo.com
 .cekladod.com
 .cekornapred.org
@@ -27983,6 +27987,7 @@
 .dktr03lf4tq7h.cloudfront.net
 .dkupaw9ae63a8.cloudfront.net
 .dkus30wj6f84p.cloudfront.net
+.dkvakldvnsv.com
 .dkvtbjavjme96.cloudfront.net
 .dkyp75kj7ldlr.cloudfront.net
 .dl-dev.tablelist.com
@@ -37142,6 +37147,8 @@
 .gmossp-sp.jp
 .gmota.g188.net
 .gmpfruktfatpi.com
+.gmx23.top
+.gmx24.top
 .gmx27.top
 .gmx28.top
 .gmx29.top
@@ -44851,6 +44858,7 @@
 .jlcarral.com
 .jldbnjghezv.com
 .jldtlh.fashionnova.com
+.jlhlnd.xyz
 .jlhygy.com
 .jlijten.nl
 .jljftl.xyz
@@ -47158,6 +47166,7 @@
 .kzjqraj.cn
 .kzkmmbrrzn.com
 .kzngisyd.xyz
+.kzprugp.xyz
 .kzsfip3v.cfd
 .kzsha.com
 .kzsicw.chip.de
@@ -49439,6 +49448,7 @@
 .lknnbd.xyz
 .lknqfn.furla.com
 .lkoobbpti.com
+.lkoqtvvajktpjsk.xyz
 .lkpmprksau.com
 .lkqd.com
 .lkqd.net
@@ -50056,6 +50066,7 @@
 .lokalleads-cci.com
 .lokalwerben.t-online.de
 .lokeriklan.com
+.loketsaucy.com
 .loki.maximonline.ru
 .loki8lave.com
 .lokinatoer5.com
@@ -58354,6 +58365,7 @@
 .oaphooftaus.com
 .oaprodlogging.yo-digital.com
 .oapsmnk.cyou
+.oapyrzde.xyz
 .oarcompartmentexaggerate.com
 .oardilin.com
 .oardjnay.com
@@ -64833,6 +64845,7 @@
 .psoalreh.com
 .psoanouy.net
 .psognaih.xyz
+.psojeeng.com
 .psonstrentie.info
 .psoogaix.net
 .psoolikoagy.com
@@ -69623,6 +69636,7 @@
 .s.de123.net
 .s.deepl.com
 .s.di.com.pl
+.s.dmmew.com
 .s.doyo.cn
 .s.dpcq1.net
 .s.drawingthemin.com
@@ -71447,6 +71461,7 @@
 .selfpuc.com
 .selfpwn.org
 .selfreliantboot.pro
+.selfswayjay.com
 .selftour.walk.in
 .sell1.etlong.com
 .sellaction.net
@@ -80122,6 +80137,7 @@
 .t58genestuff.com
 .t5lxz7dtq4iz.com
 .t5wm.cc
+.t6.china-xian.com
 .t70123.com
 .t7baxp1xmw00.boxoffice.adventuretix.com
 .t7z.cupid.ptqy.gitv.tv
@@ -87855,6 +87871,7 @@
 .uqd.io
 .uqdoeag.com
 .uqelxct.cn
+.uqeuxpl.cn
 .uqfot.com
 .uqidian.com
 .uqie4nzy.com
@@ -88695,6 +88712,7 @@
 .vdggsd007.com
 .vdggsd008.com
 .vdggsd009.com
+.vdggsd010.com
 .vdhufs.com
 .vdlha.cn
 .vdlvry.com
@@ -93603,6 +93621,7 @@
 .xcnn.com
 .xcounter.ch
 .xcowuheclvwryh.com
+.xcqbbcqpl.xyz
 .xcqyvahohs.com
 .xcsaz.com
 .xctignum.uno
@@ -94367,6 +94386,7 @@
 .xxdongfa.com
 .xxe2.com
 .xxeden.com
+.xxfphsg.cn
 .xxgqsbfwbmtqa.com
 .xxguan.cn
 .xxhp2iz.icu
@@ -95950,6 +95970,7 @@
 .zedswrathed.website
 .zedwhyex.com
 .zedxknzlwyofh.com
+.zeebaith.xyz
 .zeeca4u.com
 .zeechumy.com
 .zeecoomi.net
