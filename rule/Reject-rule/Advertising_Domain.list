@@ -1,14 +1,14 @@
 # NAME: Advertising
 # AUTHOR: blackmatrix7
 # REPO: https://github.com/blackmatrix7/ios_rule_script
-# UPDATED: 2023-10-19 02:07:55
+# UPDATED: 2023-10-20 02:07:47
 # DESCRIPTION: 分流规则中含有URL-REGEX类型，建议搭配MITM使用
 # DOMAIN: 16164
 # DOMAIN-KEYWORD: 76
-# DOMAIN-SUFFIX: 97101
+# DOMAIN-SUFFIX: 97140
 # IP-CIDR: 330
 # URL-REGEX: 285
-# TOTAL: 113956
+# TOTAL: 113995
 .0-000.store
 .0.code.cotsta.ru
 .0.nextyourcontent.com
@@ -410,6 +410,7 @@
 .1040305008.rsc.cdn77.org
 .104231.dtiblog.com
 .1048284882.rsc.cdn77.org
+.1052706846.rsc.cdn77.org
 .1053651768.rsc.cdn77.org
 .105app.com
 .1063072263.rsc.cdn77.org
@@ -489,6 +490,7 @@
 .1188.com
 .118ex.cn
 .1190555.com
+.1191084008.rsc.cdn77.org
 .11959579.fun.joyrun.com
 .119cgpt.com
 .11a581bbb5038e.com
@@ -5667,6 +5669,7 @@
 .acuityads.com
 .acuityplatform.com
 .aculo.fr
+.aculturerpa.info
 .acuratecraneplan.inthere.link
 .acutepropose.com
 .acv.aun-air-wifi.com
@@ -16588,6 +16591,7 @@
 .bipedhematin.website
 .biphic.com
 .bipjiza.com
+.biplihopsdim.com
 .biptolyla.com
 .biq.keefung-zs.com
 .biquge.homes
@@ -19365,6 +19369,7 @@
 .canyboysho.info
 .canzonicassons.com
 .canzoscomply.com
+.canzosswager.com
 .cao-gao.xyz
 .caob5.info
 .caoliuzx.tk
@@ -20098,6 +20103,7 @@
 .cdrive.compellent.com
 .cdrvrs.com
 .cds26.ams9.msecn.net
+.cdsa2.icu
 .cdsbnrs.com
 .cdshusen.cn
 .cdtbox.rocks
@@ -20832,6 +20838,7 @@
 .chrommotor.com
 .chronicads.com
 .chrothe.com
+.chrtds.xyz
 .chrysostrck.com
 .chryvast.com
 .chsfdfkwsrjwe.xyz
@@ -21863,6 +21870,7 @@
 .cmclean.club
 .cmcore.com
 .cmcre.fr
+.cmdcdacq.xyz
 .cmdgbuddies.guru
 .cmfads.com
 .cmflinks.provesio.com
@@ -21980,6 +21988,8 @@
 .cnb.cnews.ru
 .cnbanbao.com
 .cnbole.net
+.cncpt.dk
+.cncptx.com
 .cncy8.com
 .cndeccsqtmjyh.com
 .cndhit.xyz
@@ -24874,6 +24884,7 @@
 .d16saj1xvba76n.cloudfront.net
 .d1733r3id7jrw5.cloudfront.net
 .d175dtblugd1dn.cloudfront.net
+.d17757b88bjr2y.cloudfront.net
 .d17c5vf4t6okfg.cloudfront.net
 .d17m68fovwmgxj.cloudfront.net
 .d17tqr44y57o31.cloudfront.net
@@ -30677,6 +30688,7 @@
 .ehpvvxyp.com
 .ehqdzqi.com
 .eht.endress.com
+.eht116.com
 .ehxyz.com
 .ei4f.cn
 .eiadf.xyz
@@ -35292,6 +35304,7 @@
 .fullerton-app.hotdoc.com.au
 .fullstory.com
 .fulltraffic.net
+.fullvids.space
 .fullwhile.pro
 .fullycoordinatecarbonate.com
 .fulmar.net.anwalt.de
@@ -37245,6 +37258,7 @@
 .gmossp-sp.jp
 .gmota.g188.net
 .gmpfruktfatpi.com
+.gmx11.top
 .gmx12.top
 .gmx13.top
 .gmx14.top
@@ -37252,6 +37266,7 @@
 .gmx16.top
 .gmx17.top
 .gmx18.top
+.gmx19.top
 .gmx20.top
 .gmx21.top
 .gmx22.top
@@ -37262,6 +37277,7 @@
 .gmx28.top
 .gmx29.top
 .gmx30.top
+.gmx46.top
 .gmxcdm.vestel.com.tr
 .gmxvmvptfm.com
 .gmxyorg.cn
@@ -42675,6 +42691,7 @@
 .incoming-telemetry.thunderbird.net
 .incoming.telemetry.mozilla.org
 .incompetentjoke.com
+.incompleteshock.pro
 .incomprehensibleacrid.com
 .incomptstress.uno
 .inconceivableascertained.com
@@ -42995,7 +43012,6 @@
 .informers.openmedia.com.ua
 .informers.sinoptik.ua
 .informers.ukr.net
-.informtext.blogspot.com
 .informvisitors.com
 .informz.net
 .inforuss.site
@@ -43075,6 +43091,7 @@
 .injurytomatoesputrefy.com
 .injusticeamend.com
 .inkestyle.net
+.inkfeedmausoleum.com
 .inkingleran.com
 .inklestutted.com
 .inklineglobal.com
@@ -43776,6 +43793,7 @@
 .iqoption.com
 .iqpizza.openapp.link
 .iqpkee.com
+.iqs871.com
 .iqsns.top
 .iqsoh.ru
 .iqtest365.online
@@ -44073,6 +44091,7 @@
 .iughyy7919.com
 .iuhmydixxk.xyz
 .iuiweb.com
+.iujlwn.icu
 .iulftx.com
 .iulianus-mon.com
 .iunnrqcmup.com
@@ -47218,6 +47237,7 @@
 .kwadakesd.cyou
 .kwalnc.vans.co.kr
 .kwaznkureluct.digital
+.kwbmkwej.com
 .kwcmrfb.cn
 .kweaake.cyou
 .kweiqox.beauty
@@ -51642,6 +51662,7 @@
 .maniacalappliance.com
 .maniconclavis.com
 .manicurereprimand.com
+.manifefashiona.info
 .manivalyrid.com
 .manjakquizzy.com
 .mankindcopiesrichest.com
@@ -52768,6 +52789,7 @@
 .mcdmetrics.aaa.com
 .mcdmetrics2.aaa.com
 .mcdote.com
+.mcds7.icu
 .mcds9.icu
 .mcfg.sandai.net
 .mcgi.v.qq.com
@@ -54005,6 +54027,7 @@
 .mfjpwroy.com
 .mfk-cpm.com
 .mfm.video.qq.com
+.mfnfylx.xyz
 .mfoevvy.com
 .mfsr.lenovomm.com
 .mftracking.com
@@ -54075,6 +54098,7 @@
 .mhjk.1391.com
 .mhlnk.com
 .mhmp.bruker.com
+.mhnzhlase.xyz
 .mholland.net.anwalt.de
 .mhqjiaxpenfw.com
 .mhradio.org
@@ -55318,6 +55342,7 @@
 .moslemtaxon.guru
 .mosquesituated.com
 .mosqueworking.com
+.mosrtaek.net
 .mosswhinepanther.com
 .mostat.wps.cn
 .mostauthor.com
@@ -57597,6 +57622,7 @@
 .nkindthatmade.xyz
 .nkis.nikkei.com
 .nkjwmb.com
+.nkljaxdeoygatfw.xyz
 .nklrfqgz.com
 .nklwgj.com
 .nkmsite.com
@@ -57739,6 +57765,7 @@
 .noeyeon.click
 .noeyeon.com
 .nofashot.com
+.nofidroa.xyz
 .noflake-aggregator-http.narvar.com
 .nofreezingmac.space
 .nofreezingmac.work
@@ -60234,6 +60261,7 @@
 .osoirux.com
 .osonscomprendre.fr
 .ospreymedialp.com
+.osptjkslmy.com
 .osqa.com
 .osqa.net
 .osqzilonfx.com
@@ -63580,6 +63608,7 @@
 .polarcdn-terrax.com
 .polardemeanour.com
 .polaritypresentimentasterisk.com
+.polarlootstairwell.com
 .polarmobile.com
 .pole.6rooms.com
 .poleaxefoamers.com
@@ -64023,6 +64052,7 @@
 .poxa.xyz
 .poxaharap.com
 .poxeemso.com
+.poxykhakis.com
 .poyang.com
 .poyva.com
 .poza-69.ru
@@ -66276,6 +66306,7 @@
 .qmlcdlo.cn
 .qmlzcm.petshop.ru
 .qmname.com
+.qmoxxhc.cn
 .qmoyfh.xcite.com.sa
 .qmqjvreqwywbk.top
 .qmqjvreqwywla.top
@@ -66688,6 +66719,7 @@
 .qwertypay.com
 .qwertytracks.com
 .qwertyuiopa.co
+.qwesaz.com
 .qwex.ru
 .qwfh39851jtfvkurf21hf.com
 .qwjtdcl.cn
@@ -67936,6 +67968,7 @@
 .relativefraudulentprop.com
 .relativelyweptcurls.com
 .relativewheneverhoe.com
+.relaxespawner.space
 .relaxkubera.tech
 .relaxspace.com.cn
 .relaxtime24.biz
@@ -80594,6 +80627,7 @@
 .talkingnews.net
 .talkingwinquarry.com
 .talkmego.com
+.tallfriend.pro
 .talliedhorrors.digital
 .talltouch.com
 .tallwhilstinventory.com
@@ -85387,6 +85421,7 @@
 .tracking.tsladies.de
 .tracking.tv.zing.vn
 .tracking.tvet-vietnam.org
+.tracking.tving.com
 .tracking.uberflip.com
 .tracking.ucreate.live
 .tracking.ukwm.co.uk
@@ -88228,6 +88263,7 @@
 .urssff.fr
 .urstats.de
 .urswellsgrp.xyz
+.urthdtcg.com
 .urtirepor.com
 .urtracker.q-sis.de
 .uruswan.com
@@ -92889,6 +92925,7 @@
 .wumei91.cc
 .wumii.cn
 .wumii.com
+.wumpakuw.net
 .wumpeeps.net
 .wumteecoodsu.com
 .wumufama.com
@@ -92915,6 +92952,7 @@
 .wuwuhh.top
 .wuwutnnyedlhvr.com
 .wuyanauto.com
+.wuyaw.cn
 .wuye3d.com
 .wuyekanba.com
 .wuylp.com
@@ -96180,6 +96218,7 @@
 .zcp.zwame.pt
 .zcpap.cn
 .zcpnq.cn
+.zcpsc.top
 .zcrtd.com
 .zcrui.com
 .zcsnjbjlwn.com
