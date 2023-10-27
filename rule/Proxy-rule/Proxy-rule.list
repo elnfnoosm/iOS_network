@@ -256,6 +256,7 @@
 .4everproxy.com
 .4f1v1.top
 .4greedy.com
+.4gtv.tv
 .4irc.com
 .4ksex.me
 .4kup.net
@@ -576,6 +577,7 @@
 .adidas.com
 .admeld.com
 .admob-cn.com
+.admob.com
 .adobe-aemassets-value.com
 .adobe-audience-finder.com
 .adobe-video-partner-finder.com
@@ -1238,6 +1240,7 @@
 .apexlegends.com
 .api-extractor.com
 .api.ai
+.api.amplitude.com
 .api.linksalpha.com
 .api.mixpanel.com
 .api.nebula-emby.com
@@ -2530,6 +2533,7 @@
 .bili2.cc
 .bili888.com
 .bili999.com
+.bilibili.tv
 .bilibiligame.cn
 .biliintl.com
 .biliworld.com
@@ -9551,6 +9555,7 @@
 .ismaelan.com
 .ismalltits.com
 .ismprofessional.net
+.isnssdk.com
 .isohunt.com
 .israbox.com
 .iss138.com
@@ -15488,6 +15493,7 @@
 .shixiao.org
 .shizhao.org
 .shkspr.mobi
+.sho.com
 .shockingmovies.com
 .shodanhq.com
 .shoers.com
@@ -17787,6 +17793,7 @@
 .viacomcbs.com
 .viacomcbspressexpress.com
 .viber.com
+.viblast.com
 .vica.info
 .victimsofcommunism.org
 .vid.me
@@ -19684,6 +19691,7 @@ DOMAIN-KEYWORD,telegram
 DOMAIN-KEYWORD,tiktok
 DOMAIN-KEYWORD,tiktokcdn
 DOMAIN-KEYWORD,ttvnw
+DOMAIN-KEYWORD,tvbanywhere
 DOMAIN-KEYWORD,twimg
 DOMAIN-KEYWORD,twitter
 DOMAIN-KEYWORD,uk-live
@@ -20718,12 +20726,14 @@ IP-CIDR6,2a00:86c0::/32,no-resolve
 IP-CIDR6,2a03:5640::/32,no-resolve
 IP-CIDR6,2a0a:f280::/32,no-resolve
 URL-REGEX,^https?:\/\/www\.amazon\.com\/(Amazon-Video|gp\/video)\/
+USER-AGENT,*Spotify*
 USER-AGENT,*YouTubeMusic*
 USER-AGENT,*com.google.ios.youtubemusic*
 USER-AGENT,*youtube*
 USER-AGENT,AbemaTV*
 USER-AGENT,All4*
 USER-AGENT,Anime*
+USER-AGENT,AppleTV*
 USER-AGENT,Argo*
 USER-AGENT,BBCiPlayer*
 USER-AGENT,DAZN*
@@ -20737,15 +20747,18 @@ USER-AGENT,FOXPlus*
 USER-AGENT,HBO%20GO%20PROD%20HKG*
 USER-AGENT,HBO%20GO%20PROD*
 USER-AGENT,HBO%20NOW*
+USER-AGENT,HBO*
 USER-AGENT,HBOMAX*
 USER-AGENT,HWTVMobile*
 USER-AGENT,Himalaya*
+USER-AGENT,Hulu*
 USER-AGENT,ITV_Player*
 USER-AGENT,InstantVideo.US*
 USER-AGENT,JOOX*
 USER-AGENT,KKTV*
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
+USER-AGENT,Max*
 USER-AGENT,My5*
 USER-AGENT,Naver%20TV*
 USER-AGENT,Niconico*
@@ -20775,6 +20788,7 @@ USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
 USER-AGENT,battleroyale*
 USER-AGENT,com.apple.trustd*
+USER-AGENT,com.apple.tv*
 USER-AGENT,com.google.ios.youtube*
 USER-AGENT,com.google.ios.youtubemusic*
 USER-AGENT,com.kktv*
@@ -20784,6 +20798,7 @@ USER-AGENT,encoreTVB*
 USER-AGENT,hearthstone*
 USER-AGENT,mytv*
 adobeereg.com
+akmcdnoversea-tw.inter.ptqy.gitv.tv
 angle.com.tw
 anime-rule34-world.b-cdn.net
 api-p.videomarket.jp
@@ -20808,11 +20823,13 @@ bcbolt446c5271-a.akamaihd.net
 beatselectronicsllc.tt.omtrdc.net
 beck-online.beck.de
 blizzard.nefficient.co.kr
+cache.video.iqiyi.com
 cbsi.live.ott.irdeto.com
 cbsplaylistserver.aws.syncbak.com
 cbsservice.aws.syncbak.com
 cdn-spotify-experiments.conductrics.com
 chat.openai.com.cdn.cloudflare.net
+chuangcachecdnoversea-tw.inter.ptqy.gitv.tv
 cisco.evergage.com
 cloud.oracle.com
 clubhouse.pubnubapi.com
@@ -20821,6 +20838,7 @@ crl.microsoft.com
 crl.versign.net
 cs428.wpc.edgecastcdn.net
 cvws.icloud-content.com
+dashasiafox.akamaized.netflix
 databank.worldbank.org
 daznfeeds.com.edgekey.net
 dca-lm-livedazn.secure.footprint.net
@@ -20865,6 +20883,7 @@ news-edge.apple.com
 news-events.apple.com
 nvidia.tt.omtrdc.net
 ocsp.microsoft.com
+ocvideo.apple.com
 oneocsp.microsoft.com
 ood.opsource.net
 openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -20955,7 +20974,6 @@ t21ipau.nikkei.co.jp
 tesla-cdn.thron.cn
 tesla-cdn.thron.com
 testflight.apple.com
-tv.applemusic.com
 vmware.tt.omtrdc.net
 voice.telephony.goog
 vscode.search.windows.net
