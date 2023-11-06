@@ -72,6 +72,9 @@
 .18avx.com
 .18board.com
 .18board.info
+.18comic-god.cc
+.18comic-god.club
+.18comic-god.xyz
 .18comic.cc
 .18comic.company
 .18comic.org
@@ -571,8 +574,12 @@
 .adgoogle.net
 .adguard-dns.com
 .adguard-vpn.com
+.adguard-vpn.online
+.adguard.app
 .adguard.com
+.adguard.info
 .adguard.org
+.adguardvpn.com
 .adhelpnews.com
 .adidas.com
 .admeld.com
@@ -623,6 +630,7 @@
 .adsense.com
 .adsensecustomsearchads.com
 .adsenseformobileapps.com
+.adtidy.net
 .adtidy.org
 .adult-h.com
 .adult-home-videos.com
@@ -9451,6 +9459,7 @@
 .ipfs.fleek.co
 .ipfs.io
 .ipfs.runfission.com
+.ipfs.tech
 .iphine.com
 .iphone-cd.com
 .iphone-cn.com
@@ -9923,6 +9932,7 @@
 .jkub.com
 .jm98.cc
 .jma.go.jp
+.jmcomic.ltd
 .jmcomic.me
 .jmcomic.mobi
 .jmcomic.moe
@@ -11712,6 +11722,7 @@
 .moxing.mobi
 .moxing.news
 .moystoys.com
+.mozgcp.net
 .mozilla.com
 .mozilla.community
 .mozilla.net
@@ -20805,6 +20816,7 @@ USER-AGENT,discovery+*
 USER-AGENT,encoreTVB*
 USER-AGENT,hearthstone*
 USER-AGENT,mytv*
+a.ppy.sh
 adobeereg.com
 akmcdnoversea-tw.inter.ptqy.gitv.tv
 angle.com.tw
@@ -20820,6 +20832,7 @@ appleworldwidedeveloper.sc.omtrdc.net
 aqi.aqicn.org
 asahishimbun.sc.omtrdc.net
 assets-priconne-redive-us.akamaized.net
+assets.ppy.sh
 assets1.xboxlive.com
 assets2.xboxlive.com
 az416426.vo.msecnd.net
@@ -20831,6 +20844,7 @@ bcbolt446c5271-a.akamaihd.net
 beatselectronicsllc.tt.omtrdc.net
 beck-online.beck.de
 blizzard.nefficient.co.kr
+c.ppy.sh
 cache.video.iqiyi.com
 cbsi.live.ott.irdeto.com
 cbsplaylistserver.aws.syncbak.com
@@ -20877,10 +20891,12 @@ images-daznservices-com.cdn.ampproject.org
 imperial.insendi.com
 itvpnpmobile-a.akamaihd.net
 ktpx.amazon.com
+lazer.ppy.sh
 lgelectronics.122.2o7.net
 licdn.cn.cdn20.com
 linkedin.sc.omtrdc.net
 live-patreon-marketing.pantheonsite.io
+m1.ppy.sh
 mdn.mozillademos.org
 medone-education.thieme.com
 mscrl.microsoft.com
@@ -20889,6 +20905,7 @@ nationalaustraliaban.tt.omtrdc.net
 news-client.apple.com
 news-edge.apple.com
 news-events.apple.com
+notify.ppy.sh
 nvidia.tt.omtrdc.net
 ocsp.microsoft.com
 ocvideo.apple.com
@@ -20896,6 +20913,7 @@ oneocsp.microsoft.com
 ood.opsource.net
 openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 openaicomproductionae4b.blob.core.windows.net
+osu.ppy.sh
 p.bstarstatic.com
 pchomeonline.com.tw
 practivate.adobe
@@ -20977,6 +20995,8 @@ scholar.google.ru
 scholar.google.se
 scholar.google.si
 scholar.google.sk
+sentry.ppy.sh
+spectator.ppy.sh
 t21.nikkei.co.jp
 t21ipau.nikkei.co.jp
 tesla-cdn.thron.cn
