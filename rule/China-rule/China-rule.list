@@ -1036,7 +1036,6 @@
 .128sy.com
 .128uu.com
 .12988.net
-.12edu.com
 .12h5.com
 .12jn.com
 .12ky.com
@@ -2319,7 +2318,6 @@
 .2gdt.com
 .2gei.com
 .2google.com
-.2hanjutv.com
 .2haohr.com
 .2heng.xin
 .2hua.com
@@ -2768,7 +2766,6 @@
 .360vcloud.com
 .360vcloud.net
 .360vipshop.com
-.360vps.com
 .360vrzy.com
 .360wbl.com
 .360webcache.com
@@ -4517,7 +4514,6 @@
 .56mp.com
 .56nb6oo06g.com
 .56pan.com
-.56php.com
 .56qq.com
 .56show.com
 .56shuku.org
@@ -20632,7 +20628,6 @@
 .empornium.me
 .emqx.com
 .emqx.net
-.emrl0z.com
 .ems-audio.com
 .ems517.com
 .emsec.hk
@@ -35215,6 +35210,7 @@
 .lanshanweb.com
 .lanshenniao.com
 .lanshizi.com
+.lansors.com
 .lantian-hotel.com
 .lantian.tv
 .lanting123.com
@@ -35777,7 +35773,6 @@
 .leweicn.com
 .lewen.la
 .lewen567.com
-.lewen88.com
 .lewenba.cc
 .lewenn.com
 .lewenxsw.com
@@ -36811,7 +36806,6 @@
 .lolgo.net
 .loli.cloud
 .loli.ee
-.loli.my
 .loli.net
 .loli.wiki
 .loliloli.moe
@@ -39834,6 +39828,7 @@
 .mukool.com
 .mulazim.com
 .mulightapp.com
+.multilingual-volc.com
 .mumayi.com
 .mumu01.com
 .muniao.com
@@ -44763,6 +44758,7 @@
 .qooboo.com
 .qoocc.com
 .qookar.com
+.qookkagames.com
 .qoqaoligei.com
 .qoqkkhy.com
 .qosq.com
@@ -50114,7 +50110,6 @@
 .sumrday.net
 .sumscope.com
 .sumsz.com
-.sumygg.com
 .sumzc.com
 .sun-ada.net
 .sun-wish.com
@@ -54003,6 +53998,7 @@
 .upupbug.com
 .upupfile.com
 .upupoo.com
+.upupview.com
 .upupw.net
 .upwardsware.com
 .upwith.me
@@ -56556,7 +56552,6 @@
 .win3000.com
 .win4000.com
 .win71234.com
-.win789.com
 .win7china.com
 .win7en.com
 .win7qijian.com
@@ -57094,7 +57089,6 @@
 .wowoyou.net
 .wowqu.cc
 .wowsai.com
-.wowys.com
 .woxian.com
 .woxiaoyun.com
 .woxihuan.com
@@ -64836,6 +64830,7 @@
 .zihaixiaochengxu.com
 .zihexin.net
 .zihu.com
+.zihua.li
 .zihua01.com
 .zihuazhijia.com
 .ziisp.com
@@ -70153,7 +70148,6 @@ IP-CIDR,156.154.62.0/23,no-resolve
 IP-CIDR,156.236.96.0/24,no-resolve
 IP-CIDR,156.248.0.0/22,no-resolve
 IP-CIDR,156.248.4.0/24,no-resolve
-IP-CIDR,156.252.31.0/24,no-resolve
 IP-CIDR,156.59.192.0/22,no-resolve
 IP-CIDR,156.59.200.0/21,no-resolve
 IP-CIDR,156.59.233.0/24,no-resolve
@@ -71977,7 +71971,12 @@ IP-CIDR,204.69.150.0/24,no-resolve
 IP-CIDR,204.74.96.0/24,no-resolve
 IP-CIDR,205.168.23.120/29,no-resolve
 IP-CIDR,205.198.104.0/22,no-resolve
+IP-CIDR,206.119.112.0/21,no-resolve
+IP-CIDR,206.119.120.0/22,no-resolve
+IP-CIDR,206.119.124.0/24,no-resolve
+IP-CIDR,206.119.126.0/23,no-resolve
 IP-CIDR,206.119.53.0/24,no-resolve
+IP-CIDR,206.119.96.0/20,no-resolve
 IP-CIDR,206.219.44.0/23,no-resolve
 IP-CIDR,206.219.50.0/23,no-resolve
 IP-CIDR,206.219.52.0/23,no-resolve
@@ -72262,6 +72261,7 @@ IP-CIDR,38.181.1.0/24,no-resolve
 IP-CIDR,38.181.128.0/17,no-resolve
 IP-CIDR,38.249.0.0/16,no-resolve
 IP-CIDR,38.46.0.0/21,no-resolve
+IP-CIDR,38.47.104.0/23,no-resolve
 IP-CIDR,38.54.10.0/32,no-resolve
 IP-CIDR,38.60.143.0/24,no-resolve
 IP-CIDR,38.60.144.0/23,no-resolve
@@ -73089,6 +73089,7 @@ IP-CIDR6,2001:df0:8d40::/48,no-resolve
 IP-CIDR6,2001:df0:9c0::/48,no-resolve
 IP-CIDR6,2001:df0:9d40::/48,no-resolve
 IP-CIDR6,2001:df0:ac40::/48,no-resolve
+IP-CIDR6,2001:df0:b180::/48,no-resolve
 IP-CIDR6,2001:df0:bf80::/48,no-resolve
 IP-CIDR6,2001:df0:d880::/48,no-resolve
 IP-CIDR6,2001:df0:f8c0::/48,no-resolve
@@ -73129,6 +73130,7 @@ IP-CIDR6,2001:df3:d880::/48,no-resolve
 IP-CIDR6,2001:df3:ed80::/48,no-resolve
 IP-CIDR6,2001:df3:ef80::/48,no-resolve
 IP-CIDR6,2001:df4:1280::/48,no-resolve
+IP-CIDR6,2001:df4:1500::/48,no-resolve
 IP-CIDR6,2001:df4:1880::/48,no-resolve
 IP-CIDR6,2001:df4:2780::/48,no-resolve
 IP-CIDR6,2001:df4:2e80::/48,no-resolve
