@@ -70387,6 +70387,8 @@ IP-CIDR,17.87.80.0/20,no-resolve
 IP-CIDR,17.87.9.0/24,no-resolve
 IP-CIDR,17.88.104.64/31,no-resolve
 IP-CIDR,17.88.108.0/23,no-resolve
+IP-CIDR,17.88.112.126/31,no-resolve
+IP-CIDR,17.88.2.16/28,no-resolve
 IP-CIDR,17.88.207.192/32,no-resolve
 IP-CIDR,17.88.226.1/32,no-resolve
 IP-CIDR,17.88.73.0/31,no-resolve
@@ -72416,7 +72418,7 @@ IP-CIDR,43.228.132.0/22,no-resolve
 IP-CIDR,43.228.136.0/22,no-resolve
 IP-CIDR,43.228.148.0/22,no-resolve
 IP-CIDR,43.228.152.0/22,no-resolve
-IP-CIDR,43.228.156.0/25,no-resolve
+IP-CIDR,43.228.156.0/24,no-resolve
 IP-CIDR,43.228.188.0/22,no-resolve
 IP-CIDR,43.228.204.0/22,no-resolve
 IP-CIDR,43.228.240.0/22,no-resolve
