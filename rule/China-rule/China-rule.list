@@ -7307,6 +7307,7 @@
 .affu.net
 .afgame.com
 .afie.xin
+.afirstsoft.com
 .afjk.com
 .afjob88.com
 .afp.adchina.com
@@ -13277,7 +13278,6 @@
 .ch999.com
 .ch999img.com
 .cha-tm.com
-.cha001.com
 .cha127.com
 .cha138.com
 .chaba123.com
@@ -27640,7 +27640,6 @@
 .htmleaf.com
 .htmlsucai.com
 .htnice.com
-.htobl.com
 .htoo.vip
 .htqyy.com
 .htranslate.com
@@ -29840,11 +29839,9 @@
 .img4399.com
 .img4me.com
 .img898.com
-.imgads.xyz
 .imgcdc.com
 .imgcdn2.com
 .imgchr.com
-.imgds.xyz
 .imgeek.org
 .imgets.com
 .imgii.com
@@ -37820,7 +37817,6 @@
 .mangxuewang.com
 .mangzitian.com
 .manhua1.com
-.manhua101.com
 .manhua166.com
 .manhua188.com
 .manhua365.com
@@ -44162,6 +44158,7 @@
 .qiguo.com
 .qiguoread.com
 .qih.cc
+.qihaoaoban.com
 .qihaoip.com
 .qihaxiaoshuo.com
 .qihihi.com
@@ -47108,7 +47105,6 @@
 .seopre.com
 .seosiguan.com
 .seosn.com
-.seosrx.net
 .seotcs.com
 .seowhy.com
 .seoxiaosai.com
@@ -51503,6 +51499,7 @@
 .tenmh.com
 .tennoo.com
 .tenorshare.com
+.tenorshare.tw
 .tenpay.com
 .tenqent.com
 .tensafe.com
@@ -52743,7 +52740,6 @@
 .tsarufaq.com
 .tscf8.com
 .tsddu.com
-.tsdm.net
 .tsdxb.com
 .tsg-online.net
 .tsggwl.com
@@ -57520,7 +57516,6 @@
 .wxscreen.com
 .wxsell.com
 .wxshake.com
-.wxsky.net
 .wxsteed.com
 .wxsy.net
 .wxsywh.com
@@ -69781,6 +69776,7 @@ IP-CIDR,131.253.12.80/28,no-resolve
 IP-CIDR,132.232.0.0/16,no-resolve
 IP-CIDR,132.237.150.0/24,no-resolve
 IP-CIDR,134.175.0.0/16,no-resolve
+IP-CIDR,134.73.192.0/19,no-resolve
 IP-CIDR,134.73.227.0/24,no-resolve
 IP-CIDR,134.73.228.0/22,no-resolve
 IP-CIDR,134.73.232.0/21,no-resolve
@@ -69991,7 +69987,6 @@ IP-CIDR,156.109.34.0/31,no-resolve
 IP-CIDR,156.109.34.3/32,no-resolve
 IP-CIDR,156.109.34.4/30,no-resolve
 IP-CIDR,156.154.62.0/23,no-resolve
-IP-CIDR,156.225.95.0/24,no-resolve
 IP-CIDR,156.236.96.0/24,no-resolve
 IP-CIDR,156.248.0.0/22,no-resolve
 IP-CIDR,156.248.4.0/24,no-resolve
@@ -70020,6 +70015,16 @@ IP-CIDR,157.133.212.0/24,no-resolve
 IP-CIDR,157.133.236.0/24,no-resolve
 IP-CIDR,157.148.0.0/16,no-resolve
 IP-CIDR,157.156.0.0/16,no-resolve
+IP-CIDR,157.167.231.39/32,no-resolve
+IP-CIDR,157.167.231.40/32,no-resolve
+IP-CIDR,157.167.232.5/32,no-resolve
+IP-CIDR,157.167.232.6/32,no-resolve
+IP-CIDR,157.167.233.5/32,no-resolve
+IP-CIDR,157.167.233.6/32,no-resolve
+IP-CIDR,157.167.235.5/32,no-resolve
+IP-CIDR,157.167.235.6/32,no-resolve
+IP-CIDR,157.167.236.5/32,no-resolve
+IP-CIDR,157.167.236.6/32,no-resolve
 IP-CIDR,157.18.0.0/16,no-resolve
 IP-CIDR,157.185.172.0/24,no-resolve
 IP-CIDR,157.185.176.0/24,no-resolve
