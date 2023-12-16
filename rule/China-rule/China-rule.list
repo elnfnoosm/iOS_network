@@ -9265,6 +9265,7 @@
 .b2b179.com
 .b2b6.com
 .b2baa.com
+.b2bgo.com
 .b2bic.com
 .b2bname.com
 .b2bvip.com
@@ -20298,6 +20299,7 @@
 .edu84.com
 .edu84.net
 .edu88.com
+.eduapaashwc.com
 .eduartisan.com
 .educg.net
 .educhn.net
@@ -26090,6 +26092,7 @@
 .hc-byq.com
 .hc-cdn.com
 .hc-software.com
+.hc-sre.com
 .hc01.com
 .hc121.com
 .hc23.com
@@ -27973,6 +27976,7 @@
 .huaweimarine.com
 .huaweimarketplace.com
 .huaweimossel.com
+.huaweioneaccess.com
 .huaweirom.com
 .huaweirtc.com
 .huaweisafedns.com
@@ -28481,6 +28485,7 @@
 .hwadmin.com
 .hwangda.com
 .hwasmart.com
+.hwastro.com
 .hwbaoan.com
 .hwccpc.com
 .hwcdnsre.com
@@ -66089,6 +66094,7 @@ IP-ASN,131486,no-resolve
 IP-ASN,131495,no-resolve
 IP-ASN,131497,no-resolve
 IP-ASN,131506,no-resolve
+IP-ASN,131516,no-resolve
 IP-ASN,131519,no-resolve
 IP-ASN,131521,no-resolve
 IP-ASN,131522,no-resolve
@@ -66603,7 +66609,9 @@ IP-ASN,151782,no-resolve
 IP-ASN,151785,no-resolve
 IP-ASN,151814,no-resolve
 IP-ASN,151823,no-resolve
+IP-ASN,151841,no-resolve
 IP-ASN,152092,no-resolve
+IP-ASN,152157,no-resolve
 IP-ASN,17428,no-resolve
 IP-ASN,17429,no-resolve
 IP-ASN,17430,no-resolve
@@ -75531,6 +75539,7 @@ IP-CIDR6,2600:1f01:4814::/47,no-resolve
 IP-CIDR6,2602:2a3::/40,no-resolve
 IP-CIDR6,2602:2a4:ff::/48,no-resolve
 IP-CIDR6,2602:2a9:d10::/44,no-resolve
+IP-CIDR6,2602:814:f006::/48,no-resolve
 IP-CIDR6,2602:f9df:410::/48,no-resolve
 IP-CIDR6,2602:f9f6:400::/44,no-resolve
 IP-CIDR6,2602:f9f6:c01::/48,no-resolve
