@@ -66735,7 +66735,6 @@ IP-ASN,212690,no-resolve
 IP-ASN,212793,no-resolve
 IP-ASN,213069,no-resolve
 IP-ASN,213115,no-resolve
-IP-ASN,215829,no-resolve
 IP-ASN,215832,no-resolve
 IP-ASN,215848,no-resolve
 IP-ASN,215906,no-resolve
@@ -68671,6 +68670,7 @@ IP-CIDR,103.74.204.0/22,no-resolve
 IP-CIDR,103.74.232.0/22,no-resolve
 IP-CIDR,103.74.56.0/21,no-resolve
 IP-CIDR,103.74.80.0/22,no-resolve
+IP-CIDR,103.75.108.0/22,no-resolve
 IP-CIDR,103.75.112.0/22,no-resolve
 IP-CIDR,103.75.120.0/22,no-resolve
 IP-CIDR,103.75.128.0/22,no-resolve
