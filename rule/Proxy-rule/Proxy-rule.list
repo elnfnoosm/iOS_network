@@ -3121,6 +3121,7 @@
 .brutaltgp.com
 .bs-adreview.com
 .bsersd.xyz
+.bstarstatic.com
 .bsxm1213.pro
 .bt2mag.com
 .bt95.com
@@ -4807,7 +4808,6 @@
 .discussionsapple.com
 .dish.com
 .dishworld.com
-.disk.yandex.ru
 .disney-asia.com
 .disney-discount.com
 .disney-plus.net
@@ -21014,6 +21014,7 @@ USER-AGENT,WeTV*
 USER-AGENT,WhatsApp*
 USER-AGENT,YouTube*
 USER-AGENT,YouTubeMusic*
+USER-AGENT,app/bstar*
 USER-AGENT,battleroyale*
 USER-AGENT,com.apple.trustd*
 USER-AGENT,com.apple.tv*
@@ -21125,7 +21126,6 @@ ood.opsource.net
 openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 openaicomproductionae4b.blob.core.windows.net
 osu.ppy.sh
-p.bstarstatic.com
 pchomeonline.com.tw
 practivate.adobe
 practivate.adobe.ipp
