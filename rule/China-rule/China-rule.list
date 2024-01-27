@@ -5045,7 +5045,6 @@
 .6786666.com
 .6787.com
 .67876.com
-.67883.com
 .678869.com
 .67888.com
 .6789.com
@@ -5541,6 +5540,7 @@
 .7kww.net
 .7kzw.com
 .7littlemen.com
+.7livq.app
 .7lk.com
 .7lw.com
 .7mah2.com
@@ -6530,7 +6530,6 @@
 .9797ly.com
 .9799.com
 .97add.com
-.97atc.com
 .97gg.net
 .97go.com
 .97jindianzi.com
@@ -6912,7 +6911,6 @@
 .abc-ca.com
 .abc12366.com
 .abc188.com
-.abc360.com
 .abc369.net
 .abcache.com
 .abcdao.com
@@ -11213,6 +11211,7 @@
 .bjzcha.com
 .bjzcth.com
 .bjzg.org
+.bjzgh.org
 .bjzghd.com
 .bjzhishi.com
 .bjzhongyi.com
@@ -13908,7 +13907,6 @@
 .chijianfeng.com
 .childjia.com
 .childlib.org
-.chilli.red
 .chillyroom.com
 .chilunyc.com
 .chiluyingxiao.com
@@ -17281,6 +17279,7 @@
 .cyts.com
 .cytsls.com
 .cytstibet.com
+.cyuandao.com
 .cyudun.net
 .cyuew.com
 .cywetc.com
@@ -18005,6 +18004,7 @@
 .ddimg.mobi
 .ddimg.net
 .dding.net
+.dding121.com
 .ddiqbh.com
 .ddjjzz.com
 .ddjk.com
@@ -18341,6 +18341,7 @@
 .dgkj888.com
 .dglpool.com
 .dgmama.net
+.dgn.cc
 .dgod.net
 .dgphospital.com
 .dgptjob.com
@@ -19026,6 +19027,7 @@
 .dnsgulf.net
 .dnsh6666.com
 .dnshot.net
+.dnsidentity.com
 .dnsinside.net
 .dnsip.net
 .dnsis.net
@@ -21192,7 +21194,6 @@
 .euci-software.com
 .eudic.net
 .eueueu.com
-.eufaka.com
 .eugnnn.com
 .euhhob.com
 .eui.cc
@@ -25941,7 +25942,6 @@
 .hainanfp.com
 .hainanfz.com
 .hainanjiuzi.com
-.hainanpc.net
 .hainanwangdai.com
 .hainiaowo.com
 .hainic.com
@@ -26253,7 +26253,6 @@
 .haohuoa.com
 .haoii123.com
 .haoinvest.com
-.haoiyon.com
 .haoji.me
 .haojiameng.net
 .haojiao.cc
@@ -27061,7 +27060,6 @@
 .here120.com
 .here325.com
 .hermesguanwang.com
-.heroad-data.com
 .heroestactics.com
 .heroicyang.com
 .herosanctuary.com
@@ -27365,6 +27363,7 @@
 .himeidian.com
 .himengyou.com
 .himetoo.com
+.himigame.com
 .himmpat.com
 .himofi.com
 .himorfei.com
@@ -45424,6 +45423,7 @@
 .qmht.com
 .qmht.mobi
 .qmiaomh.com
+.qmjianli.com
 .qmoji.mobi
 .qmoji.net
 .qmqm.net
@@ -45673,7 +45673,6 @@
 .qszt.net
 .qt-ly.com
 .qt56yun.com
-.qt6.com
 .qt86.com
 .qtav.org
 .qtbig.com
@@ -46907,7 +46906,6 @@
 .rscala.com
 .rscloudmart.com
 .rsdgd.com
-.rsdwg.com
 .rsdyy.com
 .rshzm.com
 .rsng.net
@@ -49470,6 +49468,7 @@
 .singdown.com
 .singfun.com
 .singhead.com
+.single6228.icu
 .singlecool.com
 .singmaan.com
 .singread.com
@@ -55115,7 +55114,6 @@
 .uzkqymgs.com
 .uzosibzk.com
 .uzshare.com
-.uzuzuz.com
 .uzzf.com
 .v-56.com
 .v-beautysalon.com
@@ -65161,7 +65159,6 @@
 .zhicall.com
 .zhichanli.com
 .zhichaoxt.com
-.zhicheng.com
 .zhichepin.com
 .zhichikeji.com
 .zhichiwangluo.com
@@ -68584,6 +68581,7 @@ IP-CIDR,103.146.88.0/22,no-resolve
 IP-CIDR,103.147.12.0/23,no-resolve
 IP-CIDR,103.147.206.0/23,no-resolve
 IP-CIDR,103.147.211.0/24,no-resolve
+IP-CIDR,103.147.23.0/24,no-resolve
 IP-CIDR,103.148.174.0/23,no-resolve
 IP-CIDR,103.149.132.0/23,no-resolve
 IP-CIDR,103.149.144.0/23,no-resolve
@@ -68762,6 +68760,7 @@ IP-CIDR,103.18.208.0/21,no-resolve
 IP-CIDR,103.180.108.0/23,no-resolve
 IP-CIDR,103.180.226.0/23,no-resolve
 IP-CIDR,103.181.164.0/23,no-resolve
+IP-CIDR,103.182.96.0/24,no-resolve
 IP-CIDR,103.183.122.0/23,no-resolve
 IP-CIDR,103.183.124.0/23,no-resolve
 IP-CIDR,103.183.26.0/23,no-resolve
@@ -72487,6 +72486,8 @@ IP-CIDR,203.18.80.0/23,no-resolve
 IP-CIDR,203.18.87.0/24,no-resolve
 IP-CIDR,203.181.102.42/32,no-resolve
 IP-CIDR,203.181.102.58/32,no-resolve
+IP-CIDR,203.184.131.0/24,no-resolve
+IP-CIDR,203.184.132.0/24,no-resolve
 IP-CIDR,203.184.142.128/26,no-resolve
 IP-CIDR,203.184.80.0/20,no-resolve
 IP-CIDR,203.185.189.0/24,no-resolve
@@ -74997,6 +74998,7 @@ IP-CIDR,61.8.160.0/20,no-resolve
 IP-CIDR,61.87.192.0/18,no-resolve
 IP-CIDR,62.234.0.0/16,no-resolve
 IP-CIDR,62.3.6.0/24,no-resolve
+IP-CIDR,62.72.181.0/24,no-resolve
 IP-CIDR,63.160.16.128/26,no-resolve
 IP-CIDR,63.162.157.36/32,no-resolve
 IP-CIDR,64.188.38.0/23,no-resolve
@@ -76553,6 +76555,7 @@ IP-CIDR6,2404:e5c0::/32,no-resolve
 IP-CIDR6,2404:e780::/32,no-resolve
 IP-CIDR6,2404:e880::/32,no-resolve
 IP-CIDR6,2404:e8c0::/32,no-resolve
+IP-CIDR6,2404:ea80:400:129::/64,no-resolve
 IP-CIDR6,2404:ea80:400:2116::/64,no-resolve
 IP-CIDR6,2404:ea80:500:575::/64,no-resolve
 IP-CIDR6,2404:ea80:600:623::/64,no-resolve
@@ -77745,41 +77748,37 @@ IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/47,no-resolve
 IP-CIDR6,2a06:de00:de0e::/47,no-resolve
 IP-CIDR6,2a06:de01:805::/48,no-resolve
-IP-CIDR6,2a06:de01:812::/48,no-resolve
+IP-CIDR6,2a06:de01:808::/48,no-resolve
+IP-CIDR6,2a06:de01:816::/48,no-resolve
 IP-CIDR6,2a06:de01:819::/48,no-resolve
 IP-CIDR6,2a06:de01:81a::/48,no-resolve
 IP-CIDR6,2a06:de01:820::/48,no-resolve
 IP-CIDR6,2a06:de01:82d::/48,no-resolve
-IP-CIDR6,2a06:de01:831::/48,no-resolve
+IP-CIDR6,2a06:de01:838::/48,no-resolve
 IP-CIDR6,2a06:de01:83c::/48,no-resolve
 IP-CIDR6,2a06:de01:842::/48,no-resolve
 IP-CIDR6,2a06:de01:844::/47,no-resolve
 IP-CIDR6,2a06:de01:84b::/48,no-resolve
 IP-CIDR6,2a06:de01:864::/48,no-resolve
+IP-CIDR6,2a06:de01:86e::/48,no-resolve
 IP-CIDR6,2a06:de01:878::/48,no-resolve
-IP-CIDR6,2a06:de01:87a::/48,no-resolve
-IP-CIDR6,2a06:de01:87d::/48,no-resolve
 IP-CIDR6,2a06:de01:87f::/48,no-resolve
 IP-CIDR6,2a06:de01:885::/48,no-resolve
 IP-CIDR6,2a06:de01:888::/48,no-resolve
 IP-CIDR6,2a06:de01:892::/48,no-resolve
-IP-CIDR6,2a06:de01:895::/48,no-resolve
-IP-CIDR6,2a06:de01:897::/48,no-resolve
 IP-CIDR6,2a06:de01:8b3::/48,no-resolve
-IP-CIDR6,2a06:de01:8bc::/48,no-resolve
-IP-CIDR6,2a06:de01:8c5::/48,no-resolve
+IP-CIDR6,2a06:de01:8bc::/47,no-resolve
 IP-CIDR6,2a06:de01:8d8::/48,no-resolve
 IP-CIDR6,2a06:de01:8df::/48,no-resolve
+IP-CIDR6,2a06:de01:8e0::/48,no-resolve
 IP-CIDR6,2a06:de01:8e6::/48,no-resolve
 IP-CIDR6,2a06:de01:8f3::/48,no-resolve
 IP-CIDR6,2a06:de01:907::/48,no-resolve
+IP-CIDR6,2a06:de01:927::/48,no-resolve
 IP-CIDR6,2a06:de01:928::/48,no-resolve
 IP-CIDR6,2a06:de01:92e::/47,no-resolve
-IP-CIDR6,2a06:de01:932::/47,no-resolve
 IP-CIDR6,2a06:de01:936::/48,no-resolve
-IP-CIDR6,2a06:de01:93a::/48,no-resolve
 IP-CIDR6,2a06:de01:93e::/48,no-resolve
-IP-CIDR6,2a06:de01:946::/48,no-resolve
 IP-CIDR6,2a06:de01:949::/48,no-resolve
 IP-CIDR6,2a06:de01:955::/48,no-resolve
 IP-CIDR6,2a06:de01:960::/48,no-resolve
@@ -77788,12 +77787,11 @@ IP-CIDR6,2a06:de01:96f::/48,no-resolve
 IP-CIDR6,2a06:de01:972::/48,no-resolve
 IP-CIDR6,2a06:de01:97a::/48,no-resolve
 IP-CIDR6,2a06:de01:987::/48,no-resolve
-IP-CIDR6,2a06:de01:991::/48,no-resolve
+IP-CIDR6,2a06:de01:98c::/48,no-resolve
 IP-CIDR6,2a06:de01:9a0::/47,no-resolve
 IP-CIDR6,2a06:de01:9a2::/48,no-resolve
 IP-CIDR6,2a06:de01:9a8::/48,no-resolve
 IP-CIDR6,2a06:de01:9ac::/48,no-resolve
-IP-CIDR6,2a06:de01:9b9::/48,no-resolve
 IP-CIDR6,2a06:de01:9bb::/48,no-resolve
 IP-CIDR6,2a06:de01:a15::/48,no-resolve
 IP-CIDR6,2a06:de01:a34::/48,no-resolve
@@ -77802,17 +77800,16 @@ IP-CIDR6,2a06:de01:a48::/48,no-resolve
 IP-CIDR6,2a06:de01:a4d::/48,no-resolve
 IP-CIDR6,2a06:de01:a7b::/48,no-resolve
 IP-CIDR6,2a06:de01:a7d::/48,no-resolve
+IP-CIDR6,2a06:de01:ac5::/48,no-resolve
 IP-CIDR6,2a06:de01:ac7::/48,no-resolve
+IP-CIDR6,2a06:de01:ad1::/48,no-resolve
 IP-CIDR6,2a06:de01:ad4::/48,no-resolve
 IP-CIDR6,2a06:de01:ae8::/48,no-resolve
 IP-CIDR6,2a06:de01:aee::/48,no-resolve
 IP-CIDR6,2a06:de01:af1::/48,no-resolve
 IP-CIDR6,2a06:de01:af3::/48,no-resolve
 IP-CIDR6,2a06:de01:af4::/48,no-resolve
-IP-CIDR6,2a06:de01:af6::/48,no-resolve
 IP-CIDR6,2a06:de01:b05::/48,no-resolve
-IP-CIDR6,2a06:de01:b06::/48,no-resolve
-IP-CIDR6,2a06:de01:b0e::/48,no-resolve
 IP-CIDR6,2a06:de01:b15::/48,no-resolve
 IP-CIDR6,2a06:de01:b1e::/48,no-resolve
 IP-CIDR6,2a06:de01:b3e::/48,no-resolve
@@ -78486,9 +78483,7 @@ IP-CIDR6,2a13:a5c4:1000::/38,no-resolve
 IP-CIDR6,2a13:a5c6:9100::/40,no-resolve
 IP-CIDR6,2a13:a5c7:1200::/40,no-resolve
 IP-CIDR6,2a13:a5c7:1500::/40,no-resolve
-IP-CIDR6,2a13:a5c7:1600::/46,no-resolve
-IP-CIDR6,2a13:a5c7:1604::/47,no-resolve
-IP-CIDR6,2a13:a5c7:1606::/48,no-resolve
+IP-CIDR6,2a13:a5c7:1600::/45,no-resolve
 IP-CIDR6,2a13:a5c7:1802::/48,no-resolve
 IP-CIDR6,2a13:b487:1200::/43,no-resolve
 IP-CIDR6,2a13:b487:1b86::/48,no-resolve
