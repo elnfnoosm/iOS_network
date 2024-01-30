@@ -1093,6 +1093,10 @@
 .amazonvideodirect.cc
 .amazonvideodirect.com
 .amazonworkdocs.com
+.amc.com
+.amcn.com
+.amcnetworks.com
+.amcplus.com
 .amdfanstore.com
 .ameba.jp
 .amebame.com
@@ -1278,6 +1282,7 @@
 .apexlegends.com
 .api-extractor.com
 .api.ai
+.api.amplitude.com
 .api.linksalpha.com
 .api.mixpanel.com
 .api.nebula-emby.com
@@ -11779,7 +11784,6 @@
 .msa-it.org
 .mschallenge2018.com
 .msdn.com
-.msedge.net
 .msflj.vip
 .msft.info
 .msft.net
@@ -20979,12 +20983,15 @@ USER-AGENT,Disney*
 USER-AGENT,Disney+*
 USER-AGENT,Duolingo*
 USER-AGENT,FOX%20NOW*
+USER-AGENT,FOXNOW*
 USER-AGENT,FOXPlus*
 USER-AGENT,HBO%20GO%20PROD%20HKG*
 USER-AGENT,HBO%20GO%20PROD*
 USER-AGENT,HBO%20NOW*
 USER-AGENT,HBO*
+USER-AGENT,HBOGOPRODHKG*
 USER-AGENT,HBOMAX*
+USER-AGENT,HBONOW*
 USER-AGENT,HWTVMobile*
 USER-AGENT,Himalaya*
 USER-AGENT,Hulu*
@@ -20994,9 +21001,11 @@ USER-AGENT,JOOX*
 USER-AGENT,KKTV*
 USER-AGENT,LINE%20TV*
 USER-AGENT,LINE*
+USER-AGENT,LINETV*
 USER-AGENT,Max*
 USER-AGENT,My5*
 USER-AGENT,Naver%20TV*
+USER-AGENT,NaverTV*
 USER-AGENT,Niconico*
 USER-AGENT,OneDrive*
 USER-AGENT,Overcast*
@@ -21006,6 +21015,7 @@ USER-AGENT,Pandora*
 USER-AGENT,PayPal*
 USER-AGENT,PeacockMobile*
 USER-AGENT,Prime%20Video*
+USER-AGENT,PrimeVideo*
 USER-AGENT,Roam*
 USER-AGENT,SoundCloud*
 USER-AGENT,Spotify*
@@ -21103,6 +21113,8 @@ gspe1-ssl.ls.apple.com
 h-dazn.online-metrix.net
 h-netflix.online-metrix.net
 hamifans.emome.net
+hls-amt.itunes.apple.com
+hls.itunes.apple.com
 hpstore.corpmerchandise.com
 hulu.com.c.footprint.net
 hulu.map.fastly.net
@@ -21126,6 +21138,7 @@ news-client.apple.com
 news-edge.apple.com
 news-events.apple.com
 notify.ppy.sh
+np-edge.itunes.apple.com
 nvidia.tt.omtrdc.net
 ocsp.microsoft.com
 ocvideo.apple.com
@@ -21135,6 +21148,7 @@ openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 openaicomproductionae4b.blob.core.windows.net
 osu.ppy.sh
 pchomeonline.com.tw
+play-edge.itunes.apple.com
 practivate.adobe
 practivate.adobe.ipp
 practivate.adobe.newoa
@@ -21220,6 +21234,7 @@ t21.nikkei.co.jp
 t21ipau.nikkei.co.jp
 tesla-cdn.thron.com
 testflight.apple.com
+uts-api.itunes.apple.com
 vmware.tt.omtrdc.net
 voice.telephony.goog
 vscode.search.windows.net
