@@ -21113,8 +21113,6 @@ gspe1-ssl.ls.apple.com
 h-dazn.online-metrix.net
 h-netflix.online-metrix.net
 hamifans.emome.net
-hls-amt.itunes.apple.com
-hls.itunes.apple.com
 hpstore.corpmerchandise.com
 hulu.com.c.footprint.net
 hulu.map.fastly.net
@@ -21138,7 +21136,6 @@ news-client.apple.com
 news-edge.apple.com
 news-events.apple.com
 notify.ppy.sh
-np-edge.itunes.apple.com
 nvidia.tt.omtrdc.net
 ocsp.microsoft.com
 ocvideo.apple.com
@@ -21148,7 +21145,6 @@ openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
 openaicomproductionae4b.blob.core.windows.net
 osu.ppy.sh
 pchomeonline.com.tw
-play-edge.itunes.apple.com
 practivate.adobe
 practivate.adobe.ipp
 practivate.adobe.newoa
@@ -21234,7 +21230,6 @@ t21.nikkei.co.jp
 t21ipau.nikkei.co.jp
 tesla-cdn.thron.com
 testflight.apple.com
-uts-api.itunes.apple.com
 vmware.tt.omtrdc.net
 voice.telephony.goog
 vscode.search.windows.net
