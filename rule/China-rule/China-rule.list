@@ -4116,6 +4116,7 @@
 .51gouke.com
 .51gowan.com
 .51gran.com
+.51grb.com
 .51grfy.com
 .51growup.com
 .51gsl.com
@@ -7312,7 +7313,6 @@
 .9973.com
 .997788.com
 .998.com
-.99808.com
 .9981ypk.com
 .9982.com
 .99844666.com
@@ -8534,6 +8534,7 @@
 .aitangyou.com
 .aitansuo.com
 .aitaxinxi.xyz
+.aitcfw.com
 .aite.xyz
 .aitecar.com
 .aitecc.com
@@ -8620,6 +8621,7 @@
 .aiyuke.com
 .aiyunxiao.com
 .aizaoqi.com
+.aizgtc.com
 .aizhan.com
 .aizhanzhe.com
 .aizhengli.com
@@ -8878,7 +8880,6 @@
 .aliuv.com
 .alivecdn.com
 .alivv.com
-.alivv.net
 .aliway.com
 .aliwd.com
 .aliwears.com
@@ -10023,7 +10024,6 @@
 .astfc.com
 .asthis.net
 .astm.org
-.astorpiano.com
 .astron.ac
 .astropulsion.com
 .asuidnfamun.com
@@ -21579,7 +21579,6 @@
 .donhonet.net
 .donnor.com
 .donvv.com
-.donzair.com
 .doodoobird.com
 .doofull.com
 .dooioo.com
@@ -29342,6 +29341,7 @@
 .hangzhouluohu.com
 .hangzhoutianqi114.com
 .hangzhouyiyao.com
+.hangzhouyq.com
 .hangzhouzhiqi.com
 .hangzyuyuan.com
 .hanhai.net
@@ -46416,6 +46416,7 @@
 .naruto.red
 .narutom.com
 .narwal.com
+.narwaltech.com
 .nasack.net
 .nase.tech
 .nasgetinfo.com
@@ -56931,7 +56932,6 @@
 .someabcd.com
 .somenchina.com
 .someonegao.com
-.somepen.com
 .something8.com
 .sometracking.com
 .somo.so
@@ -65794,7 +65794,6 @@
 .woskj2.com
 .woso100.com
 .wotangka.com
-.wotobang.com
 .wotrus.com
 .wotucdn.com
 .wotula.com
@@ -66003,6 +66002,7 @@
 .wsq.cool
 .wsqejt.com
 .wss.ink
+.wss.zone
 .wssanguo.com
 .wssdns.com
 .wsssec.com
@@ -66362,7 +66362,6 @@
 .wwwimages.adobe.com
 .wwwimages2.adobe.com
 .wwwwww.vip
-.wwz8.com
 .wx-api.net
 .wx-data.com
 .wx-youyan.net
@@ -66601,7 +66600,6 @@
 .x23118.com
 .x23119.com
 .x23qb.com
-.x23us.me
 .x23us.us
 .x23wxw.com
 .x2image.com
@@ -73571,6 +73569,7 @@
 .zgxrjy.com
 .zgxsczdldak.com
 .zgxue.com
+.zgxytc.com
 .zgxyzx.net
 .zgxzcj.com
 .zgxzhjx.com
@@ -73597,6 +73596,7 @@
 .zgzkw.com
 .zgznh.com
 .zgzpsjz.com
+.zgzsa.com
 .zgzsrc.com
 .zgzwl.com
 .zgzy.net
@@ -74404,6 +74404,7 @@
 .zhongzhixin.com
 .zhongzhoutm.com
 .zhongzilu.com
+.zhonshian.com
 .zhonzhuan.com
 .zhopera.com
 .zhou.icu
@@ -75074,6 +75075,7 @@
 .zjzjhotel.com
 .zjznk.com
 .zjzs.net
+.zjzsa.com
 .zjzsxb.com
 .zjzydns.com
 .zk100.com
@@ -86922,7 +86924,6 @@ IP-CIDR6,2a05:1087::/32,no-resolve
 IP-CIDR6,2a05:4140:319::/48,no-resolve
 IP-CIDR6,2a05:dfc1:1600::/46,no-resolve
 IP-CIDR6,2a05:dfc1:1609::/48,no-resolve
-IP-CIDR6,2a05:dfc1:160b::/48,no-resolve
 IP-CIDR6,2a05:dfc1:16ff::/48,no-resolve
 IP-CIDR6,2a05:dfc1:5a00::/40,no-resolve
 IP-CIDR6,2a05:dfc1:5efb:141::/64,no-resolve
@@ -86996,26 +86997,25 @@ IP-CIDR6,2a06:a005:d22::/48,no-resolve
 IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/48,no-resolve
 IP-CIDR6,2a06:de00:de0e::/48,no-resolve
-IP-CIDR6,2a06:de01:806::/48,no-resolve
+IP-CIDR6,2a06:de01:81d::/48,no-resolve
 IP-CIDR6,2a06:de01:838::/48,no-resolve
+IP-CIDR6,2a06:de01:853::/48,no-resolve
 IP-CIDR6,2a06:de01:855::/48,no-resolve
 IP-CIDR6,2a06:de01:85b::/48,no-resolve
-IP-CIDR6,2a06:de01:879::/48,no-resolve
-IP-CIDR6,2a06:de01:887::/48,no-resolve
-IP-CIDR6,2a06:de01:8b3::/48,no-resolve
+IP-CIDR6,2a06:de01:8a0::/48,no-resolve
 IP-CIDR6,2a06:de01:8bb::/48,no-resolve
-IP-CIDR6,2a06:de01:8cb::/48,no-resolve
+IP-CIDR6,2a06:de01:8e2::/48,no-resolve
 IP-CIDR6,2a06:de01:8ee::/48,no-resolve
-IP-CIDR6,2a06:de01:921::/48,no-resolve
+IP-CIDR6,2a06:de01:92b::/48,no-resolve
 IP-CIDR6,2a06:de01:938::/48,no-resolve
+IP-CIDR6,2a06:de01:94f::/48,no-resolve
 IP-CIDR6,2a06:de01:979::/48,no-resolve
-IP-CIDR6,2a06:de01:97c::/48,no-resolve
-IP-CIDR6,2a06:de01:987::/48,no-resolve
-IP-CIDR6,2a06:de01:999::/48,no-resolve
 IP-CIDR6,2a06:de01:99f::/48,no-resolve
-IP-CIDR6,2a06:de01:aca::/48,no-resolve
+IP-CIDR6,2a06:de01:9ae::/48,no-resolve
+IP-CIDR6,2a06:de01:ac1::/48,no-resolve
 IP-CIDR6,2a06:de01:af6::/48,no-resolve
-IP-CIDR6,2a06:de01:b0e::/48,no-resolve
+IP-CIDR6,2a06:de01:b00::/48,no-resolve
+IP-CIDR6,2a06:de01:b03::/48,no-resolve
 IP-CIDR6,2a06:de01:b25::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
 IP-CIDR6,2a06:e881:3800::/44,no-resolve
