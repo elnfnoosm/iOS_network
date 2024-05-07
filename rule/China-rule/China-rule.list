@@ -823,7 +823,6 @@
 .1010dy4.com
 .1010jiajiao.com
 .1010jz.com
-.1010pic.com
 .1010school.com
 .1010sh.com
 .1012china.com
@@ -2578,6 +2577,7 @@
 .2kxs.info
 .2kxs.org
 .2l4938221x.com
+.2lian.com
 .2lieqi.com
 .2loveyou.com
 .2lyx.com
@@ -6582,6 +6582,7 @@
 .88u.com
 .88xiaoshuo.com
 .88xr.org
+.88ysg.com
 .88zha.com
 .88zjzy.com
 .8910.io
@@ -11570,7 +11571,6 @@
 .beiyongzhan.com
 .beiyxiu.com
 .beizengtech.com
-.beizi.biz
 .beiziman.com
 .bej9.com
 .bejoin.net
@@ -18990,7 +18990,6 @@
 .csiea.net
 .csjcs.com
 .csjdeveloper.com
-.csjplatform.com
 .csjvision.com
 .csjwang.com
 .cskaoyan.com
@@ -29864,6 +29863,7 @@
 .haodro.com
 .haoduhe.com
 .haoduo.vip
+.haoduofangs.com
 .haoduojiaju.com
 .haoduorou.net
 .haoeyou.com
@@ -30839,7 +30839,6 @@
 .henmimang.com
 .henri.ren
 .henzan.com
-.henzanapp.com
 .hepalink.com
 .hepan.com
 .hepan.org
@@ -40670,6 +40669,7 @@
 .kxgcw.com
 .kxiaoshuo77.com
 .kxinyk.com
+.kxji.com
 .kxjsys.com
 .kxkzrcke.com
 .kxll.com
@@ -45991,6 +45991,7 @@
 .momoyu.com
 .momoyuyouxi.com
 .momself.club
+.momzs.com
 .moneydata.hk
 .moneygz.com
 .monfetch.com
@@ -47654,7 +47655,6 @@
 .niua.com
 .niuaa1688.com
 .niuacc.com
-.niuaniua.com
 .niuap.com
 .niubb.net
 .niubilai.com
@@ -49392,8 +49392,6 @@
 .pangniao.net
 .pangod.com
 .pangoing.com
-.pangolin-dsp-toutiao-b.com
-.pangolin-dsp-toutiao.com
 .pangolin-sdk-toutiao-b.com
 .pangolin-sdk-toutiao.com
 .pangolin-sdk-toutiao1.com
@@ -49418,8 +49416,6 @@
 .panpanr.com
 .panpanzsw.com
 .panpay.com
-.panplayable-toutiao-b.com
-.panplayable-toutiao.com
 .panqibao.com
 .panshi101.com
 .panshianquan.com
@@ -54407,6 +54403,7 @@
 .scbxmr.com
 .scbyx.net
 .scbz120.com
+.scc.ssacdn.com
 .scccyts.com
 .sccin.com
 .scclssj.com
@@ -56723,7 +56720,6 @@
 .sigmachip.com
 .sigmamed.net
 .sigmastarsemi.com
-.sigmob.com
 .sigmoblive.com
 .sign-say.com
 .signage911.com
@@ -58368,6 +58364,7 @@
 .stor-age.com
 .storage-asset.msi.com
 .storagesemicon.com
+.storeapi.net
 .storkapp.me
 .stormorai.com
 .story520.com
@@ -64413,6 +64410,7 @@
 .walekan.com
 .wali.com
 .wali123.com
+.walibao.com
 .walimaker.com
 .walk-live.com
 .walkerdu.com
@@ -67767,6 +67765,7 @@
 .xduoo.com
 .xduph.com
 .xdusz.com
+.xdwan.com
 .xdwyx.com
 .xdxct.com
 .xdxdsz.com
@@ -68488,6 +68487,7 @@
 .xiaoyezi.com
 .xiaoyi.com
 .xiaoyiads.com
+.xiaoyida.com
 .xiaoyida.net
 .xiaoying.co
 .xiaoying.com
@@ -77506,8 +77506,7 @@ IP-CIDR,103.117.136.0/22,no-resolve
 IP-CIDR,103.117.16.0/22,no-resolve
 IP-CIDR,103.117.188.0/22,no-resolve
 IP-CIDR,103.117.220.0/22,no-resolve
-IP-CIDR,103.117.248.0/24,no-resolve
-IP-CIDR,103.117.250.0/24,no-resolve
+IP-CIDR,103.117.248.0/22,no-resolve
 IP-CIDR,103.117.72.0/22,no-resolve
 IP-CIDR,103.117.88.0/22,no-resolve
 IP-CIDR,103.118.173.0/24,no-resolve
@@ -85210,6 +85209,7 @@ IP-CIDR,68.79.0.0/18,no-resolve
 IP-CIDR,69.107.7.16/29,no-resolve
 IP-CIDR,69.163.104.0/24,no-resolve
 IP-CIDR,69.163.106.0/24,no-resolve
+IP-CIDR,69.163.123.0/24,no-resolve
 IP-CIDR,69.172.70.0/24,no-resolve
 IP-CIDR,69.174.123.136/29,no-resolve
 IP-CIDR,69.194.166.0/24,no-resolve
@@ -87990,24 +87990,24 @@ IP-CIDR6,2a06:a005:e90::/44,no-resolve
 IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/48,no-resolve
 IP-CIDR6,2a06:de00:de0e::/48,no-resolve
-IP-CIDR6,2a06:de01:809::/48,no-resolve
+IP-CIDR6,2a06:de01:819::/48,no-resolve
 IP-CIDR6,2a06:de01:824::/48,no-resolve
 IP-CIDR6,2a06:de01:854::/48,no-resolve
-IP-CIDR6,2a06:de01:861::/48,no-resolve
+IP-CIDR6,2a06:de01:879::/48,no-resolve
+IP-CIDR6,2a06:de01:884::/48,no-resolve
 IP-CIDR6,2a06:de01:889::/48,no-resolve
-IP-CIDR6,2a06:de01:89c::/48,no-resolve
 IP-CIDR6,2a06:de01:8cb::/48,no-resolve
-IP-CIDR6,2a06:de01:8d8::/48,no-resolve
-IP-CIDR6,2a06:de01:90f::/48,no-resolve
+IP-CIDR6,2a06:de01:8e0::/48,no-resolve
+IP-CIDR6,2a06:de01:90a::/48,no-resolve
 IP-CIDR6,2a06:de01:910::/48,no-resolve
-IP-CIDR6,2a06:de01:940::/48,no-resolve
+IP-CIDR6,2a06:de01:959::/48,no-resolve
 IP-CIDR6,2a06:de01:96a::/48,no-resolve
-IP-CIDR6,2a06:de01:9a8::/48,no-resolve
+IP-CIDR6,2a06:de01:992::/48,no-resolve
 IP-CIDR6,2a06:de01:9b7::/48,no-resolve
+IP-CIDR6,2a06:de01:ac3::/48,no-resolve
 IP-CIDR6,2a06:de01:ac8::/48,no-resolve
-IP-CIDR6,2a06:de01:aea::/48,no-resolve
 IP-CIDR6,2a06:de01:b0d::/48,no-resolve
-IP-CIDR6,2a06:de01:b14::/48,no-resolve
+IP-CIDR6,2a06:de01:b3e::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
 IP-CIDR6,2a06:e881:3800::/44,no-resolve
 IP-CIDR6,2a06:e881:5501::/48,no-resolve
@@ -89471,7 +89471,23 @@ IP-CIDR6,2a13:a5c7:1614::/47,no-resolve
 IP-CIDR6,2a13:a5c7:1801::/48,no-resolve
 IP-CIDR6,2a13:a5c7:1802::/47,no-resolve
 IP-CIDR6,2a13:a5c7:1804::/47,no-resolve
-IP-CIDR6,2a13:aac4::/32,no-resolve
+IP-CIDR6,2a13:aac4:8000::/34,no-resolve
+IP-CIDR6,2a13:aac4::/33,no-resolve
+IP-CIDR6,2a13:aac4:c000::/35,no-resolve
+IP-CIDR6,2a13:aac4:e000::/36,no-resolve
+IP-CIDR6,2a13:aac4:f000::/45,no-resolve
+IP-CIDR6,2a13:aac4:f009::/48,no-resolve
+IP-CIDR6,2a13:aac4:f00a::/47,no-resolve
+IP-CIDR6,2a13:aac4:f00c::/47,no-resolve
+IP-CIDR6,2a13:aac4:f00f::/48,no-resolve
+IP-CIDR6,2a13:aac4:f010::/44,no-resolve
+IP-CIDR6,2a13:aac4:f020::/43,no-resolve
+IP-CIDR6,2a13:aac4:f040::/42,no-resolve
+IP-CIDR6,2a13:aac4:f080::/41,no-resolve
+IP-CIDR6,2a13:aac4:f100::/40,no-resolve
+IP-CIDR6,2a13:aac4:f200::/39,no-resolve
+IP-CIDR6,2a13:aac4:f400::/38,no-resolve
+IP-CIDR6,2a13:aac4:f800::/37,no-resolve
 IP-CIDR6,2a13:b487:11aa::/48,no-resolve
 IP-CIDR6,2a13:b487:11da::/48,no-resolve
 IP-CIDR6,2a13:b487:1200::/43,no-resolve
@@ -89503,6 +89519,7 @@ IP-CIDR6,2a13:df85:be80::/48,no-resolve
 IP-CIDR6,2a13:df85:be88::/48,no-resolve
 IP-CIDR6,2a13:df85:be90::/48,no-resolve
 IP-CIDR6,2a13:df85:beaa::/48,no-resolve
+IP-CIDR6,2a13:df85:bed0::/48,no-resolve
 IP-CIDR6,2a13:df85:befe::/48,no-resolve
 IP-CIDR6,2a13:df85:beff:ff42::/64,no-resolve
 IP-CIDR6,2a13:df87:5030::/48,no-resolve
