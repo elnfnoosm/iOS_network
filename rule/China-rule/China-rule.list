@@ -2192,6 +2192,7 @@
 .21shipin.com
 .21shte.net
 .21sjmg.com
+.21sla.com
 .21smov.com
 .21so.com
 .21softs.com
@@ -2391,7 +2392,6 @@
 .25892.com
 .258ch.com
 .258fuwu.com
-.258jituan.com
 .258sd.com
 .258weishi.com
 .25992.com
@@ -6532,6 +6532,7 @@
 .888bb111ww.com
 .888bb888ww.com
 .888bbb222bbb.com
+.888chem.com
 .888pic.com
 .888ppt.com
 .888rj.com
@@ -7303,6 +7304,7 @@
 .99887w.com
 .998jk.com
 .998jx.com
+.998law.com
 .9991.com
 .999120.net
 .999136.xyz
@@ -11190,7 +11192,6 @@
 .bbaod.com
 .bbaqw.com
 .bbb1415.com
-.bbb77qqq.xyz
 .bbbaaa.com
 .bbbao.com
 .bbbb.com
@@ -19846,6 +19847,7 @@
 .damotu.com
 .damoyang.com
 .damuchong.com
+.damuite.com
 .dan665.com
 .danaicha.com
 .danale.com
@@ -23287,7 +23289,6 @@
 .efusc.com
 .efwh.com
 .efy-tech.com
-.efyzhcwk.cfd
 .egainnews.com
 .egbt.net
 .egcmedia.com
@@ -32113,6 +32114,7 @@
 .hpblog.net
 .hpc.cloud
 .hpccake.com
+.hpccube.com
 .hpearx.com
 .hpeft.com
 .hpelpdl.com
@@ -37792,6 +37794,7 @@
 .jlgxmob.com
 .jlgyjj.com
 .jljgdj.org
+.jljnkj.com
 .jljob88.com
 .jlkj.cc
 .jllihua.com
@@ -41682,6 +41685,7 @@
 .leting.io
 .letongjiaxiao.com
 .letou8.com
+.letoursport.com
 .lets-study.com
 .letsebuy.com
 .letsfilm.org
@@ -43844,7 +43848,6 @@
 .m.biz
 .m.travelzoo.com
 .m0.hk
-.m096.com
 .m1.run
 .m1315.com
 .m176.net
@@ -47148,6 +47151,7 @@
 .nbszgd.com
 .nbt.ren
 .nbtarena.com
+.nbtlwl.com
 .nbtzjd.com
 .nbudp.com
 .nbunicom.com
@@ -48767,7 +48771,6 @@
 .onmpw.com
 .ono-bbb.com
 .onochem.com
-.ononw.com
 .onsiteclub.com
 .ontheroadstore.com
 .onthink.com
@@ -48819,6 +48822,7 @@
 .openanolis.org
 .openapp.run
 .openasic.org
+.openatom.club
 .openbayes.com
 .openbcs.com
 .openbtba.com
@@ -52566,7 +52570,6 @@
 .quhuaxue.com
 .quhuichang.net
 .quick-touch.com
-.quick-x.com
 .quickapi.net
 .quickbass.com
 .quickcan.com
@@ -57715,6 +57718,7 @@
 .sometracking.com
 .somo.so
 .somode.com
+.somsds.com
 .sonbao.com
 .sonbest.com
 .songcn.com
@@ -62478,7 +62482,6 @@
 .tyjgs.com
 .tyjmmy.com
 .tykeji.vip
-.tykeyou.com
 .tyksl.com
 .tymcdn.com
 .tyn.cc
@@ -62961,6 +62964,7 @@
 .unclenowayapi.com
 .unclicks.com
 .underfill.cc
+.undoifyouwant.site
 .uneed.com
 .unfish.net
 .ungifts.com
@@ -70494,6 +70498,7 @@
 .yahacode.com
 .yahaha.net
 .yahaizi.com
+.yahboom.com
 .yahoo001.com
 .yahotab.com
 .yahuhost.com
@@ -73777,7 +73782,6 @@
 .yyclub.org
 .yycoin.com
 .yycqc.com
-.yycro.com
 .yydbzz.com
 .yydcs.com
 .yydidai.com
@@ -77063,7 +77067,6 @@
 .zzded.com
 .zzdengji.com
 .zzdh.net
-.zzdl.com
 .zzdtec.com
 .zzdz666.com
 .zzect.com
@@ -84358,6 +84361,7 @@ IP-CIDR,40.0.176.0/20,no-resolve
 IP-CIDR,40.0.248.0/21,no-resolve
 IP-CIDR,40.125.128.0/17,no-resolve
 IP-CIDR,40.126.64.0/18,no-resolve
+IP-CIDR,40.162.0.0/16,no-resolve
 IP-CIDR,40.198.10.0/24,no-resolve
 IP-CIDR,40.198.16.0/21,no-resolve
 IP-CIDR,40.198.24.0/23,no-resolve
@@ -87994,8 +87998,8 @@ IP-CIDR6,2a04:f580:9290::/48,no-resolve
 IP-CIDR6,2a05:1085::/32,no-resolve
 IP-CIDR6,2a05:1087::/32,no-resolve
 IP-CIDR6,2a05:4140:319::/48,no-resolve
-IP-CIDR6,2a05:dfc1:1600::/47,no-resolve
-IP-CIDR6,2a05:dfc1:1602::/48,no-resolve
+IP-CIDR6,2a05:dfc1:1600::/46,no-resolve
+IP-CIDR6,2a05:dfc1:1607::/48,no-resolve
 IP-CIDR6,2a05:dfc1:1608::/48,no-resolve
 IP-CIDR6,2a05:dfc1:16ff::/48,no-resolve
 IP-CIDR6,2a05:dfc1:5900::/41,no-resolve
@@ -88065,31 +88069,31 @@ IP-CIDR6,2a06:a005:e90::/44,no-resolve
 IP-CIDR6,2a06:a005:f80::/44,no-resolve
 IP-CIDR6,2a06:de00:de04::/48,no-resolve
 IP-CIDR6,2a06:de00:de0e::/47,no-resolve
-IP-CIDR6,2a06:de01:812::/48,no-resolve
 IP-CIDR6,2a06:de01:81b::/48,no-resolve
-IP-CIDR6,2a06:de01:831::/48,no-resolve
+IP-CIDR6,2a06:de01:836::/48,no-resolve
+IP-CIDR6,2a06:de01:83b::/48,no-resolve
+IP-CIDR6,2a06:de01:849::/48,no-resolve
 IP-CIDR6,2a06:de01:858::/48,no-resolve
-IP-CIDR6,2a06:de01:865::/48,no-resolve
-IP-CIDR6,2a06:de01:86a::/48,no-resolve
+IP-CIDR6,2a06:de01:88d::/48,no-resolve
 IP-CIDR6,2a06:de01:88e::/48,no-resolve
-IP-CIDR6,2a06:de01:8bf::/48,no-resolve
+IP-CIDR6,2a06:de01:8a9::/48,no-resolve
+IP-CIDR6,2a06:de01:8cc::/48,no-resolve
 IP-CIDR6,2a06:de01:8ce::/48,no-resolve
-IP-CIDR6,2a06:de01:8e8::/48,no-resolve
-IP-CIDR6,2a06:de01:8eb::/48,no-resolve
-IP-CIDR6,2a06:de01:928::/47,no-resolve
-IP-CIDR6,2a06:de01:936::/48,no-resolve
-IP-CIDR6,2a06:de01:950::/48,no-resolve
-IP-CIDR6,2a06:de01:96f::/48,no-resolve
+IP-CIDR6,2a06:de01:8d9::/48,no-resolve
+IP-CIDR6,2a06:de01:913::/48,no-resolve
+IP-CIDR6,2a06:de01:929::/48,no-resolve
+IP-CIDR6,2a06:de01:92a::/48,no-resolve
+IP-CIDR6,2a06:de01:94f::/48,no-resolve
 IP-CIDR6,2a06:de01:970::/48,no-resolve
+IP-CIDR6,2a06:de01:97b::/48,no-resolve
+IP-CIDR6,2a06:de01:987::/48,no-resolve
 IP-CIDR6,2a06:de01:99e::/48,no-resolve
-IP-CIDR6,2a06:de01:9a6::/48,no-resolve
-IP-CIDR6,2a06:de01:9ab::/48,no-resolve
 IP-CIDR6,2a06:de01:ac1::/48,no-resolve
-IP-CIDR6,2a06:de01:aca::/48,no-resolve
-IP-CIDR6,2a06:de01:adf::/48,no-resolve
+IP-CIDR6,2a06:de01:ad5::/48,no-resolve
 IP-CIDR6,2a06:de01:ae1::/48,no-resolve
-IP-CIDR6,2a06:de01:b02::/48,no-resolve
-IP-CIDR6,2a06:de01:b09::/48,no-resolve
+IP-CIDR6,2a06:de01:aea::/48,no-resolve
+IP-CIDR6,2a06:de01:b03::/48,no-resolve
+IP-CIDR6,2a06:de01:b37::/48,no-resolve
 IP-CIDR6,2a06:de01:b39::/48,no-resolve
 IP-CIDR6,2a06:e881:2509::/48,no-resolve
 IP-CIDR6,2a06:e881:3800::/44,no-resolve
