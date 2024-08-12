@@ -110514,6 +110514,7 @@ IP-CIDR6,2a0f:7803:fe21::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe22::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe24::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe40::/48,no-resolve
+IP-CIDR6,2a0f:7803:fe43::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe80::/47,no-resolve
 IP-CIDR6,2a0f:7803:fe82::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe84::/48,no-resolve
