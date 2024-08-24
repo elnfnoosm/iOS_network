@@ -110109,9 +110109,7 @@ IP-CIDR6,2406:840:ea00::/40,no-resolve
 IP-CIDR6,2406:840:eb00::/46,no-resolve
 IP-CIDR6,2406:840:eb04::/47,no-resolve
 IP-CIDR6,2406:840:eb07::/48,no-resolve
-IP-CIDR6,2406:840:eb08::/48,no-resolve
-IP-CIDR6,2406:840:eb0a::/47,no-resolve
-IP-CIDR6,2406:840:eb0c::/46,no-resolve
+IP-CIDR6,2406:840:eb08::/45,no-resolve
 IP-CIDR6,2406:840:eb10::/44,no-resolve
 IP-CIDR6,2406:840:eb20::/43,no-resolve
 IP-CIDR6,2406:840:eb40::/42,no-resolve
