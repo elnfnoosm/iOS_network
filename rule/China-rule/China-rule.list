@@ -97483,6 +97483,8 @@ IP-CIDR,203.18.72.0/22,no-resolve
 IP-CIDR,203.18.80.0/23,no-resolve
 IP-CIDR,203.18.87.0/24,no-resolve
 IP-CIDR,203.181.102.58/32,no-resolve
+IP-CIDR,203.184.131.0/24,no-resolve
+IP-CIDR,203.184.132.0/24,no-resolve
 IP-CIDR,203.184.142.128/26,no-resolve
 IP-CIDR,203.184.80.0/20,no-resolve
 IP-CIDR,203.185.189.0/24,no-resolve
@@ -110819,6 +110821,7 @@ IP-CIDR6,2a06:9f81:5100::/40,no-resolve
 IP-CIDR6,2a06:9f81:5400::/40,no-resolve
 IP-CIDR6,2a06:9f81:6100::/40,no-resolve
 IP-CIDR6,2a06:a005:1c40::/44,no-resolve
+IP-CIDR6,2a06:a005:2200::/44,no-resolve
 IP-CIDR6,2a06:a005:260::/43,no-resolve
 IP-CIDR6,2a06:a005:280::/43,no-resolve
 IP-CIDR6,2a06:a005:2910::/44,no-resolve
