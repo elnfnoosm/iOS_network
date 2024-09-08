@@ -64832,6 +64832,7 @@
 .rnhy.net
 .rnmtb.com
 .rnpagoc.site
+.ro.com
 .ro50.com
 .ro8qwpaikd4kx.com
 .road-group.com
@@ -72308,12 +72309,14 @@
 .tapdata.net
 .tapenjoy.com
 .tapimg.com
+.tapimg.net
 .tapotiexie.com
 .tappile.com
 .tapque.com
 .tapsvc.com
 .taptap-api.com
 .taptap.com
+.taptap.io
 .taptapcode.com
 .taptapdada.com
 .taraniss.com
@@ -96226,10 +96229,8 @@ IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve
 IP-CIDR,154.208.172.0/23,no-resolve
-IP-CIDR,154.209.2.0/24,no-resolve
 IP-CIDR,154.209.24.0/21,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
-IP-CIDR,154.212.129.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.218.7.0/24,no-resolve
 IP-CIDR,154.223.168.0/23,no-resolve
@@ -96863,7 +96864,6 @@ IP-CIDR,185.217.120.0/23,no-resolve
 IP-CIDR,185.217.122.0/24,no-resolve
 IP-CIDR,185.228.135.48/32,no-resolve
 IP-CIDR,185.241.211.0/24,no-resolve
-IP-CIDR,185.241.43.0/24,no-resolve
 IP-CIDR,185.242.244.0/22,no-resolve
 IP-CIDR,185.255.152.0/24,no-resolve
 IP-CIDR,185.26.84.0/24,no-resolve
