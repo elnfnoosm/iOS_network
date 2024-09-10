@@ -5575,7 +5575,6 @@
 .595818.com
 .59598.com
 .595dlxzbanone.com
-.595image.com
 .595image.vip
 .595led.com
 .596fc.com
@@ -93784,6 +93783,7 @@ IP-CIDR,103.230.236.0/22,no-resolve
 IP-CIDR,103.230.28.0/22,no-resolve
 IP-CIDR,103.230.40.0/21,no-resolve
 IP-CIDR,103.230.52.0/22,no-resolve
+IP-CIDR,103.230.93.0/24,no-resolve
 IP-CIDR,103.230.96.0/22,no-resolve
 IP-CIDR,103.231.144.0/22,no-resolve
 IP-CIDR,103.231.16.0/21,no-resolve
@@ -112293,6 +112293,7 @@ IP-CIDR6,2a0e:aa06:490::/44,no-resolve
 IP-CIDR6,2a0e:aa06:4e0::/44,no-resolve
 IP-CIDR6,2a0e:aa06:500::/44,no-resolve
 IP-CIDR6,2a0e:aa06:520::/48,no-resolve
+IP-CIDR6,2a0e:aa06:525::/48,no-resolve
 IP-CIDR6,2a0e:aa06:541::/48,no-resolve
 IP-CIDR6,2a0e:aa06::/40,no-resolve
 IP-CIDR6,2a0e:aa07:e01b::/48,no-resolve
