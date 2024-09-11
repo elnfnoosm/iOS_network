@@ -23358,7 +23358,6 @@
 .dfpost.com
 .dfpz.net
 .dfqcmy.com
-.dfqzah.xyz
 .dfrcb.com
 .dfrlyy.com
 .dfs168.com
@@ -49303,7 +49302,6 @@
 .ladyol.com
 .ladystr.com
 .laf.run
-.lafacw.xyz
 .lafaso.com
 .lafayettewines.com
 .lafy.org
@@ -83378,7 +83376,6 @@
 .xn--lt0at3k.com
 .xn--mnqs00c24c2pw0ii.com
 .xn--mts196b.net
-.xn--mts60is5y5uk.com
 .xn--n5q75cia631gba51vx4ag2a008o08l1t0adzay2skp4b.com
 .xn--ntsp37j.net
 .xn--nyqx17d.com
@@ -94807,6 +94804,7 @@ IP-CIDR,103.96.0.0/22,no-resolve
 IP-CIDR,103.96.124.0/22,no-resolve
 IP-CIDR,103.96.136.0/22,no-resolve
 IP-CIDR,103.96.140.0/24,no-resolve
+IP-CIDR,103.96.148.0/22,no-resolve
 IP-CIDR,103.96.152.0/21,no-resolve
 IP-CIDR,103.96.160.0/19,no-resolve
 IP-CIDR,103.96.192.0/20,no-resolve
@@ -96433,6 +96431,7 @@ IP-CIDR,160.202.212.0/22,no-resolve
 IP-CIDR,160.202.216.0/21,no-resolve
 IP-CIDR,160.202.224.0/19,no-resolve
 IP-CIDR,160.202.60.0/22,no-resolve
+IP-CIDR,160.22.188.0/24,no-resolve
 IP-CIDR,160.238.64.0/22,no-resolve
 IP-CIDR,160.25.20.0/23,no-resolve
 IP-CIDR,160.62.10.0/24,no-resolve
@@ -99845,6 +99844,7 @@ IP-CIDR,43.229.56.0/22,no-resolve
 IP-CIDR,43.229.96.0/22,no-resolve
 IP-CIDR,43.230.124.0/22,no-resolve
 IP-CIDR,43.230.136.0/22,no-resolve
+IP-CIDR,43.230.181.0/24,no-resolve
 IP-CIDR,43.230.182.0/24,no-resolve
 IP-CIDR,43.230.20.0/22,no-resolve
 IP-CIDR,43.230.220.0/22,no-resolve
