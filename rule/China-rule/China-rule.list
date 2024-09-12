@@ -93780,7 +93780,6 @@ IP-CIDR,103.230.236.0/22,no-resolve
 IP-CIDR,103.230.28.0/22,no-resolve
 IP-CIDR,103.230.40.0/21,no-resolve
 IP-CIDR,103.230.52.0/22,no-resolve
-IP-CIDR,103.230.93.0/24,no-resolve
 IP-CIDR,103.230.96.0/22,no-resolve
 IP-CIDR,103.231.144.0/22,no-resolve
 IP-CIDR,103.231.16.0/21,no-resolve
@@ -112209,6 +112208,7 @@ IP-CIDR6,2a0a:6040:34ff::/48,no-resolve
 IP-CIDR6,2a0a:6040:d740::/48,no-resolve
 IP-CIDR6,2a0a:6040:ec00::/40,no-resolve
 IP-CIDR6,2a0a:6042:4100::/40,no-resolve
+IP-CIDR6,2a0a:6044:7a00::/40,no-resolve
 IP-CIDR6,2a0a:6044:b800::/40,no-resolve
 IP-CIDR6,2a0a:79c0:2b0::/44,no-resolve
 IP-CIDR6,2a0a:79c0:f2b0::/44,no-resolve
