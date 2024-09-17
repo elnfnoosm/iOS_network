@@ -11979,6 +11979,7 @@
 .baklib.com
 .bakmf.com
 .bakshifen.com
+.bakstotre.com
 .bala.cc
 .baldc.com
 .baldor-tech.com
@@ -49422,6 +49423,7 @@
 .lanou3g.com
 .lanpanpan.com
 .lanpuele.com
+.lanpv.com
 .lanpw.com
 .lanpye.com
 .lanqb.com
@@ -49506,6 +49508,7 @@
 .lanzouy.com
 .lanzov.com
 .lanzun.net
+.lanzv.com
 .lao.si
 .laobaicai.net
 .laobaigan-hs.com
@@ -75467,6 +75470,7 @@
 .ukvisacenterd.com
 .ukworldsale.com
 .ulab360.com
+.ulanzou.com
 .ulaojiu.com
 .ulapia.com
 .ule.com
@@ -77862,6 +77866,7 @@
 .webgame138.com
 .webgame163.com
 .webgamehome.com
+.webgetstore.com
 .webgzs.com
 .webhek.com
 .webhivers.com
@@ -111576,6 +111581,7 @@ IP-CIDR6,2a0f:7803:db88::/48,no-resolve
 IP-CIDR6,2a0f:7803:db8c::/48,no-resolve
 IP-CIDR6,2a0f:7803:dd00::/41,no-resolve
 IP-CIDR6,2a0f:7803:ddc0::/42,no-resolve
+IP-CIDR6,2a0f:7803:f810::/44,no-resolve
 IP-CIDR6,2a0f:7803:f840::/44,no-resolve
 IP-CIDR6,2a0f:7803:f860::/44,no-resolve
 IP-CIDR6,2a0f:7803:f8b0::/44,no-resolve
