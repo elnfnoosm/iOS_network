@@ -111465,8 +111465,10 @@ IP-CIDR6,2a0f:7803:fe84::/48,no-resolve
 IP-CIDR6,2a0f:7803:ff02:4000::/50,no-resolve
 IP-CIDR6,2a0f:7803:ff02:8000::/50,no-resolve
 IP-CIDR6,2a0f:7803:ff10:2000::/51,no-resolve
+IP-CIDR6,2a0f:7804:da00::/40,no-resolve
 IP-CIDR6,2a0f:8100::/29,no-resolve
 IP-CIDR6,2a0f:85c1:816::/48,no-resolve
+IP-CIDR6,2a0f:85c1:89a::/48,no-resolve
 IP-CIDR6,2a0f:9400:6119::/48,no-resolve
 IP-CIDR6,2a0f:9400:7700::/48,no-resolve
 IP-CIDR6,2a0f:9407:f000::/36,no-resolve
