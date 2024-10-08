@@ -8338,6 +8338,7 @@
 .aabooo.com
 .aabux.com
 .aad5.com
+.aadcloud.com
 .aadongman.com
 .aads-cng.net
 .aafxw.com
@@ -24030,9 +24031,7 @@
 .dkybpc.com
 .dkzt.com
 .dl-huahong.com
-.dl-origin.ubnt.com
 .dl-rc.com
-.dl.ubnt.com
 .dl0728.com
 .dl158.net
 .dl2link.com
@@ -39715,6 +39714,7 @@
 .huaweicloud-dns.com
 .huaweicloud-dns.net
 .huaweicloud-dns.org
+.huaweicloud-idme.com
 .huaweicloud-smn.com
 .huaweicloud-smn.net
 .huaweicloud.com
@@ -40424,6 +40424,7 @@
 .hwcrazy.com
 .hwehs.com
 .hweimall.com
+.hweventgrid.com
 .hwfcw.com
 .hwgis.com
 .hwhidc.com
@@ -41562,6 +41563,7 @@
 .idongdong.com
 .idongmai.com
 .idongniu.com
+.idonguapi.com
 .idooshu.com
 .idosend.com
 .idotools.com
@@ -42369,6 +42371,7 @@
 .in955.com
 .in9ni.com
 .inabr.com
+.inanguapi.com
 .inanrenbang.com
 .inbeing.net
 .inbilin.com
@@ -43456,6 +43459,7 @@
 .ixiede.com
 .ixigua.com
 .ixiguan.com
+.ixiguapi.com
 .ixiguavideo.com
 .iximo.com
 .ixingfei.com
@@ -55243,6 +55247,7 @@
 .modashi.net
 .modb.cc
 .modb.pro
+.modelarts-infer.com
 .modelevel.com
 .modelwhale.com
 .modeng178.com
@@ -56204,6 +56209,9 @@
 .myhongzuan.com
 .myhostadmin.net
 .myhscodes.com
+.myhuaweicloud-custom.com
+.myhuaweicloud-koodrive.com
+.myhuaweicloud-obs.com
 .myhuaweicloud.com
 .myhuilv.com
 .myhwcdn.com
@@ -60449,7 +60457,6 @@
 .pinfangw.com
 .ping-jia.net
 .ping-qu.com
-.ping.ubnt.com
 .ping99.com
 .pingan.com
 .pingan.com.hk
@@ -76002,6 +76009,7 @@
 .uwan.com
 .uweitui.com
 .uwenku.com
+.uwn.com
 .uworter.com
 .ux18.com
 .ux6.com
@@ -96077,9 +96085,7 @@ IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve
 IP-CIDR,154.208.172.0/23,no-resolve
-IP-CIDR,154.209.2.0/24,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
-IP-CIDR,154.212.129.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.218.7.0/24,no-resolve
 IP-CIDR,154.223.168.0/23,no-resolve
@@ -96694,7 +96700,6 @@ IP-CIDR,185.217.120.0/23,no-resolve
 IP-CIDR,185.217.122.0/24,no-resolve
 IP-CIDR,185.228.135.48/32,no-resolve
 IP-CIDR,185.241.211.0/24,no-resolve
-IP-CIDR,185.241.43.0/24,no-resolve
 IP-CIDR,185.242.244.0/22,no-resolve
 IP-CIDR,185.255.152.0/24,no-resolve
 IP-CIDR,185.26.84.0/24,no-resolve
