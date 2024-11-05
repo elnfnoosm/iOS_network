@@ -9881,6 +9881,7 @@
 .aliyundunddos.com
 .aliyundunwaf.com
 .aliyunedu.net
+.aliyunfile.com
 .aliyunfuwuqi.com
 .aliyunga.com
 .aliyunga0004.com
@@ -12041,6 +12042,7 @@
 .bamatea.com
 .bamaying.com
 .bamboo18.com
+.bambulab.com
 .bamengame.com
 .bamensq.com
 .bamenzhushou.com
@@ -12466,6 +12468,7 @@
 .bbk000.com
 .bbkantu.com
 .bbkys.com
+.bblmw.com
 .bblskj.com
 .bbmuwwxyk.com
 .bbmy.net
@@ -13037,6 +13040,7 @@
 .bestpeng.com
 .bestqliang.com
 .bestreplicheitalia.com
+.bestrhy.com
 .bestsdwan.com
 .bestshinhwa.com
 .bestsign.info
@@ -28357,6 +28361,8 @@
 .fenbeijinfu.com
 .fenbeitong.com
 .fenbi.com
+.fenbike.com
+.fenbilantian.com
 .fenbu.net
 .fenby.com
 .fencescn.com
@@ -28624,6 +28630,7 @@
 .filcochina.com
 .file001.com
 .filediag.com
+.filez.com
 .filfox.info
 .fillersmart.com
 .fillseo.com
@@ -29761,6 +29768,7 @@
 .fxpan.com
 .fxqrf.com
 .fxsw.net
+.fxt365.com
 .fxtrip.com
 .fxtrips.com
 .fxw.la
@@ -31912,6 +31920,7 @@
 .gmtv.cc
 .gmtzy.com
 .gmugmu.com
+.gmw.com
 .gmwiki.com
 .gmxmym.ren
 .gmyihua.com
@@ -38529,6 +38538,7 @@
 .hnbits.com
 .hnblc.com
 .hnbljy.com
+.hnbntv.com
 .hnbrush.com
 .hnbwsd.com
 .hnccpit.org
@@ -46418,6 +46428,7 @@
 .jsdzb.com
 .jseduinfo.com
 .jseepub.com
+.jsehealth.com
 .jseoptics.com
 .jser.io
 .jsf1990.site
@@ -50446,6 +50457,7 @@
 .lenovo.net
 .lenovocloudos.com
 .lenovoeservice.com
+.lenovofile.com
 .lenovogame.com
 .lenovohci.com
 .lenovohuishang.com
@@ -50454,6 +50466,7 @@
 .lenovomobile.com
 .lenovonetapp.com
 .lenovonowgo.com
+.lenovopoc.com
 .lenovoprinter.com
 .lenovoprinter.net
 .lenovosj.com
@@ -54507,6 +54520,7 @@
 .mepcec.com
 .mepoem.com
 .meppon.com
+.merach.com
 .mercedes-benzarena.com
 .mercitime.com
 .mereith.com
@@ -54769,6 +54783,7 @@
 .miaoweijianfei.com
 .miaowutech.com
 .miaoxiazai.com
+.miaoyanai.com
 .miaoyun.link
 .miaozao.com
 .miaozhun.com
@@ -72224,6 +72239,8 @@
 .taicent.com
 .taichi-graphics.com
 .taichi-maker.com
+.taichuan.com
+.taichuan.net
 .taichyfood.com
 .taici.com
 .taicihome.com
@@ -88558,6 +88575,7 @@
 .yunzhizao.net
 .yunzhonghe.com
 .yunzhu100.com
+.yunzhuxue.com
 .yunzmall.com
 .yunzongnet.com
 .yunzujia.com
@@ -96786,9 +96804,13 @@ IP-CIDR,154.209.251.0/24,no-resolve
 IP-CIDR,154.211.72.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.218.6.0/23,no-resolve
-IP-CIDR,154.223.168.0/24,no-resolve
-IP-CIDR,154.223.178.0/24,no-resolve
+IP-CIDR,154.223.168.0/23,no-resolve
+IP-CIDR,154.223.170.0/24,no-resolve
+IP-CIDR,154.223.178.0/23,no-resolve
+IP-CIDR,154.223.180.0/24,no-resolve
+IP-CIDR,154.223.182.0/24,no-resolve
 IP-CIDR,154.223.188.0/23,no-resolve
+IP-CIDR,154.223.96.0/19,no-resolve
 IP-CIDR,154.23.188.0/22,no-resolve
 IP-CIDR,154.36.92.0/23,no-resolve
 IP-CIDR,154.38.104.0/22,no-resolve
@@ -96844,7 +96866,7 @@ IP-CIDR,156.236.96.0/23,no-resolve
 IP-CIDR,156.237.104.0/23,no-resolve
 IP-CIDR,156.239.0.0/20,no-resolve
 IP-CIDR,156.239.224.0/19,no-resolve
-IP-CIDR,156.239.64.0/18,no-resolve
+IP-CIDR,156.239.96.0/19,no-resolve
 IP-CIDR,156.242.5.0/24,no-resolve
 IP-CIDR,156.242.6.0/24,no-resolve
 IP-CIDR,156.245.128.0/21,no-resolve
@@ -96999,6 +97021,7 @@ IP-CIDR,160.22.188.0/24,no-resolve
 IP-CIDR,160.22.244.0/23,no-resolve
 IP-CIDR,160.238.64.0/22,no-resolve
 IP-CIDR,160.25.20.0/23,no-resolve
+IP-CIDR,160.30.148.0/24,no-resolve
 IP-CIDR,160.62.10.0/24,no-resolve
 IP-CIDR,160.83.109.0/24,no-resolve
 IP-CIDR,160.83.110.0/23,no-resolve
@@ -100918,15 +100941,16 @@ IP-CIDR,45.154.244.0/24,no-resolve
 IP-CIDR,45.157.70.0/23,no-resolve
 IP-CIDR,45.157.88.0/24,no-resolve
 IP-CIDR,45.192.172.0/24,no-resolve
-IP-CIDR,45.192.184.0/24,no-resolve
-IP-CIDR,45.192.187.0/24,no-resolve
+IP-CIDR,45.192.184.0/22,no-resolve
 IP-CIDR,45.192.189.0/24,no-resolve
 IP-CIDR,45.192.190.0/24,no-resolve
+IP-CIDR,45.192.64.0/19,no-resolve
 IP-CIDR,45.195.6.0/24,no-resolve
 IP-CIDR,45.199.167.0/24,no-resolve
 IP-CIDR,45.202.209.0/24,no-resolve
 IP-CIDR,45.202.210.0/23,no-resolve
 IP-CIDR,45.202.212.0/24,no-resolve
+IP-CIDR,45.204.112.0/20,no-resolve
 IP-CIDR,45.248.128.0/21,no-resolve
 IP-CIDR,45.248.204.0/22,no-resolve
 IP-CIDR,45.248.208.0/20,no-resolve
@@ -112360,8 +112384,7 @@ IP-CIDR6,2a06:9f81:4660::/44,no-resolve
 IP-CIDR6,2a06:9f81:5100::/40,no-resolve
 IP-CIDR6,2a06:9f81:5400::/40,no-resolve
 IP-CIDR6,2a06:9f81:6100::/40,no-resolve
-IP-CIDR6,2a06:9f81:641b::/48,no-resolve
-IP-CIDR6,2a06:9f81:641c::/47,no-resolve
+IP-CIDR6,2a06:9f81:641d::/48,no-resolve
 IP-CIDR6,2a06:9f81:641e::/48,no-resolve
 IP-CIDR6,2a06:9f81:6488::/48,no-resolve
 IP-CIDR6,2a06:9f81:64a1::/48,no-resolve
@@ -113734,7 +113757,8 @@ IP-CIDR6,2a14:7580:9200::/40,no-resolve
 IP-CIDR6,2a14:7581:b20::/48,no-resolve
 IP-CIDR6,2a14:7581:b40::/48,no-resolve
 IP-CIDR6,2a14:7c0:4a01::/48,no-resolve
-IP-CIDR6,2a14:7c0:4d00::/40,no-resolve
+IP-CIDR6,2a14:7c0:4d00::/47,no-resolve
+IP-CIDR6,2a14:7c0:4d02::/48,no-resolve
 IP-CIDR6,2a14:7c0:5208::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8011::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8050::/48,no-resolve
@@ -113885,6 +113909,7 @@ channellive.leshantv.net
 chaoan.chaoantv.com
 clickserve.cc-dt.com
 client.amplifi.com
+cn.download.nvidia.com
 cn.widevine.com
 cnpull.sccnfb.com
 cpro.baidustatic.com
