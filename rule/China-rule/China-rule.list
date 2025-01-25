@@ -80374,6 +80374,7 @@
 .volcenginedns.com
 .volcenginedns.net
 .volcenginepaas.com
+.volces.com
 .volcfake.com
 .volcfcdn.com
 .volcfcdnbyte.com
@@ -100438,6 +100439,7 @@ IP-CIDR,15.230.41.0/24,no-resolve
 IP-CIDR,15.230.49.0/24,no-resolve
 IP-CIDR,15.230.73.192/26,no-resolve
 IP-CIDR,15.230.74.0/25,no-resolve
+IP-CIDR,15.32.104.0/23,no-resolve
 IP-CIDR,150.0.0.0/16,no-resolve
 IP-CIDR,150.115.0.0/16,no-resolve
 IP-CIDR,150.121.0.0/16,no-resolve
@@ -100592,7 +100594,7 @@ IP-CIDR,156.227.40.0/21,no-resolve
 IP-CIDR,156.227.48.0/20,no-resolve
 IP-CIDR,156.230.11.0/24,no-resolve
 IP-CIDR,156.230.12.0/23,no-resolve
-IP-CIDR,156.232.10.0/24,no-resolve
+IP-CIDR,156.232.10.0/23,no-resolve
 IP-CIDR,156.232.9.0/24,no-resolve
 IP-CIDR,156.236.110.0/24,no-resolve
 IP-CIDR,156.236.116.0/24,no-resolve
@@ -113796,8 +113798,8 @@ IP-CIDR6,2404:2280:158::/45,no-resolve
 IP-CIDR6,2404:2280:160::/48,no-resolve
 IP-CIDR6,2404:2280:170::/48,no-resolve
 IP-CIDR6,2404:2280:177::/48,no-resolve
-IP-CIDR6,2404:2280:17f::/48,no-resolve
-IP-CIDR6,2404:2280:181::/48,no-resolve
+IP-CIDR6,2404:2280:17e::/47,no-resolve
+IP-CIDR6,2404:2280:180::/47,no-resolve
 IP-CIDR6,2404:2280:183::/48,no-resolve
 IP-CIDR6,2404:2280:187::/48,no-resolve
 IP-CIDR6,2404:2280:18a::/47,no-resolve
@@ -115690,6 +115692,7 @@ IP-CIDR6,2a06:9f81:6100::/40,no-resolve
 IP-CIDR6,2a06:9f81:640b::/48,no-resolve
 IP-CIDR6,2a06:9f81:6455::/48,no-resolve
 IP-CIDR6,2a06:9f81:6488::/48,no-resolve
+IP-CIDR6,2a06:9f81:649f::/48,no-resolve
 IP-CIDR6,2a06:9f81:64a1::/48,no-resolve
 IP-CIDR6,2a06:a005:1c40::/44,no-resolve
 IP-CIDR6,2a06:a005:260::/43,no-resolve
