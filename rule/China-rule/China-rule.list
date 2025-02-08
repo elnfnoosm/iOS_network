@@ -97392,6 +97392,7 @@ IP-CIDR,103.144.136.0/23,no-resolve
 IP-CIDR,103.144.148.0/23,no-resolve
 IP-CIDR,103.144.158.0/23,no-resolve
 IP-CIDR,103.144.240.0/23,no-resolve
+IP-CIDR,103.144.245.0/24,no-resolve
 IP-CIDR,103.144.28.0/24,no-resolve
 IP-CIDR,103.144.40.0/23,no-resolve
 IP-CIDR,103.144.52.0/23,no-resolve
@@ -104648,6 +104649,7 @@ IP-CIDR,45.119.64.0/21,no-resolve
 IP-CIDR,45.119.72.0/22,no-resolve
 IP-CIDR,45.12.112.0/22,no-resolve
 IP-CIDR,45.12.128.0/24,no-resolve
+IP-CIDR,45.12.185.0/24,no-resolve
 IP-CIDR,45.12.88.0/24,no-resolve
 IP-CIDR,45.12.90.0/24,no-resolve
 IP-CIDR,45.120.100.0/22,no-resolve
