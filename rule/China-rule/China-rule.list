@@ -934,7 +934,6 @@
 .10101111cdn.com
 .1010jiajiao.com
 .1010jz.com
-.1010pic.com
 .1010sh.com
 .1010t.com
 .101505.com
@@ -972,7 +971,6 @@
 .1065m.com
 .1066888.com
 .1073.com
-.107788.com
 .1088hg41.com
 .108ai.com
 .108pk.com
@@ -5305,7 +5303,6 @@
 .52xinyou.com
 .52xitong.com
 .52xiuxian.com
-.52xiyou.com
 .52xydl.com
 .52xyz.com
 .52xz.com
@@ -7942,7 +7939,6 @@
 .937-2.vip
 .937-3.vip
 .937-6.vip
-.9377.com
 .9377a.com
 .9377d.com
 .9377df.com
@@ -8922,13 +8918,11 @@
 .adamcoder.com
 .adamoid.com
 .adanachina.com
-.adanxing.com
 .adapay.tech
 .adarrive.com
 .adaxin.com
 .adbgz.com
 .adbiding.com
-.adbkwai.com
 .adc-expo.com
 .adcdn.com
 .adcomeon.com
@@ -13409,7 +13403,6 @@
 .beiyxiu.com
 .beizengtech.com
 .beizhua.com
-.beizi.biz
 .beiziba.com
 .beiziman.com
 .bej9.com
@@ -13834,7 +13827,6 @@
 .biantongzixun.com
 .bianwa.com
 .bianwanjia.com
-.bianxian.com
 .bianyuandaigou.com
 .bianzhia.com
 .bianzhile.com
@@ -15213,8 +15205,6 @@
 .boosj.com
 .boost77.com
 .boosyi.com
-.bootcdn.net
-.bootcss.com
 .bootmb.com
 .bootstrapmb.com
 .booyu-import.com
@@ -15390,7 +15380,6 @@
 .brentron.com
 .brewbeerwiki.org
 .brewersmix.com
-.brg0.com
 .brhfh.com
 .brick4.com
 .brickmachinery.net
@@ -18283,7 +18272,6 @@
 .chengzhaoxi.xyz
 .chengzhongmugu.ltd
 .chengzhongmugu.vip
-.chengzijianzhan.cc
 .chengzijianzhan.com
 .chengzivr.com
 .chengzz.com
@@ -19318,7 +19306,6 @@
 .chipup.com
 .chipwing.com
 .chipyun.com
-.chiq-cloud.com
 .chiralquest.com
 .chisai.tech
 .chisc.net
@@ -22227,7 +22214,6 @@
 .csjdeveloper.com
 .csjiexin.com
 .csjitian.com
-.csjplatform.com
 .csjsdz.com
 .csjvision.com
 .csjwang.com
@@ -58516,7 +58502,6 @@
 .muzisoft.com
 .muziyueqiu.com
 .muzuhui.com
-.mvad.com
 .mvc188.com
 .mvcat.com
 .mvhere.com
@@ -59987,7 +59972,6 @@
 .niua.com
 .niuacc.com
 .niuaimian.com
-.niuaniua.com
 .niuap.com
 .niubalun.com
 .niubb.net
@@ -62448,8 +62432,6 @@
 .pangod.com
 .pangodsxbj.com
 .pangoing.com
-.pangolin-dsp-toutiao-b.com
-.pangolin-dsp-toutiao.com
 .pangolin-sdk-toutiao-b.com
 .pangolin-sdk-toutiao.com
 .pangolin-sdk-toutiao1.com
@@ -62476,8 +62458,6 @@
 .panpanfood.com
 .panpanzsw.com
 .panpay.com
-.panplayable-toutiao-b.com
-.panplayable-toutiao.com
 .panqiincs.me
 .panruikj.com
 .panshenlian.com
@@ -71618,7 +71598,6 @@
 .sigmachip.com
 .sigmamed.net
 .sigmastarsemi.com
-.sigmob.com
 .sigmoblive.com
 .sign-say.com
 .signage911.com
@@ -73438,8 +73417,6 @@
 .staticaa.com
 .staticdn.net
 .staticec.com
-.staticfile.net
-.staticfile.org
 .statickksmg.com
 .statics.cc
 .staticsoe.com
@@ -74612,7 +74589,6 @@
 .szbbs.org
 .szbcase.com
 .szbcfurniture.com
-.szbdyd.com
 .szbeilu.com
 .szbeilu888.com
 .szbelle.com
@@ -80445,7 +80421,6 @@
 .volcsiriusbd.com
 .volcspaceeduc.com
 .volctracer.com
-.volctrack.com
 .volctraffic.com
 .volctranscdn.com
 .volcvideo.com
@@ -89136,7 +89111,6 @@
 .yf0008168.com
 .yf3p.com
 .yf520.com
-.yfanads.com
 .yfanqie.com
 .yfbudong.com
 .yfbzb.com
@@ -99496,7 +99470,7 @@ IP-CIDR,106.74.0.0/15,no-resolve
 IP-CIDR,106.8.0.0/15,no-resolve
 IP-CIDR,106.80.0.0/12,no-resolve
 IP-CIDR,107.148.150.0/23,no-resolve
-IP-CIDR,107.148.160.0/22,no-resolve
+IP-CIDR,107.148.160.0/24,no-resolve
 IP-CIDR,107.148.84.0/23,no-resolve
 IP-CIDR,107.148.92.0/23,no-resolve
 IP-CIDR,107.149.198.0/23,no-resolve
@@ -100596,6 +100570,7 @@ IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
 IP-CIDR,154.83.28.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
+IP-CIDR,154.89.60.0/24,no-resolve
 IP-CIDR,154.9.244.0/22,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
@@ -100851,6 +100826,7 @@ IP-CIDR,163.53.88.0/21,no-resolve
 IP-CIDR,163.53.96.0/19,no-resolve
 IP-CIDR,164.155.133.0/24,no-resolve
 IP-CIDR,164.52.0.0/17,no-resolve
+IP-CIDR,165.140.26.0/23,no-resolve
 IP-CIDR,165.154.100.0/22,no-resolve
 IP-CIDR,165.154.104.0/21,no-resolve
 IP-CIDR,165.154.112.0/20,no-resolve
@@ -101078,6 +101054,7 @@ IP-CIDR,175.185.0.0/16,no-resolve
 IP-CIDR,175.186.0.0/15,no-resolve
 IP-CIDR,175.188.0.0/14,no-resolve
 IP-CIDR,175.24.0.0/14,no-resolve
+IP-CIDR,175.29.103.0/24,no-resolve
 IP-CIDR,175.29.22.0/23,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
@@ -102952,6 +102929,7 @@ IP-CIDR,212.129.128.0/17,no-resolve
 IP-CIDR,212.64.0.0/17,no-resolve
 IP-CIDR,213.151.233.20/32,no-resolve
 IP-CIDR,213.159.70.0/24,no-resolve
+IP-CIDR,213.18.196.0/22,no-resolve
 IP-CIDR,213.182.216.0/21,no-resolve
 IP-CIDR,213.199.169.0/24,no-resolve
 IP-CIDR,213.255.231.0/24,no-resolve
@@ -103980,6 +103958,7 @@ IP-CIDR,3.5.214.0/23,no-resolve
 IP-CIDR,31.40.214.0/24,no-resolve
 IP-CIDR,31.42.183.48/32,no-resolve
 IP-CIDR,31.56.124.0/24,no-resolve
+IP-CIDR,31.57.222.0/23,no-resolve
 IP-CIDR,35.71.107.0/24,no-resolve
 IP-CIDR,36.0.0.0/22,no-resolve
 IP-CIDR,36.0.128.0/17,no-resolve
@@ -104054,6 +104033,7 @@ IP-CIDR,38.181.40.0/21,no-resolve
 IP-CIDR,38.181.48.0/20,no-resolve
 IP-CIDR,38.196.176.0/24,no-resolve
 IP-CIDR,38.207.122.0/23,no-resolve
+IP-CIDR,38.248.20.0/23,no-resolve
 IP-CIDR,38.46.5.0/24,no-resolve
 IP-CIDR,38.46.6.0/24,no-resolve
 IP-CIDR,38.47.100.0/22,no-resolve
@@ -105108,6 +105088,8 @@ IP-CIDR,81.173.28.0/24,no-resolve
 IP-CIDR,81.23.208.0/20,no-resolve
 IP-CIDR,81.68.0.0/14,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
+IP-CIDR,82.24.183.0/24,no-resolve
+IP-CIDR,82.24.57.0/24,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
@@ -113591,7 +113573,6 @@ IP-CIDR6,2403:4780::/32,no-resolve
 IP-CIDR6,2403:4840::/32,no-resolve
 IP-CIDR6,2403:4880::/32,no-resolve
 IP-CIDR6,2403:4980::/32,no-resolve
-IP-CIDR6,2403:4a00:5002::/48,no-resolve
 IP-CIDR6,2403:4a40::/32,no-resolve
 IP-CIDR6,2403:4a80::/32,no-resolve
 IP-CIDR6,2403:4b40::/32,no-resolve
@@ -116894,6 +116875,7 @@ IP-CIDR6,2a0a:9606:6000::/47,no-resolve
 IP-CIDR6,2a0a:9607:6000::/47,no-resolve
 IP-CIDR6,2a0b:2542::/48,no-resolve
 IP-CIDR6,2a0b:4340:550::/44,no-resolve
+IP-CIDR6,2a0b:4340:560::/44,no-resolve
 IP-CIDR6,2a0b:4e07:b8::/47,no-resolve
 IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
@@ -117231,6 +117213,7 @@ IP-CIDR6,2a14:67c1:802::/48,no-resolve
 IP-CIDR6,2a14:67c1:804::/48,no-resolve
 IP-CIDR6,2a14:67c1:80b::/48,no-resolve
 IP-CIDR6,2a14:67c1:a010::/44,no-resolve
+IP-CIDR6,2a14:67c1:a020::/48,no-resolve
 IP-CIDR6,2a14:67c1:a024::/48,no-resolve
 IP-CIDR6,2a14:67c1:a02f::/48,no-resolve
 IP-CIDR6,2a14:67c5:1000::/36,no-resolve
