@@ -66074,6 +66074,8 @@
 .qwe1e.com
 .qweather.com
 .qweather.net
+.qwen.ai
+.qwenlm.ai
 .qwerhost.com
 .qwfync.com
 .qwgg.com
@@ -100032,7 +100034,7 @@ IP-CIDR,156.224.224.0/24,no-resolve
 IP-CIDR,156.224.232.0/24,no-resolve
 IP-CIDR,156.230.11.0/24,no-resolve
 IP-CIDR,156.230.12.0/23,no-resolve
-IP-CIDR,156.232.10.0/24,no-resolve
+IP-CIDR,156.232.10.0/23,no-resolve
 IP-CIDR,156.232.9.0/24,no-resolve
 IP-CIDR,156.236.96.0/23,no-resolve
 IP-CIDR,156.237.104.0/23,no-resolve
@@ -102389,7 +102391,6 @@ IP-CIDR,213.255.231.0/24,no-resolve
 IP-CIDR,216.246.39.189/32,no-resolve
 IP-CIDR,217.146.9.192/28,no-resolve
 IP-CIDR,217.194.133.0/24,no-resolve
-IP-CIDR,217.194.135.0/24,no-resolve
 IP-CIDR,217.20.164.181/32,no-resolve
 IP-CIDR,217.7.142.0/32,no-resolve
 IP-CIDR,218.0.0.0/11,no-resolve
