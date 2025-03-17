@@ -21869,7 +21869,6 @@
 .cqrcb.com
 .cqrcdsc.com
 .cqrfym.com
-.cqrjx.com
 .cqrm.com
 .cqrmb.com
 .cqsckj02.com
@@ -47340,7 +47339,6 @@
 .jjjaaa.com
 .jjjllk.com
 .jjjpv.com
-.jjjx9.com
 .jjkeq.com
 .jjkjnet.com
 .jjkk.org
@@ -48235,6 +48233,7 @@
 .jswebcall.com
 .jsweixiu.com
 .jswel.com
+.jswenjin.com
 .jswjkj.net
 .jswmw.com
 .jswonderful.com
@@ -51248,7 +51247,6 @@
 .lacaoshi.com
 .lacesar.com
 .lacocrea.com
-.lacyw.com
 .ladiyoga.com
 .ladjzs.com
 .lady75.com
@@ -78404,7 +78402,6 @@
 .tzsti.com
 .tzsucai.com
 .tzswatch.com
-.tzswll.com
 .tztrzjt.com
 .tztusi.com
 .tzujian.com
@@ -79794,6 +79791,7 @@
 .viewstock.com
 .viewtool.com
 .viewtrans.com
+.vifaka.com
 .vigtm-meeting-tencent.com
 .viigee.com
 .viisan.com
@@ -96693,7 +96691,6 @@ IP-CIDR,101.96.8.0/22,no-resolve
 IP-CIDR,101.99.96.0/19,no-resolve
 IP-CIDR,102.134.32.0/22,no-resolve
 IP-CIDR,102.134.56.0/22,no-resolve
-IP-CIDR,102.141.200.0/22,no-resolve
 IP-CIDR,102.220.88.0/22,no-resolve
 IP-CIDR,102.32.0.0/15,no-resolve
 IP-CIDR,102.38.229.0/24,no-resolve
@@ -100298,7 +100295,6 @@ IP-CIDR,154.208.140.0/22,no-resolve
 IP-CIDR,154.208.144.0/20,no-resolve
 IP-CIDR,154.208.160.0/21,no-resolve
 IP-CIDR,154.208.172.0/23,no-resolve
-IP-CIDR,154.209.2.0/24,no-resolve
 IP-CIDR,154.209.251.0/24,no-resolve
 IP-CIDR,154.213.4.0/23,no-resolve
 IP-CIDR,154.23.188.0/22,no-resolve
@@ -100979,7 +100975,6 @@ IP-CIDR,185.239.84.0/22,no-resolve
 IP-CIDR,185.242.232.0/22,no-resolve
 IP-CIDR,185.242.244.0/22,no-resolve
 IP-CIDR,185.243.240.0/22,no-resolve
-IP-CIDR,185.243.43.0/24,no-resolve
 IP-CIDR,185.245.40.0/23,no-resolve
 IP-CIDR,185.248.86.0/24,no-resolve
 IP-CIDR,185.255.152.0/24,no-resolve
@@ -104459,7 +104454,6 @@ IP-CIDR,45.152.24.0/22,no-resolve
 IP-CIDR,45.153.128.0/22,no-resolve
 IP-CIDR,45.154.244.0/24,no-resolve
 IP-CIDR,45.157.88.0/24,no-resolve
-IP-CIDR,45.195.198.0/24,no-resolve
 IP-CIDR,45.195.6.0/24,no-resolve
 IP-CIDR,45.199.167.0/24,no-resolve
 IP-CIDR,45.202.209.0/24,no-resolve
