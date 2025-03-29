@@ -1117,6 +1117,7 @@
 .ahxxx.club
 .ai-kan.net
 .ai-wen.net
+.ai.azure.com
 .ai3sd.ac.uk
 .ai7995.site
 .ai91porn.cc
@@ -3070,6 +3071,7 @@
 .banorte.com
 .baraero.com
 .baramangaonline.com
+.bard.google.com
 .barefootnetworks.com
 .barelist.com
 .barenakedislam.com
@@ -6789,6 +6791,8 @@
 .coova.net
 .coova.org
 .copac.ac.uk
+.copilot.cloud.microsoft
+.copilot.microsoft.com
 .copim.ac.uk
 .copior.ac.uk
 .copro.pw
@@ -11398,6 +11402,7 @@
 .gemfire.net
 .gemfury.com
 .gemini.com
+.gemini.google.com
 .gen.lib.rus.ec
 .gen2.ac.uk
 .gendai.net
@@ -12237,6 +12242,7 @@
 .gray.ac.uk
 .graylab.ac.uk
 .grazie.ai
+.grazie.aws.intellij.net
 .grcb.ac.uk
 .gre.ac.uk
 .greasespot.net
@@ -17126,6 +17132,7 @@
 .makeitopen.com
 .makeitrealcontest.com
 .makemymood.com
+.makersuite.google.com
 .makesenseofdata.com
 .makingassessmentcount.ac.uk
 .makingstartshere.com
@@ -18291,6 +18298,7 @@
 .misskeyusercontent.jp
 .mist.ac.uk
 .mist.vip
+.mistral.ai
 .mistresskym.com
 .mit.edu
 .mit.net
@@ -31406,6 +31414,7 @@ DOMAIN-KEYWORD,1e100
 DOMAIN-KEYWORD,abema
 DOMAIN-KEYWORD,abematv.akamaized.net
 DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,apiproxy-device-prod-nlb-
 DOMAIN-KEYWORD,appledaily
 DOMAIN-KEYWORD,avoddashs
@@ -31413,6 +31422,7 @@ DOMAIN-KEYWORD,avtb
 DOMAIN-KEYWORD,bbcfmt
 DOMAIN-KEYWORD,beetalk
 DOMAIN-KEYWORD,blogspot
+DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,discovery.uplynk.com
 DOMAIN-KEYWORD,dlercloud
 DOMAIN-KEYWORD,dropbox
@@ -32561,11 +32571,15 @@ USER-AGENT,encoreTVB*
 USER-AGENT,hearthstone*
 USER-AGENT,mytv*
 adobeereg.com
+ai.google.dev
 akmcdnoversea-tw.inter.ptqy.gitv.tv
 angle.com.tw
 anime-rule34-world.b-cdn.net
 api-p.videomarket.jp
+api.githubcopilot.com
+api.groq.com
 api.okzy.tv
+api.together.xyz
 api.waqi.info
 apm-misaka.biliapi.net
 apple.com.akadns.net
@@ -32595,6 +32609,8 @@ cisco.evergage.com
 cloud.oracle.com
 clubhouse.pubnubapi.com
 community.oneplus.com
+console.groq.com
+copilot-proxy.githubusercontent.com
 courier-push-apple.com.akadns.net
 crl.versign.net
 cs428.wpc.edgecastcdn.net
@@ -32616,6 +32632,7 @@ espn.hb.omtrdc.net
 espndotcom.tt.omtrdc.net
 faronics.kayako.com
 firstsearch.oclc.org
+generativelanguage.googleapis.com
 gog.qtlglb.com
 gspe1-ssl.ls.apple.com
 h-dazn.online-metrix.net
@@ -32662,6 +32679,7 @@ qualcomm.sc.omtrdc.net
 rpg.pic-imges.com
 rthklive2-lh.akamaihd.net
 servd-anthropic-website.b-cdn.net
+sydney.bing.com
 tesla-cdn.thron.com
 testflight.apple.com
 tmdb-image-prod.b-cdn.net
