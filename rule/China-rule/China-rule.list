@@ -32542,6 +32542,7 @@
 .forestfood.com
 .forestmusicnanjing.com
 .forestpolice.org
+.forevernine.com
 .foreveross.com
 .foreweld.com
 .forface3d.com
@@ -36020,6 +36021,8 @@
 .golenpower.com
 .golfvv.com
 .golink.com
+.golinkapi.com
+.golinkcn.com
 .golinksworld.com
 .golive-tv.com
 .golivetv.tv
@@ -48028,6 +48031,7 @@
 .imlianai.com
 .imliuyi.com
 .immeee.com
+.immersivetranslate.com
 .immfast.com
 .immi520.com
 .immiexpo.com
@@ -73921,6 +73925,7 @@
 .rm.run
 .rmb.sh
 .rmbbk.com
+.rmbgame.net
 .rmbrate.net
 .rmburl.com
 .rmcaribbean.com
@@ -80592,6 +80597,7 @@
 .stdout.pub
 .stdwp.com
 .ste56.com
+.steam302.xyz
 .steambang.com
 .steambig.com
 .steamboxs.com
@@ -106885,8 +106891,7 @@ IP-CIDR,103.143.124.0/23,no-resolve
 IP-CIDR,103.143.132.0/22,no-resolve
 IP-CIDR,103.143.16.0/22,no-resolve
 IP-CIDR,103.143.174.0/23,no-resolve
-IP-CIDR,103.143.228.0/23,no-resolve
-IP-CIDR,103.143.231.0/24,no-resolve
+IP-CIDR,103.143.228.0/22,no-resolve
 IP-CIDR,103.143.31.0/24,no-resolve
 IP-CIDR,103.143.74.0/23,no-resolve
 IP-CIDR,103.143.92.0/23,no-resolve
@@ -106895,7 +106900,6 @@ IP-CIDR,103.144.136.0/23,no-resolve
 IP-CIDR,103.144.148.0/23,no-resolve
 IP-CIDR,103.144.158.0/23,no-resolve
 IP-CIDR,103.144.240.0/23,no-resolve
-IP-CIDR,103.144.245.0/24,no-resolve
 IP-CIDR,103.144.40.0/23,no-resolve
 IP-CIDR,103.144.52.0/23,no-resolve
 IP-CIDR,103.144.66.0/23,no-resolve
@@ -110375,7 +110379,7 @@ IP-CIDR,163.177.0.0/16,no-resolve
 IP-CIDR,163.179.0.0/16,no-resolve
 IP-CIDR,163.181.0.0/16,no-resolve
 IP-CIDR,163.204.0.0/16,no-resolve
-IP-CIDR,163.223.178.0/24,no-resolve
+IP-CIDR,163.223.178.0/23,no-resolve
 IP-CIDR,163.228.0.0/16,no-resolve
 IP-CIDR,163.244.246.0/24,no-resolve
 IP-CIDR,163.47.4.0/22,no-resolve
@@ -126753,6 +126757,7 @@ IP-CIDR6,2a0e:aa07:e21c::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e220::/44,no-resolve
 IP-CIDR6,2a0e:aa07:ec10::/44,no-resolve
 IP-CIDR6,2a0e:aa07:f012::/48,no-resolve
+IP-CIDR6,2a0e:aa07:f0d1::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d2::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d5::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d8::/48,no-resolve
@@ -127064,6 +127069,7 @@ abclive2-lh.akamaihd.net
 admob-cn.com
 ai.ytimg.com
 aka-amd-njpwworld-hls-enlive.akamaized.net
+alibaba.cdn.steampipe.steamcontent.com
 aljazeera-eng-hd-live.hls.adaptive.level3.net
 amdlive-ch01.ctnd.com.edgesuite.net
 amdlive-ch03-ctnd-com.akamaized.net
