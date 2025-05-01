@@ -30032,6 +30032,7 @@
 .djiang.net
 .djiavip.com
 .djicdn.com
+.djiits.com
 .djiops.com
 .djiservice.org
 .djjgj.com
@@ -70216,6 +70217,7 @@
 .mored.com
 .moredian.com
 .morefood.com
+.morefreegame.com
 .morefun-philippines.com
 .moregy.com
 .moreless.io
@@ -135758,6 +135760,7 @@ IP-CIDR6,2404:2280:1f8::/46,no-resolve
 IP-CIDR6,2404:2280:202::/47,no-resolve
 IP-CIDR6,2404:2280:204::/47,no-resolve
 IP-CIDR6,2404:2280:209::/48,no-resolve
+IP-CIDR6,2404:2280:20a::/48,no-resolve
 IP-CIDR6,2404:240::/32,no-resolve
 IP-CIDR6,2404:280::/32,no-resolve
 IP-CIDR6,2404:30c0::/32,no-resolve
