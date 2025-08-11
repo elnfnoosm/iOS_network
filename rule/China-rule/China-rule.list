@@ -71404,7 +71404,6 @@
 .naiveadmin.com
 .naiveblue.com
 .naiwch.com
-.naixi.net
 .naixuecha.com
 .naiyouxuexi.com
 .najingtech.com
@@ -95634,6 +95633,7 @@
 .tuishujun.com
 .tuisnake.com
 .tuistone.com
+.tuitui.info
 .tuitui99.com
 .tuituifang.com
 .tuituisoft.com
@@ -122038,10 +122038,6 @@ IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
-IP-CIDR,154.89.49.0/24,no-resolve
-IP-CIDR,154.89.50.0/23,no-resolve
-IP-CIDR,154.89.52.0/22,no-resolve
-IP-CIDR,154.89.56.0/21,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
@@ -122536,9 +122532,6 @@ IP-CIDR,175.185.0.0/16,no-resolve
 IP-CIDR,175.186.0.0/15,no-resolve
 IP-CIDR,175.188.0.0/14,no-resolve
 IP-CIDR,175.24.0.0/14,no-resolve
-IP-CIDR,175.29.107.0/24,no-resolve
-IP-CIDR,175.29.108.0/24,no-resolve
-IP-CIDR,175.29.110.0/23,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
 IP-CIDR,175.44.0.0/16,no-resolve
@@ -136382,6 +136375,7 @@ IP-CIDR6,2602:814:f006::/48,no-resolve
 IP-CIDR6,2602:f7b8:4::/48,no-resolve
 IP-CIDR6,2602:f7ee:ee::/48,no-resolve
 IP-CIDR6,2602:f92a:a000::/40,no-resolve
+IP-CIDR6,2602:f92a:f000::/40,no-resolve
 IP-CIDR6,2602:f93b:400::/38,no-resolve
 IP-CIDR6,2602:f9ba:10c::/48,no-resolve
 IP-CIDR6,2602:f9ba:a8::/48,no-resolve
@@ -138223,6 +138217,7 @@ IP-CIDR6,2a14:67c1:a061::/48,no-resolve
 IP-CIDR6,2a14:67c1:a064::/48,no-resolve
 IP-CIDR6,2a14:67c1:a090::/46,no-resolve
 IP-CIDR6,2a14:67c1:a094::/47,no-resolve
+IP-CIDR6,2a14:67c1:a096::/48,no-resolve
 IP-CIDR6,2a14:67c1:a099::/48,no-resolve
 IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
