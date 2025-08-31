@@ -137492,6 +137492,7 @@ IP-CIDR6,2a0a:8f40:9::/48,no-resolve
 IP-CIDR6,2a0a:9606:6000::/47,no-resolve
 IP-CIDR6,2a0b:2542::/48,no-resolve
 IP-CIDR6,2a0b:4340:550::/44,no-resolve
+IP-CIDR6,2a0b:4b81:1001::/48,no-resolve
 IP-CIDR6,2a0b:4e07:b8::/47,no-resolve
 IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
@@ -137558,6 +137559,7 @@ IP-CIDR6,2a0e:aa06:525::/48,no-resolve
 IP-CIDR6,2a0e:aa06:541::/48,no-resolve
 IP-CIDR6,2a0e:aa06::/40,no-resolve
 IP-CIDR6,2a0e:aa07:e01b::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e021::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e025::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e030::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e035::/48,no-resolve
@@ -137647,6 +137649,7 @@ IP-CIDR6,2a0f:9400:6110::/48,no-resolve
 IP-CIDR6,2a0f:9400:7700::/48,no-resolve
 IP-CIDR6,2a0f:9407:f000::/36,no-resolve
 IP-CIDR6,2a0f:ac00::/29,no-resolve
+IP-CIDR6,2a0f:ea47:fc1d::/48,no-resolve
 IP-CIDR6,2a10:2f00:15a::/48,no-resolve
 IP-CIDR6,2a10:500:4600::/40,no-resolve
 IP-CIDR6,2a10:9007:5:3::/64,no-resolve
@@ -137707,6 +137710,7 @@ IP-CIDR6,2a13:a5c7:2100::/48,no-resolve
 IP-CIDR6,2a13:a5c7:2102::/48,no-resolve
 IP-CIDR6,2a13:a5c7:2121::/48,no-resolve
 IP-CIDR6,2a13:a5c7:2301::/48,no-resolve
+IP-CIDR6,2a13:a5c7:23c0::/42,no-resolve
 IP-CIDR6,2a13:a5c7:2530::/48,no-resolve
 IP-CIDR6,2a13:a5c7:25ff:2f00::/57,no-resolve
 IP-CIDR6,2a13:a5c7:25ff:2f80::/58,no-resolve
@@ -137745,11 +137749,12 @@ IP-CIDR6,2a14:67c1:a061::/48,no-resolve
 IP-CIDR6,2a14:67c1:a064::/48,no-resolve
 IP-CIDR6,2a14:67c1:a081::/48,no-resolve
 IP-CIDR6,2a14:67c1:a090::/46,no-resolve
-IP-CIDR6,2a14:67c1:a095::/48,no-resolve
+IP-CIDR6,2a14:67c1:a094::/47,no-resolve
 IP-CIDR6,2a14:67c1:a096::/48,no-resolve
 IP-CIDR6,2a14:67c1:a099::/48,no-resolve
 IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
+IP-CIDR6,2a14:67c1:a127::/48,no-resolve
 IP-CIDR6,2a14:67c1:a144::/48,no-resolve
 IP-CIDR6,2a14:67c1:b000::/48,no-resolve
 IP-CIDR6,2a14:67c1:b065::/48,no-resolve
@@ -137766,7 +137771,7 @@ IP-CIDR6,2a14:67c1:b4a2::/48,no-resolve
 IP-CIDR6,2a14:67c1:b4c0::/45,no-resolve
 IP-CIDR6,2a14:67c1:b4d0::/44,no-resolve
 IP-CIDR6,2a14:67c1:b4e0::/43,no-resolve
-IP-CIDR6,2a14:67c1:b500::/48,no-resolve
+IP-CIDR6,2a14:67c1:b500::/47,no-resolve
 IP-CIDR6,2a14:67c1:b549::/48,no-resolve
 IP-CIDR6,2a14:67c1:b561::/48,no-resolve
 IP-CIDR6,2a14:67c1:b563::/48,no-resolve
