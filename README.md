@@ -8,4 +8,8 @@ iOS平台上的Quantumultx、Loon、Stash、Shadowrocket等软件规则、重写
 3、国内直连、国际加速、广告拦截三大通用基础rule规则list整合每日自动更新。
 
 # 访问量
+
+![Visitor Count](https://visitor-badge.laobi.icu/badge?page_id=elnfnoosm.iOS_network)
+<!---
 ![](http://profile-counter.glitch.me/elnfnoosm-iOS_network/count.svg)
+--->
