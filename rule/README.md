@@ -13,7 +13,7 @@
 
 
 如果碰到surge或其他工具无法解析规则链接的，使用script_hub模块转换链接在导入即可正常识别。
-安装模块后，启用模块，浏览器访问https://script.hub即可在QX，surge，loon，stash，shadowrocket等之间任意转换模块和规则
+安装模块后，启用模块，浏览器访问https://script.hub   即可在QX，surge，loon，stash，shadowrocket等之间任意转换模块和规则
 
 
 Surge Egern LanceX 模块
