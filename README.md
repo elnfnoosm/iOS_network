@@ -4,7 +4,9 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/elnfnoosm/iOS_network?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/elnfnoosm/iOS_network?color=ffd700&style=for-the-badge)
 ![GitHub forks](https://img.shields.io/github/forks/elnfnoosm/iOS_network?color=60c5ba&style=for-the-badge)
-![GitHub](https://img.shields.io/github/license/elnfnoosm/iOS_network?style=for-the-badge)
+
+
+
 iOS平台上的Quantumultx、Loon、Stash、Shadowrocket等软件规则、重写及插件等。规则每日更新。
 
 1、配置文件稳定后无需经常更新，仅定期更新规则，增减插件模块等即可。
