@@ -17394,7 +17394,6 @@
 .bsydns.net
 .bsyjrb.com
 .bsyjt.com
-.bsyrimw.xyz
 .bsyxx.com
 .bsyyjt.com
 .bsz666.com
@@ -133923,8 +133922,8 @@ IP-CIDR6,2a06:1287:3921::/48,no-resolve
 IP-CIDR6,2a06:3603::/32,no-resolve
 IP-CIDR6,2a06:3604::/30,no-resolve
 IP-CIDR6,2a06:9f45:1111::/48,no-resolve
-IP-CIDR6,2a06:9f81:4600::/43,no-resolve
-IP-CIDR6,2a06:9f81:4640::/44,no-resolve
+IP-CIDR6,2a06:9f81:4600::/42,no-resolve
+IP-CIDR6,2a06:9f81:4640::/43,no-resolve
 IP-CIDR6,2a06:a005:1c40::/44,no-resolve
 IP-CIDR6,2a06:a005:260::/43,no-resolve
 IP-CIDR6,2a06:a005:280::/43,no-resolve
@@ -135131,6 +135130,7 @@ IP-CIDR6,2a0e:aa07:e056::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e0e0::/44,no-resolve
 IP-CIDR6,2a0e:aa07:e151::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e155::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e15f::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e16a::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e192::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e1a0::/44,no-resolve
