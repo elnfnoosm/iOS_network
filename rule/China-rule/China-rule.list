@@ -8145,6 +8145,7 @@
 .9000wy.com
 .900112.com
 .900501.xyz
+.900cha.com
 .900php.com
 .900ppt.com
 .900yi.com
@@ -53295,6 +53296,7 @@
 .ips.com
 .ips8.com
 .ipsebe.com
+.ipshu.com
 .ipshudi.com
 .ipsmap.com
 .ipssh.net
@@ -53587,6 +53589,7 @@
 .issks.com
 .ist-zl.com
 .istcw.com
+.istoreos.com
 .istpei.com
 .istrongcloud.com
 .istrongcloud.net
@@ -58743,6 +58746,7 @@
 .jxpdf.com
 .jxphone.com
 .jxphyz.com
+.jxpp.com
 .jxpta.com
 .jxqcw.com
 .jxqtkj.com
@@ -71150,6 +71154,7 @@
 .networkesl.com
 .networklo.com
 .netzonesoft.com
+.netzz.net
 .neu-reality.com
 .neucrack.com
 .neuedu.com
@@ -101306,6 +101311,7 @@
 .wsgeogen.com
 .wsgjj.com
 .wsgjp.com
+.wsglb.com
 .wsglb.net
 .wsglb0.com
 .wsglb0.info
@@ -102802,6 +102808,7 @@
 .xdsyzzs.com
 .xdter.com
 .xdtev.com
+.xdtool.com
 .xdtos.com
 .xduim.com
 .xduoo.com
@@ -121794,6 +121801,7 @@ IP-CIDR,193.119.0.0/19,no-resolve
 IP-CIDR,193.17.120.0/22,no-resolve
 IP-CIDR,193.20.64.0/22,no-resolve
 IP-CIDR,193.200.222.160/28,no-resolve
+IP-CIDR,193.233.49.0/24,no-resolve
 IP-CIDR,193.3.56.73/32,no-resolve
 IP-CIDR,193.32.227.48/28,no-resolve
 IP-CIDR,193.56.20.0/24,no-resolve
@@ -136335,6 +136343,7 @@ IP-CIDR6,2a0e:ec05:79c0::/42,no-resolve
 IP-CIDR6,2a0e:ec05:7a00::/40,no-resolve
 IP-CIDR6,2a0e:ec05:7b00::/42,no-resolve
 IP-CIDR6,2a0f:5707:ac00::/47,no-resolve
+IP-CIDR6,2a0f:6284:4b00::/40,no-resolve
 IP-CIDR6,2a0f:7803:e300::/40,no-resolve
 IP-CIDR6,2a0f:7803:f5d0::/44,no-resolve
 IP-CIDR6,2a0f:7803:f5e0::/43,no-resolve
@@ -136354,7 +136363,6 @@ IP-CIDR6,2a0f:7803:fd80::/41,no-resolve
 IP-CIDR6,2a0f:7803:fe41::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe44::/47,no-resolve
 IP-CIDR6,2a0f:7803:fe46::/48,no-resolve
-IP-CIDR6,2a0f:7803:fe60::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe81::/48,no-resolve
 IP-CIDR6,2a0f:7803:fe82::/48,no-resolve
 IP-CIDR6,2a0f:7803:ff02:4000::/50,no-resolve
@@ -136447,7 +136455,6 @@ IP-CIDR6,2a13:a5c7:31a0::/43,no-resolve
 IP-CIDR6,2a13:a5c7:3301::/48,no-resolve
 IP-CIDR6,2a13:a5c7:3304::/48,no-resolve
 IP-CIDR6,2a13:a5c7:3306::/48,no-resolve
-IP-CIDR6,2a13:a5c7:3400::/44,no-resolve
 IP-CIDR6,2a13:aac4::/32,no-resolve
 IP-CIDR6,2a13:b487:1b86::/47,no-resolve
 IP-CIDR6,2a13:b487:1b88::/47,no-resolve
@@ -136477,7 +136484,7 @@ IP-CIDR6,2a14:67c1:a081::/48,no-resolve
 IP-CIDR6,2a14:67c1:a091::/48,no-resolve
 IP-CIDR6,2a14:67c1:a093::/48,no-resolve
 IP-CIDR6,2a14:67c1:a094::/46,no-resolve
-IP-CIDR6,2a14:67c1:a099::/48,no-resolve
+IP-CIDR6,2a14:67c1:a098::/47,no-resolve
 IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
 IP-CIDR6,2a14:67c1:a144::/48,no-resolve
@@ -136815,8 +136822,6 @@ mgugaklive.nowcdn.co.kr
 mobile.ccdntech.com
 monitoring.qpdp1.net
 movie.mcas.jp
-msgr.dlservice.microsoft.com
-msgruser.dlservice.microsoft.com
 n18.rcs.revma.com
 necgokr2-724.acs.wecandeo.com
 nettvpro.live
@@ -136840,7 +136845,6 @@ prod.databe.floonet.goog
 productcard.gog-statics.com
 qagpublic.qatp1.net
 qgadmin.qcpp1.net
-qh.dlservice.microsoft.com
 qqlivepull.seedata.top
 qualysapi.qatp1.net
 qualysguard.qpdp1.net
@@ -136865,9 +136869,7 @@ sdn-global-live-streaming-packager-cache-3qsdn.akamaized.net
 seb.sason.top
 service.urchin.com
 si.cdn.dell.com
-silverlight.dlservice.microsoft.com
 slive.ytn.co.kr
-slupdate.dlservice.microsoft.com
 sm.dell.com
 smart.uhdnow.com
 sms.imagetasks.com
@@ -136913,7 +136915,6 @@ w3.wifijiangyin.com
 wcnc-lh.akamaihd.net
 weather-lh.akamaihd.net
 weizhiyundong.list
-wl.dlservice.microsoft.com
 wosu.streamguys1.com
 wowza-stream.wbur.org
 wowza.montevideo.com.uy
@@ -136931,7 +136932,6 @@ www.soundvideostar.com
 www.szmgiptv.com
 www.yxssp.com
 www4-static.gog-statics.com
-xb.dlservice.microsoft.com
 xn--flw351e.com
 youku.cdn2-youku.com
 zb.dehua.tv
