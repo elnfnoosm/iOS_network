@@ -25563,6 +25563,7 @@
 .cqshyzx.com
 .cqsifang.com
 .cqsj365.com
+.cqsjb.com
 .cqsjbc.com
 .cqsjky.com
 .cqsjnzx.com
@@ -103006,6 +103007,7 @@
 .xhkt.tv
 .xhlaowu.com
 .xhlcsl.com
+.xhlsgs.com
 .xhma.com
 .xhmedia.com
 .xhmwxy.com
@@ -104530,6 +104532,7 @@
 .xinwenku.com
 .xinwenlianbo.tv
 .xinwo.com
+.xinwuji.com
 .xinwulan.com
 .xinxe.com
 .xinxi28.com
@@ -109574,6 +109577,7 @@
 .yokacdn.com
 .yokagames.com
 .yokaimg.com
+.yokaverse.com
 .yokechina.com
 .yokmob.com
 .yokong.com
@@ -118962,6 +118966,7 @@ IP-CIDR,103.40.128.0/22,no-resolve
 IP-CIDR,103.40.156.0/22,no-resolve
 IP-CIDR,103.40.16.0/20,no-resolve
 IP-CIDR,103.40.164.0/22,no-resolve
+IP-CIDR,103.40.173.0/24,no-resolve
 IP-CIDR,103.40.174.0/23,no-resolve
 IP-CIDR,103.40.192.0/22,no-resolve
 IP-CIDR,103.40.212.0/22,no-resolve
@@ -122117,7 +122122,6 @@ IP-CIDR,202.57.240.0/20,no-resolve
 IP-CIDR,202.58.0.0/24,no-resolve
 IP-CIDR,202.58.104.0/22,no-resolve
 IP-CIDR,202.58.112.0/22,no-resolve
-IP-CIDR,202.58.122.0/24,no-resolve
 IP-CIDR,202.59.0.0/23,no-resolve
 IP-CIDR,202.59.212.0/22,no-resolve
 IP-CIDR,202.59.236.0/24,no-resolve
@@ -135739,6 +135743,7 @@ IP-CIDR6,2a05:dfc1:16ff::/48,no-resolve
 IP-CIDR6,2a05:dfc1:5efb:141::/64,no-resolve
 IP-CIDR6,2a05:e580:700::/40,no-resolve
 IP-CIDR6,2a06:1281:8000::/36,no-resolve
+IP-CIDR6,2a06:1284::/32,no-resolve
 IP-CIDR6,2a06:1287:3901:1::/64,no-resolve
 IP-CIDR6,2a06:1287:3910::/48,no-resolve
 IP-CIDR6,2a06:1287:3921::/48,no-resolve
@@ -135763,6 +135768,7 @@ IP-CIDR6,2a07:f480::/29,no-resolve
 IP-CIDR6,2a09:2700:2800::/40,no-resolve
 IP-CIDR6,2a09:2702:48::/48,no-resolve
 IP-CIDR6,2a09:4c0:0:30::/64,no-resolve
+IP-CIDR6,2a09:54c5::/32,no-resolve
 IP-CIDR6,2a09:54c6:3000::/36,no-resolve
 IP-CIDR6,2a09:54c6:b000::/36,no-resolve
 IP-CIDR6,2a09:54c6:c000::/36,no-resolve
@@ -137007,6 +137013,7 @@ IP-CIDR6,2a0f:1cc5:20::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:f00::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:f04::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:f06::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b100::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b102::/47,no-resolve
 IP-CIDR6,2a0f:1cc6:b104::/48,no-resolve
@@ -137154,6 +137161,7 @@ IP-CIDR6,2a14:67c1:a081::/48,no-resolve
 IP-CIDR6,2a14:67c1:a100::/43,no-resolve
 IP-CIDR6,2a14:67c1:a125::/48,no-resolve
 IP-CIDR6,2a14:67c1:a126::/48,no-resolve
+IP-CIDR6,2a14:67c1:a128::/48,no-resolve
 IP-CIDR6,2a14:67c1:a144::/48,no-resolve
 IP-CIDR6,2a14:67c1:b000::/48,no-resolve
 IP-CIDR6,2a14:67c1:b065::/48,no-resolve
@@ -137188,6 +137196,8 @@ IP-CIDR6,2a14:67c1:b5a1::/48,no-resolve
 IP-CIDR6,2a14:67c1:c300::/40,no-resolve
 IP-CIDR6,2a14:7580:740::/44,no-resolve
 IP-CIDR6,2a14:7580:750::/47,no-resolve
+IP-CIDR6,2a14:7580:775::/48,no-resolve
+IP-CIDR6,2a14:7580:777::/48,no-resolve
 IP-CIDR6,2a14:7580:9200::/40,no-resolve
 IP-CIDR6,2a14:7580:9400::/39,no-resolve
 IP-CIDR6,2a14:7580:c1c::/48,no-resolve
@@ -137220,6 +137230,7 @@ IP-CIDR6,2a14:7581:bbb::/48,no-resolve
 IP-CIDR6,2a14:7581:bcd::/48,no-resolve
 IP-CIDR6,2a14:7581:bff::/48,no-resolve
 IP-CIDR6,2a14:7581:ffb::/48,no-resolve
+IP-CIDR6,2a14:7581:ffd::/48,no-resolve
 IP-CIDR6,2a14:7583:f201::/48,no-resolve
 IP-CIDR6,2a14:7583:f203::/48,no-resolve
 IP-CIDR6,2a14:7583:f204::/48,no-resolve
