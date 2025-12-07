@@ -1979,7 +1979,6 @@
 .api.mixpanel.com
 .api.nebula-emby.com
 .api.news
-.api.palworldgame.com
 .api.proxlet.com
 .api.termius.com
 .api.tv.colnv.com
@@ -2417,6 +2416,7 @@
 .archlinuxarm.org
 .archway.ac.uk
 .arcom.ac.uk
+.arcraiders.com
 .arctic.ac.uk
 .arctosia.com
 .arden.ac.uk
@@ -5427,6 +5427,7 @@
 .c-scaipe.ac.uk
 .c-span.org
 .c-spanvideo.org
+.c.gle
 .c.mi.com
 .c0930.com
 .c100tibet.org
@@ -8467,7 +8468,6 @@
 .doclercdn.com
 .docs.cfw.lbyczf.com
 .docs.com
-.docs.deno.com
 .docs.new
 .docs.rs
 .doctor-videos.com
@@ -9484,6 +9484,8 @@
 .email-bimm.ac.uk
 .emanna.com
 .emas.ac.uk
+.embark-studios.com
+.embark.games
 .embase.com
 .embed-cdn.com
 .embed.ly
@@ -10298,6 +10300,8 @@
 .faceid99.com
 .faceid99.net
 .faceidglobal.com
+.faceit-cdn.net
+.faceit.com
 .faceless.me
 .faceobk.com
 .faceobok.com
@@ -14819,7 +14823,6 @@
 .imagemodeler.com
 .imagepost.com
 .images-gaytube.com
-.images.prismic.io
 .imageshack.com
 .imageshack.us
 .imagetwist.com
@@ -17555,7 +17558,6 @@
 .lstmliverpool.ac.uk
 .lstonline.ac.uk
 .lsxszzg.com
-.lt.sntp.uk
 .ltcc.ac.uk
 .ltea.ac.uk
 .ltegroup.ac.uk
@@ -17647,7 +17649,6 @@
 .m-power.com
 .m-rhex.ac.uk
 .m-sport.co.uk
-.m-team.cc
 .m.me
 .m.plixi.com
 .m.slandr.net
@@ -21809,6 +21810,7 @@
 .palmislife.com
 .pals.ac.uk
 .paltalk.com
+.palworldgame.com
 .panasonic.com
 .panasonic.jp
 .pancakeswap.finance
@@ -23183,6 +23185,7 @@
 .prioned.ac.uk
 .prism-break.org
 .prism.ac.uk
+.prismic.io
 .prismlauncher.org
 .prismlive.com
 .prisoneralert.com
@@ -23845,6 +23848,7 @@
 .reach.ac.uk
 .reachingwider.ac.uk
 .reachporn.com
+.reachthefinals.com
 .reachtheworldonfacebook.com
 .react.com
 .reactjs.com
@@ -25854,6 +25858,7 @@
 .snowlionpub.com
 .snowmiku.com
 .snssdk.com
+.sntp.uk
 .snug.ac.uk
 .so-net.ne.jp
 .so-net.net.tw
@@ -27850,12 +27855,15 @@
 .tigervpn.com
 .tiipple.ac.uk
 .tik-tokapi.com
+.tiktok-row.net
 .tiktok.com
 .tiktok.us
 .tiktokcdn-eu.com
 .tiktokcdn-us.com
 .tiktokcdn.com
 .tiktokeu-cdn.com
+.tiktokglobalshopv.com
+.tiktokminis.us
 .tiktokv.com
 .tiktokv.eu
 .tiktokv.us
@@ -32473,6 +32481,7 @@
 .zopim.com
 .zorglist.com
 .zorrovpn.com
+.zotero.org
 .zozotown.com
 .zpn.im
 .zqqpwz.com
@@ -33728,7 +33737,6 @@ datarouter.apps.netherrealm.com
 daznfeeds.com.edgekey.net
 dca-lm-livedazn.secure.footprint.net
 default.exp-tas.com
-deribit.cdn.prismic.io
 deutschewelle.h-cdn.com
 developer.apple.com
 dl.begellhouse.com
@@ -33769,6 +33777,7 @@ nationalaustraliaban.tt.omtrdc.net
 news-client.apple.com
 news-edge.apple.com
 news-events.apple.com
+notebooklm.google.com
 ntp-c.colorado.edu
 ntp0.ntp-servers.net
 ntp1.ntp-servers.net
