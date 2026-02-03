@@ -8704,6 +8704,7 @@
 .9377j.com
 .9377ja.com
 .9377z.com
+.9378.com
 .93913.com
 .93966.com
 .93984.org
@@ -22204,6 +22205,7 @@
 .chmti.com
 .chn-cstc.com
 .chn-das.com
+.chn-new-9sport.com
 .chn0769.com
 .chn112.com
 .chn168.com
@@ -25089,6 +25091,7 @@
 .cpeol.net
 .cpepgc.com
 .cpfia.org
+.cpfwzs.com
 .cpg-motor.com
 .cphfgg.com
 .cphiic.com
@@ -26045,6 +26048,7 @@
 .cs27.com
 .cs2c.com
 .cs2ccloud.com
+.cs2pw.com
 .cs30.net
 .cs451.com
 .cs48.com
@@ -28260,6 +28264,7 @@
 .dealsmake.com
 .deansys.com
 .dear520dear.com
+.dearclick.com
 .dearda.com
 .dearedu.com
 .dearisland.com
@@ -33500,6 +33505,7 @@
 .excm.net
 .exd.design
 .exdoll.com
+.exedus.com.co
 .exeedcars.com
 .exexm.com
 .exezhanqun.com
@@ -47923,6 +47929,7 @@
 .horosama.com
 .horou.com
 .horphoto.com
+.horsebrowser.com
 .horsechinaone.com
 .horti-expo2019.com
 .hortor-comic.com
@@ -51048,6 +51055,7 @@
 .ic-ldo.com
 .ic-leasing.com
 .ic-mag.com
+.ic-spic.com
 .ic-valley.com
 .ic001.org
 .ic2china.com
@@ -60982,6 +60990,7 @@
 .kwaizt.com
 .kwangfeng.com
 .kwggroupholdings.com
+.kwicdn.com
 .kwimgs.com
 .kwinbon.com
 .kwise-log.com
@@ -74023,6 +74032,7 @@
 .paihang8.com
 .paihb.com
 .paihotels.cc
+.paihuisy.com
 .paikew.com
 .paiky.com
 .paiky.net
@@ -74583,7 +74593,9 @@
 .peipusci.com
 .peise.net
 .peisebiao.com
+.peiwan.tv
 .peiwanlu.com
+.peiwantv.com
 .peixianedu.com
 .peixiang.com
 .peixinbao.com
@@ -90830,6 +90842,7 @@
 .tdchats.us
 .tdchatvip.us
 .tdd.la
+.tdfsm.com
 .tdgdy.org
 .tdgod.com
 .tdiac.com
@@ -94209,6 +94222,7 @@
 .tv002.com
 .tv121.com
 .tv189.com
+.tv2-zuqiu.com
 .tv20806.com
 .tv373.com
 .tvandnet.com
@@ -102028,6 +102042,7 @@
 .xhytd.com
 .xhyun.vip
 .xhzysg.com
+.xi-9.com
 .xi-soft.com
 .xi.su
 .xi5jie.com
@@ -108821,6 +108836,7 @@
 .yousheyoujia.com
 .youshibeike.com
 .youshifu.com
+.youshihui.cc
 .youshikoudai.com
 .youshixiu.com
 .youshop01.com
@@ -119740,6 +119756,7 @@ IP-CIDR,150.242.92.0/22,no-resolve
 IP-CIDR,150.242.96.0/22,no-resolve
 IP-CIDR,150.248.0.0/16,no-resolve
 IP-CIDR,150.255.0.0/16,no-resolve
+IP-CIDR,151.158.14.0/23,no-resolve
 IP-CIDR,151.242.10.0/24,no-resolve
 IP-CIDR,151.243.22.0/24,no-resolve
 IP-CIDR,151.243.25.0/24,no-resolve
@@ -122209,6 +122226,7 @@ IP-CIDR,222.128.0.0/12,no-resolve
 IP-CIDR,222.16.0.0/12,no-resolve
 IP-CIDR,222.160.0.0/14,no-resolve
 IP-CIDR,222.166.0.224/27,no-resolve
+IP-CIDR,222.167.244.0/24,no-resolve
 IP-CIDR,222.168.0.0/13,no-resolve
 IP-CIDR,222.176.0.0/12,no-resolve
 IP-CIDR,222.192.0.0/11,no-resolve
@@ -128282,8 +128300,9 @@ IP-CIDR6,2a0e:aa07:e220::/44,no-resolve
 IP-CIDR6,2a0e:aa07:e280::/46,no-resolve
 IP-CIDR6,2a0e:aa07:e284::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e286::/47,no-resolve
-IP-CIDR6,2a0e:aa07:e288::/47,no-resolve
-IP-CIDR6,2a0e:aa07:e28a::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e288::/46,no-resolve
+IP-CIDR6,2a0e:aa07:e28c::/47,no-resolve
+IP-CIDR6,2a0e:aa07:e28e::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f012::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d0::/46,no-resolve
 IP-CIDR6,2a0e:aa07:f0d4::/47,no-resolve
@@ -128342,11 +128361,11 @@ IP-CIDR6,2a0f:1cc5:e50::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:ef5::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:f00::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:f02::/47,no-resolve
-IP-CIDR6,2a0f:1cc5:f04::/47,no-resolve
-IP-CIDR6,2a0f:1cc5:f06::/48,no-resolve
+IP-CIDR6,2a0f:1cc5:f04::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:fff::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:ffff::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:b110::/47,no-resolve
+IP-CIDR6,2a0f:1cc6:b120::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:bab4::/48,no-resolve
 IP-CIDR6,2a0f:1cc6:bab9::/48,no-resolve
 IP-CIDR6,2a0f:1cc7::/32,no-resolve
@@ -128431,6 +128450,7 @@ IP-CIDR6,2a12:dd47:db2c::/48,no-resolve
 IP-CIDR6,2a12:f8c3::/36,no-resolve
 IP-CIDR6,2a13:1800::/29,no-resolve
 IP-CIDR6,2a13:8b40::/29,no-resolve
+IP-CIDR6,2a13:a5c0:500::/40,no-resolve
 IP-CIDR6,2a13:a5c3:d600::/42,no-resolve
 IP-CIDR6,2a13:a5c3:f000::/40,no-resolve
 IP-CIDR6,2a13:a5c3:f1c0::/44,no-resolve
@@ -128532,14 +128552,11 @@ IP-CIDR6,2a14:7580:ffe4::/48,no-resolve
 IP-CIDR6,2a14:7580:fff4::/48,no-resolve
 IP-CIDR6,2a14:7580:fff7::/48,no-resolve
 IP-CIDR6,2a14:7580:fffa::/48,no-resolve
-IP-CIDR6,2a14:7581:3011::/48,no-resolve
 IP-CIDR6,2a14:7581:30b6::/48,no-resolve
 IP-CIDR6,2a14:7581:3100::/40,no-resolve
-IP-CIDR6,2a14:7581:3810::/45,no-resolve
 IP-CIDR6,2a14:7581:381a::/48,no-resolve
 IP-CIDR6,2a14:7581:381f::/48,no-resolve
 IP-CIDR6,2a14:7581:9902::/48,no-resolve
-IP-CIDR6,2a14:7581:9999::/48,no-resolve
 IP-CIDR6,2a14:7581:b12::/47,no-resolve
 IP-CIDR6,2a14:7581:b14::/48,no-resolve
 IP-CIDR6,2a14:7581:b20::/46,no-resolve
@@ -128550,6 +128567,7 @@ IP-CIDR6,2a14:7581:bcd::/48,no-resolve
 IP-CIDR6,2a14:7581:bff::/48,no-resolve
 IP-CIDR6,2a14:7581:fe6::/48,no-resolve
 IP-CIDR6,2a14:7581:ffb::/48,no-resolve
+IP-CIDR6,2a14:7583:e0e0::/48,no-resolve
 IP-CIDR6,2a14:7583:f224::/48,no-resolve
 IP-CIDR6,2a14:7583:f228::/48,no-resolve
 IP-CIDR6,2a14:7583:f22c::/48,no-resolve
@@ -128573,7 +128591,9 @@ IP-CIDR6,2a14:7583:f764::/48,no-resolve
 IP-CIDR6,2a14:7586:6100::/47,no-resolve
 IP-CIDR6,2a14:7586:6103::/48,no-resolve
 IP-CIDR6,2a14:7586:6104::/47,no-resolve
+IP-CIDR6,2a14:7586:6106::/48,no-resolve
 IP-CIDR6,2a14:7c0:5103::/48,no-resolve
+IP-CIDR6,2a14:c380:328::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8011::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8050::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:805f::/48,no-resolve
