@@ -7240,7 +7240,6 @@
 .6x69f31vso.com
 .6xcdn.com
 .6xd.com
-.6xigema.com
 .6xiu.com
 .6xw.com
 .6yoo.com
@@ -9790,7 +9789,6 @@
 .adexplain.com
 .adfaith.com
 .adfortest.com
-.adfunlink.com
 .adfuns.com
 .adfyt.com
 .adg-dental.com
@@ -12473,7 +12471,6 @@
 .aqviwv.com
 .aqvx8mcr392mv7.com
 .aqxx.org
-.aqyad.com
 .aqyqqy.com
 .aqyun.com
 .aqyzm.com
@@ -15009,6 +15006,7 @@
 .benmi.com
 .benmu-health.com
 .bennybu.fun
+.benpsbp.com
 .benqhospital.com
 .benqmedicalcenter.com
 .benqmedicalcentersz.com
@@ -15489,7 +15487,6 @@
 .bidingxing.com
 .bidizhaobiao.com
 .bidns.net
-.bidtoolads.com
 .biduo.cc
 .biduobao.com
 .biduoxs.com
@@ -23126,7 +23123,6 @@
 .clloz.com
 .clmpg.com
 .clngaa.com
-.cloooud.com
 .cloopen.com
 .cloopen.net
 .cloopm.com
@@ -29588,6 +29584,7 @@
 .dkntgc.com
 .dksgames.com
 .dkskcloud.com
+.dktad.com
 .dktzjt.com
 .dku51.com
 .dky.cc
@@ -31594,6 +31591,7 @@
 .e3j.co
 .e3ol.com
 .e4008.com
+.e4l4.com
 .e4xk2cvh.work
 .e53w.com
 .e5413.com
@@ -51657,7 +51655,6 @@
 .ieshuoshan.net
 .iessay100.com
 .ietdata.com
-.ietheivaicai.com
 .ietheme.com
 .ietrcd.com
 .ievision.com
@@ -66819,7 +66816,6 @@
 .medme.net
 .medmeeting.org
 .mednovogroup.com
-.medproad.com
 .medrc.net
 .medreading.com
 .medris-china.com
@@ -70833,7 +70829,6 @@
 .nextyu.com
 .nexus-holding.com
 .nexus.dell.com
-.nexusedgeio.com
 .nexushd.org
 .neyetwatcher.com
 .neytap.com
@@ -76113,7 +76108,6 @@
 .puai999.com
 .puaihospital.net
 .puamap.com
-.puata.info
 .pubbcsapp.com
 .pubchn.com
 .pubg.plus
@@ -83990,7 +83984,6 @@
 .shenruapp.com
 .shenshang.org
 .shenshi777.com
-.shenshiads.com
 .shenshijituan.com
 .shenshitech.org
 .shenshoucdn.com
@@ -91111,7 +91104,6 @@
 .tecolighting.com
 .tecompharma.com
 .tecreal.com
-.tecunonline.com
 .tecyle.com
 .teda-veolia.com
 .tedagas.com
@@ -91152,6 +91144,7 @@
 .telecomhr.com
 .telecomjs.com
 .telefen.com
+.telegramcn.co
 .telegramyug.cc
 .telehr.com
 .teleinfoo.com
@@ -91443,6 +91436,7 @@
 .tengen.com
 .tengfang.net
 .tengfangyun.com
+.tengfeidn.com
 .tengfeijob.com
 .tengfeizhida.com
 .tengfun.com
@@ -95648,6 +95642,7 @@
 .uutils.com
 .uutop.com
 .uutrip.net
+.uutytp.com
 .uuu.ovh
 .uuu9.com
 .uuujjj.com
@@ -102276,6 +102271,7 @@
 .xiangshi.video
 .xiangshitan.com
 .xiangshuheika.com
+.xiangshunjy.com
 .xiangsidi.com
 .xiangsw.com
 .xiangtaole.com
@@ -105574,6 +105570,7 @@
 .xyktjt.com
 .xyl2002.com
 .xylh888.com
+.xylhwdu.com
 .xylink.com
 .xylive.tv
 .xylll.com
@@ -113397,8 +113394,6 @@
 .zhufengpeixun.com
 .zhuge.com
 .zhuge888.com
-.zhugeapi.com
-.zhugeapi.net
 .zhugeculture.com
 .zhugefang.com
 .zhugejianzhi.com
@@ -119727,6 +119722,7 @@ IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
 IP-CIDR,140.75.0.0/16,no-resolve
 IP-CIDR,141.11.141.0/24,no-resolve
+IP-CIDR,141.11.219.0/24,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.14.49.0/24,no-resolve
@@ -124451,7 +124447,6 @@ IP-CIDR,82.152.105.0/24,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
 IP-CIDR,82.39.249.0/24,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
-IP-CIDR,85.149.220.0/24,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
 IP-CIDR,85.237.205.0/24,no-resolve
@@ -128401,6 +128396,8 @@ IP-CIDR6,2a0e:aa07:e0e0::/44,no-resolve
 IP-CIDR6,2a0e:aa07:e151::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e155::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e15f::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e160::/47,no-resolve
+IP-CIDR6,2a0e:aa07:e162::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e16a::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e192::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e1a0::/44,no-resolve
@@ -128449,6 +128446,7 @@ IP-CIDR6,2a0f:1cc5:1400::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:140::/44,no-resolve
 IP-CIDR6,2a0f:1cc5:14::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c00::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:1c02::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c20::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1cc0::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1d10::/47,no-resolve
@@ -128462,6 +128460,7 @@ IP-CIDR6,2a0f:1cc5:2e01::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2e02::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:314::/46,no-resolve
 IP-CIDR6,2a0f:1cc5:600::/47,no-resolve
+IP-CIDR6,2a0f:1cc5:603::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:645::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:64c::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:661::/48,no-resolve
@@ -128699,8 +128698,7 @@ IP-CIDR6,2a14:7583:f744::/48,no-resolve
 IP-CIDR6,2a14:7583:f764::/48,no-resolve
 IP-CIDR6,2a14:7586:6100::/47,no-resolve
 IP-CIDR6,2a14:7586:6103::/48,no-resolve
-IP-CIDR6,2a14:7586:6104::/47,no-resolve
-IP-CIDR6,2a14:7586:6106::/48,no-resolve
+IP-CIDR6,2a14:7586:6104::/46,no-resolve
 IP-CIDR6,2a14:7c0:5103::/48,no-resolve
 IP-CIDR6,2a14:7dc0:510::/48,no-resolve
 IP-CIDR6,2a14:7dc0:517::/48,no-resolve
