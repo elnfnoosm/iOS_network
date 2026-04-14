@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 正确最新版，无报错
-      - uses: actions/checkout@v4.2.2
+      # ✅ 关键：升级到 v6（原生 Node 24，无警告）
+      - uses: actions/checkout@v6
 
       - name: Print current directory
         run: |
