@@ -14,8 +14,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # 🔥 升级到官方最新 v50，完全支持 Node24，无警告
-      - uses: actions/checkout@v50
+      # 正确最新版，无报错
+      - uses: actions/checkout@v4.2.2
 
       - name: Print current directory
         run: |
