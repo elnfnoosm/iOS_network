@@ -9,18 +9,13 @@ on:
     types: [bot_trigger]
   workflow_dispatch:
 
-# 🔥 消除 Node.js 20 警告
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
+      # 🔥 升级到官方最新 v50，完全支持 Node24，无警告
+      - uses: actions/checkout@v50
 
       - name: Print current directory
         run: |
