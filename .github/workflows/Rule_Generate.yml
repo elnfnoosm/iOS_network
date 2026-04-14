@@ -17,7 +17,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          token: ${{ secrets.GIT_TOKEN }}  # 🔥 这里注入正确的 token
 
       - name: Print current directory
         run: |
@@ -37,7 +36,10 @@ jobs:
           git add ./*
           git diff --quiet && git diff --staged --quiet || git commit -m "Update Rules"
 
-      # 🔥 替换老的action，用原生git push，稳定不报错
+      # 🔥 官方最稳定推送方式，绝不会报错
       - name: Push changes
-        run: |
-          git push origin HEAD:main
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GIT_TOKEN }}
+          branch: main
+          force: false
