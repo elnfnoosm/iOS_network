@@ -1218,6 +1218,7 @@
 .0x3.me
 .0x9.me
 .0xaa55.com
+.0xffff.one
 .0xffffff.org
 .0xiao.com
 .0xjqlun2.work
@@ -5791,6 +5792,7 @@
 .51yugou.com
 .51yund.com
 .51yundong.me
+.51yunzhi.com
 .51ywx.com
 .51yxcyy.com
 .51yxky.com
@@ -19102,6 +19104,7 @@
 .catchyrime.com
 .catering-shizuoka.com
 .catfish-cms.com
+.catfk.com
 .catguo.com
 .cathassist.org
 .cathayagroup.com
@@ -22612,6 +22615,7 @@
 .chualamdimsum.com
 .chuan-s.com
 .chuanboyi.com
+.chuanboyu.com
 .chuandaizc.com
 .chuandasolar.com
 .chuandong.com
@@ -28875,6 +28879,7 @@
 .dgjxmk.com
 .dgjy.net
 .dgk2n.com
+.dgkfa.com
 .dgkj888.com
 .dglpool.com
 .dglyjx.com
@@ -32337,6 +32342,7 @@
 .ego-robotics.com
 .egoint.com
 .egongzheng.com
+.egonlin.com
 .egood995.com
 .egoonet.com
 .egotops.com
@@ -43289,6 +43295,7 @@
 .h5anli.com
 .h5app.com
 .h5avu.com
+.h5cmpassport.com
 .h5cn.com
 .h5data.com
 .h5designer.com
@@ -46260,6 +46267,7 @@
 .hjenglish.com
 .hjg365.com
 .hjgcd.com
+.hjgroup-sdq.com
 .hjgrp.com
 .hjgtjt.com
 .hjhrcloud.com
@@ -51165,6 +51173,7 @@
 .ihqfo.org
 .ihr360.com
 .ihrscloud.com
+.ihsiao.com
 .ihst8.com
 .ihstatic.com
 .ihtcboy.com
@@ -59396,6 +59405,7 @@
 .ksydx.com
 .ksyiqiwan.com
 .ksyll.com
+.ksymsbz.com
 .ksyna.com
 .ksyun.com
 .ksyun.net
@@ -64977,6 +64987,7 @@
 .marco-bj.com
 .marcopolochina.com
 .marginalk.com
+.maria23.com
 .mariedalgar.com
 .marimekko-hots.com
 .marine-dancer.com
@@ -65340,12 +65351,14 @@
 .mcyz.com
 .mczhihui.com
 .mczmb.org
+.mczsok.com
 .mczwlt.net
 .mczyz.com
 .mczz.net
 .md-hmjt.com
 .md-pms.com
 .md5ma.com
+.mdaehx.com
 .mdapp.tv
 .mdbchina.com
 .mdbimg.com
@@ -66473,6 +66486,7 @@
 .minecraftxz.com
 .minecraftzw.com
 .minegoods.com
+.mineharmony.cc
 .minei.com
 .mineplugin.org
 .minerhome.com
@@ -73520,6 +73534,7 @@
 .pinkertech.com
 .pinkoichina.com
 .pinkou.com
+.pinkr.com
 .pinla.com
 .pinlyu.com
 .pinmanduo.com
@@ -79956,6 +79971,7 @@
 .scmccboss.com
 .scmchem.com
 .scmfair.com
+.scmggzbh.com
 .scmor.com
 .scmroad.com
 .scmsky.com
@@ -85644,6 +85660,7 @@
 .stdout.pub
 .ste56.com
 .stea2008.com
+.steam-run.com
 .steam.com
 .steam302.xyz
 .steambig.com
@@ -86835,6 +86852,7 @@
 .syhzdj.net
 .syhzx.com
 .syhzzf.com
+.syiban.com
 .syiptv.com
 .syitgz.com
 .syjcly.com
@@ -93162,6 +93180,7 @@
 .uucqrdmk.com
 .uueasy.com
 .uuedutech.com
+.uufaka.com
 .uufund.com
 .uufuns.com
 .uugai.com
@@ -94652,6 +94671,7 @@
 .walvax.com
 .wamawama.com
 .wamila.com
+.wamoyu.com
 .wan-ka.com
 .wan.cc
 .wan.com
@@ -98490,6 +98510,7 @@
 .wya1.com
 .wybgs.com
 .wybosch.com
+.wybuddhist.com
 .wybzdwss.com
 .wycad.com
 .wycfw.com
@@ -100307,6 +100328,7 @@
 .ximitools.com
 .ximiyouxi.com
 .ximmerse.com
+.ximofood.com
 .ximogo.com
 .ximuw.com
 .xin-health.com
@@ -102563,6 +102585,7 @@
 .xxymdy.com
 .xxymw.com
 .xxyo.com
+.xxyoil.com
 .xxys2023.com
 .xxyw.com
 .xxyx.ltd
@@ -108215,6 +108238,7 @@
 .zchospital.com
 .zchrgroup.com
 .zcict.com
+.zcidclink.com
 .zcimg.com
 .zcinfo.net
 .zciv.com
@@ -115569,6 +115593,7 @@ IP-CIDR,113.130.96.0/20,no-resolve
 IP-CIDR,113.132.0.0/14,no-resolve
 IP-CIDR,113.136.0.0/13,no-resolve
 IP-CIDR,113.16.0.0/15,no-resolve
+IP-CIDR,113.164.25.0/24,no-resolve
 IP-CIDR,113.18.0.0/16,no-resolve
 IP-CIDR,113.192.40.0/23,no-resolve
 IP-CIDR,113.192.56.0/23,no-resolve
@@ -116312,7 +116337,7 @@ IP-CIDR,140.250.0.0/16,no-resolve
 IP-CIDR,140.255.0.0/16,no-resolve
 IP-CIDR,140.75.0.0/16,no-resolve
 IP-CIDR,141.11.219.0/24,no-resolve
-IP-CIDR,141.11.50.0/24,no-resolve
+IP-CIDR,141.11.50.0/23,no-resolve
 IP-CIDR,142.70.0.0/16,no-resolve
 IP-CIDR,142.86.0.0/16,no-resolve
 IP-CIDR,143.191.188.0/22,no-resolve
@@ -118740,7 +118765,6 @@ IP-CIDR,205.252.239.0/24,no-resolve
 IP-CIDR,206.109.75.0/24,no-resolve
 IP-CIDR,206.232.68.0/22,no-resolve
 IP-CIDR,206.232.72.0/22,no-resolve
-IP-CIDR,207.180.22.0/24,no-resolve
 IP-CIDR,207.254.180.0/24,no-resolve
 IP-CIDR,207.68.174.8/29,no-resolve
 IP-CIDR,207.89.21.0/24,no-resolve
@@ -118806,7 +118830,6 @@ IP-CIDR,211.144.0.0/12,no-resolve
 IP-CIDR,211.160.0.0/13,no-resolve
 IP-CIDR,211.64.0.0/13,no-resolve
 IP-CIDR,211.76.108.0/27,no-resolve
-IP-CIDR,211.76.179.0/24,no-resolve
 IP-CIDR,211.80.0.0/12,no-resolve
 IP-CIDR,211.96.0.0/13,no-resolve
 IP-CIDR,212.103.62.0/24,no-resolve
@@ -118928,7 +118951,7 @@ IP-CIDR,223.254.0.0/16,no-resolve
 IP-CIDR,223.255.0.0/17,no-resolve
 IP-CIDR,223.255.236.0/22,no-resolve
 IP-CIDR,223.255.252.0/23,no-resolve
-IP-CIDR,223.26.0.0/23,no-resolve
+IP-CIDR,223.26.0.0/24,no-resolve
 IP-CIDR,223.27.184.0/22,no-resolve
 IP-CIDR,223.29.208.0/22,no-resolve
 IP-CIDR,223.29.252.0/22,no-resolve
@@ -120986,8 +121009,10 @@ IP-CIDR,81.173.28.0/24,no-resolve
 IP-CIDR,81.23.208.0/20,no-resolve
 IP-CIDR,81.68.0.0/14,no-resolve
 IP-CIDR,82.108.198.0/23,no-resolve
+IP-CIDR,82.109.96.0/23,no-resolve
 IP-CIDR,82.110.234.0/23,no-resolve
 IP-CIDR,82.156.0.0/15,no-resolve
+IP-CIDR,82.22.31.0/24,no-resolve
 IP-CIDR,85.12.7.192/28,no-resolve
 IP-CIDR,85.184.245.0/24,no-resolve
 IP-CIDR,85.209.40.0/22,no-resolve
@@ -121006,7 +121031,6 @@ IP-CIDR,93.113.109.8/29,no-resolve
 IP-CIDR,93.115.104.0/24,no-resolve
 IP-CIDR,93.183.14.0/24,no-resolve
 IP-CIDR,93.183.18.0/24,no-resolve
-IP-CIDR,93.95.117.0/24,no-resolve
 IP-CIDR,94.191.0.0/17,no-resolve
 IP-CIDR,96.45.38.79/32,no-resolve
 IP-CIDR,98.124.142.100/30,no-resolve
@@ -121460,20 +121484,6 @@ IP-CIDR6,2400:de20::/32,no-resolve
 IP-CIDR6,2400:de80::/32,no-resolve
 IP-CIDR6,2400:dee0::/32,no-resolve
 IP-CIDR6,2400:e0c0::/32,no-resolve
-IP-CIDR6,2400:e3e0:aa00::/40,no-resolve
-IP-CIDR6,2400:e3e0:ab00::/41,no-resolve
-IP-CIDR6,2400:e3e0:ab80::/43,no-resolve
-IP-CIDR6,2400:e3e0:aba0::/44,no-resolve
-IP-CIDR6,2400:e3e0:abb0::/47,no-resolve
-IP-CIDR6,2400:e3e0:abb3::/48,no-resolve
-IP-CIDR6,2400:e3e0:abb4::/46,no-resolve
-IP-CIDR6,2400:e3e0:abb8::/45,no-resolve
-IP-CIDR6,2400:e3e0:abc0::/43,no-resolve
-IP-CIDR6,2400:e3e0:abe0::/44,no-resolve
-IP-CIDR6,2400:e3e0:abf1::/48,no-resolve
-IP-CIDR6,2400:e3e0:abf2::/47,no-resolve
-IP-CIDR6,2400:e3e0:abf4::/46,no-resolve
-IP-CIDR6,2400:e3e0:abf8::/45,no-resolve
 IP-CIDR6,2400:e5c0::/32,no-resolve
 IP-CIDR6,2400:e680::/32,no-resolve
 IP-CIDR6,2400:e7e0::/32,no-resolve
@@ -124823,6 +124833,7 @@ IP-CIDR6,2a0a:d681:e000::/40,no-resolve
 IP-CIDR6,2a0a:d681:fb00::/40,no-resolve
 IP-CIDR6,2a0a:d681:fc00::/38,no-resolve
 IP-CIDR6,2a0a:d685::/36,no-resolve
+IP-CIDR6,2a0a:d687:f001::/48,no-resolve
 IP-CIDR6,2a0b:4340:550::/44,no-resolve
 IP-CIDR6,2a0b:b580::/48,no-resolve
 IP-CIDR6,2a0b:b581::/48,no-resolve
@@ -124904,7 +124915,8 @@ IP-CIDR6,2a0e:aa07:e192::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e280::/47,no-resolve
 IP-CIDR6,2a0e:aa07:e284::/46,no-resolve
 IP-CIDR6,2a0e:aa07:e288::/47,no-resolve
-IP-CIDR6,2a0e:aa07:e28b::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e28a::/48,no-resolve
+IP-CIDR6,2a0e:aa07:e28d::/48,no-resolve
 IP-CIDR6,2a0e:aa07:e28e::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f012::/48,no-resolve
 IP-CIDR6,2a0e:aa07:f0d0::/46,no-resolve
@@ -124943,7 +124955,6 @@ IP-CIDR6,2a0f:1cc5:1c20::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1c30::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1cc0::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1d10::/47,no-resolve
-IP-CIDR6,2a0f:1cc5:1d14::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:1f::/48,no-resolve
 IP-CIDR6,2a0f:1cc5:2000::/40,no-resolve
 IP-CIDR6,2a0f:1cc5:2510::/44,no-resolve
@@ -125079,7 +125090,6 @@ IP-CIDR6,2a14:67c2:a2f::/48,no-resolve
 IP-CIDR6,2a14:67c2:a30::/48,no-resolve
 IP-CIDR6,2a14:67c2:a41::/48,no-resolve
 IP-CIDR6,2a14:67c2:a50::/48,no-resolve
-IP-CIDR6,2a14:67c2:a60::/48,no-resolve
 IP-CIDR6,2a14:67c2:a70::/47,no-resolve
 IP-CIDR6,2a14:67c2:a80::/47,no-resolve
 IP-CIDR6,2a14:67c2:a90::/48,no-resolve
@@ -125117,10 +125127,8 @@ IP-CIDR6,2a14:7586:6103::/48,no-resolve
 IP-CIDR6,2a14:7586:6104::/47,no-resolve
 IP-CIDR6,2a14:7586:6110::/48,no-resolve
 IP-CIDR6,2a14:7586:6300::/44,no-resolve
-IP-CIDR6,2a14:7586:6500::/48,no-resolve
 IP-CIDR6,2a14:7dc0:506::/48,no-resolve
 IP-CIDR6,2a14:ae00:50::/44,no-resolve
-IP-CIDR6,2a14:c380:21::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8011::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:8050::/48,no-resolve
 IP-CIDR6,2c0f:f7a8:805f::/48,no-resolve
