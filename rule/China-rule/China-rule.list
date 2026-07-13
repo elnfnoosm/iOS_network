@@ -10078,6 +10078,7 @@
 .ad77.com
 .ad778.com
 .ada-post.com
+.adacpp.com
 .adamahf.com
 .adamcdn.com
 .adamcoder.com
@@ -24662,6 +24663,7 @@
 .color-measure.com
 .color365.com
 .colorbird.com
+.colorfulclouds.com
 .colorfulclouds.net
 .colorfulltech.net
 .colorimeter.com
@@ -30786,6 +30788,7 @@
 .duoyi.com
 .duoying.com
 .duoyinsu.com
+.duoyiwangluo.com
 .duoyoumi.com
 .duozhi.com
 .duozhuayu.com
@@ -39712,6 +39715,7 @@
 .gtetern.com
 .gtfund.com
 .gtg56.com
+.gtgjtrip.com
 .gtgqw.com
 .gtgres.com
 .gtht.com
@@ -58489,6 +58493,7 @@
 .klhpw.com
 .klhuyan.com
 .klicen.com
+.kling-ai.com
 .klingai.com
 .klinlee.com
 .klisedu.com
@@ -60886,6 +60891,7 @@
 .leyoo.com
 .leyoujia.com
 .leyu.com
+.leyuansu.com
 .leyue100.com
 .leyuglobal.com
 .leyun365.com
@@ -81147,6 +81153,7 @@
 .shedongyun.com
 .shedoor.com
 .shedunews.com
+.shedunews.net
 .sheec-tencentclb.cloud
 .sheec-tencentclb.com
 .sheec-tencentclb.net
@@ -99204,6 +99211,7 @@
 .xiaomei.cc
 .xiaomeiti.com
 .xiaomeng1235.com
+.xiaomengai.com
 .xiaomi.com
 .xiaomi.hk
 .xiaomi.net
@@ -103305,6 +103313,7 @@
 .ygct.com
 .ygdatabase.com
 .ygdl.com
+.ygduoyi.com
 .yge.me
 .ygeer.com
 .ygei.com
@@ -110691,6 +110700,7 @@
 .zmsq.com
 .zmssh.com
 .zmtpc.com
+.zmtqsh.com
 .zmtquan.com
 .zmufivehospital.com
 .zmumu.com
@@ -115518,7 +115528,6 @@ IP-CIDR,14.208.0.0/12,no-resolve
 IP-CIDR,14.241.232.0/21,no-resolve
 IP-CIDR,14.255.16.0/24,no-resolve
 IP-CIDR,14.255.238.0/24,no-resolve
-IP-CIDR,14.255.249.0/24,no-resolve
 IP-CIDR,14.255.254.0/24,no-resolve
 IP-CIDR,140.101.208.0/24,no-resolve
 IP-CIDR,140.143.0.0/16,no-resolve
@@ -115733,7 +115742,6 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
-IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,154.91.158.0/23,no-resolve
 IP-CIDR,154.94.50.0/24,no-resolve
@@ -116033,9 +116041,7 @@ IP-CIDR,168.160.0.0/16,no-resolve
 IP-CIDR,168.230.0.0/24,no-resolve
 IP-CIDR,17.127.128.0/23,no-resolve
 IP-CIDR,17.127.130.0/24,no-resolve
-IP-CIDR,17.188.211.0/24,no-resolve
 IP-CIDR,17.235.160.0/20,no-resolve
-IP-CIDR,17.33.144.0/24,no-resolve
 IP-CIDR,17.80.0.0/17,no-resolve
 IP-CIDR,17.80.128.0/18,no-resolve
 IP-CIDR,17.80.192.0/19,no-resolve
@@ -119722,6 +119728,7 @@ IP-CIDR,43.93.0.0/16,no-resolve
 IP-CIDR,43.94.0.0/15,no-resolve
 IP-CIDR,43.96.0.0/11,no-resolve
 IP-CIDR,44.30.164.0/24,no-resolve
+IP-CIDR,44.30.171.0/24,no-resolve
 IP-CIDR,44.31.212.0/24,no-resolve
 IP-CIDR,44.31.216.0/24,no-resolve
 IP-CIDR,44.31.28.0/24,no-resolve
@@ -120280,6 +120287,7 @@ IP-CIDR,87.254.207.0/24,no-resolve
 IP-CIDR,87.76.221.0/24,no-resolve
 IP-CIDR,87.76.222.0/24,no-resolve
 IP-CIDR,89.30.124.160/30,no-resolve
+IP-CIDR,91.132.200.0/23,no-resolve
 IP-CIDR,91.233.17.0/24,no-resolve
 IP-CIDR,91.234.36.0/24,no-resolve
 IP-CIDR,93.113.109.104/29,no-resolve
@@ -124113,7 +124121,7 @@ IP-CIDR6,2a0a:8f40:9::/48,no-resolve
 IP-CIDR6,2a0a:d681:e000::/40,no-resolve
 IP-CIDR6,2a0a:d681:fb00::/40,no-resolve
 IP-CIDR6,2a0a:d681:fc00::/38,no-resolve
-IP-CIDR6,2a0a:d685:1ff::/48,no-resolve
+IP-CIDR6,2a0a:d685:1fe::/47,no-resolve
 IP-CIDR6,2a0a:d685:200::/47,no-resolve
 IP-CIDR6,2a0a:d685:300::/40,no-resolve
 IP-CIDR6,2a0a:d687:f001::/48,no-resolve
@@ -124405,6 +124413,7 @@ IP-CIDR6,2a14:7583:f220::/43,no-resolve
 IP-CIDR6,2a14:7583:f240::/42,no-resolve
 IP-CIDR6,2a14:7583:f300::/46,no-resolve
 IP-CIDR6,2a14:7583:f304::/47,no-resolve
+IP-CIDR6,2a14:7583:f306::/48,no-resolve
 IP-CIDR6,2a14:7583:f411::/48,no-resolve
 IP-CIDR6,2a14:7583:f4f0::/47,no-resolve
 IP-CIDR6,2a14:7583:f4f4::/48,no-resolve
