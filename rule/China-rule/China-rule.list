@@ -34808,6 +34808,7 @@
 .fnos.net
 .fnrcw.com
 .fnrczp.com
+.fnrrc.com
 .fnsbqvz.com
 .fnscore.com
 .fnwlzz.com
@@ -38650,6 +38651,7 @@
 .gongkongsaas.com
 .gonglf.com
 .gonglve.net
+.gongniukaiguan.net
 .gongnou.com
 .gongpin.net
 .gongpingjia.com
@@ -64164,6 +64166,7 @@
 .mdbchina.com
 .mdbimg.com
 .mdclub.org
+.mddclass.com
 .mdddg.com
 .mddj.com
 .mddlsa.com
@@ -75292,6 +75295,7 @@
 .qudao168.com
 .qudaowuyou.com
 .qudayun.com
+.qudian.com
 .qudingshui.com
 .qudong.com
 .qudong51.net
@@ -90833,6 +90837,7 @@
 .uboat100.com
 .uborn.net
 .uboxol.com
+.uboxs.com
 .ubs001.com
 .ubssdic.com
 .ubtrobot.com
@@ -92940,6 +92945,7 @@
 .vx.com
 .vx56.com
 .vxe.com
+.vxhcm.com
 .vxia.net
 .vxiaocheng.com
 .vxinyou.com
@@ -104036,6 +104042,7 @@
 .youbangyun.com
 .youbbs.org
 .youbian.com
+.youbianku.com
 .youbibi.com
 .youbike.me
 .youbikecn.com
@@ -108145,6 +108152,7 @@
 .zhonglianhuashu.com
 .zhonglianhuaxin.com
 .zhonglianyx.com
+.zhongliujie.com
 .zhongliusp.com
 .zhongliuyiyuan.com
 .zhonglue-consulting.com
@@ -110354,6 +110362,7 @@
 .zuixu.com
 .zuiyanke.com
 .zuiyou.com
+.zuiyou.tv
 .zuiyouxi.com
 .zuizhifu.com
 .zuji360.com
@@ -114767,6 +114776,7 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
+IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
@@ -119231,7 +119241,7 @@ IP-CIDR,64.188.44.0/23,no-resolve
 IP-CIDR,64.235.227.160/29,no-resolve
 IP-CIDR,64.235.230.152/30,no-resolve
 IP-CIDR,64.71.138.0/25,no-resolve
-IP-CIDR,64.96.4.0/24,no-resolve
+IP-CIDR,64.96.4.0/23,no-resolve
 IP-CIDR,65.111.0.0/19,no-resolve
 IP-CIDR,65.55.60.184/30,no-resolve
 IP-CIDR,65.97.55.248/29,no-resolve
@@ -121552,7 +121562,7 @@ IP-CIDR6,2406:840:808::/45,no-resolve
 IP-CIDR6,2406:840:80::/41,no-resolve
 IP-CIDR6,2406:840:810::/44,no-resolve
 IP-CIDR6,2406:840:820::/43,no-resolve
-IP-CIDR6,2406:840:840::/48,no-resolve
+IP-CIDR6,2406:840:840::/47,no-resolve
 IP-CIDR6,2406:840:843::/48,no-resolve
 IP-CIDR6,2406:840:844::/46,no-resolve
 IP-CIDR6,2406:840:848::/45,no-resolve
@@ -121570,10 +121580,7 @@ IP-CIDR6,2406:840:8a0::/43,no-resolve
 IP-CIDR6,2406:840:8c0::/42,no-resolve
 IP-CIDR6,2406:840:9000::/37,no-resolve
 IP-CIDR6,2406:840:900::/40,no-resolve
-IP-CIDR6,2406:840:9800::/42,no-resolve
-IP-CIDR6,2406:840:9850::/44,no-resolve
-IP-CIDR6,2406:840:9860::/43,no-resolve
-IP-CIDR6,2406:840:9880::/41,no-resolve
+IP-CIDR6,2406:840:9800::/40,no-resolve
 IP-CIDR6,2406:840:9900::/41,no-resolve
 IP-CIDR6,2406:840:9981::/48,no-resolve
 IP-CIDR6,2406:840:9982::/47,no-resolve
