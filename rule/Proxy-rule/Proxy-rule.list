@@ -5829,6 +5829,7 @@
 .c-span.org
 .c-spanvideo.org
 .c.gle
+.c.go-mpulse.net
 .c.mi.com
 .c0930.com
 .c100tibet.org
@@ -31460,6 +31461,7 @@
 .vaultify.info
 .vaultify.net
 .vaultproject.io
+.vava8.com
 .vbcdn.com
 .vbcdn.net
 .vbejeyv.shop
@@ -35166,6 +35168,8 @@ IP-CIDR,125.6.149.0/24,no-resolve
 IP-CIDR,125.6.190.0/24,no-resolve
 IP-CIDR,129.134.0.0/17,no-resolve
 IP-CIDR,129.226.0.0/16,no-resolve
+IP-CIDR,13.251.24.0/24,no-resolve
+IP-CIDR,13.251.41.0/24,no-resolve
 IP-CIDR,13.32.0.0/15,no-resolve
 IP-CIDR,13.35.0.0/17,no-resolve
 IP-CIDR,139.45.192.1/32,no-resolve
@@ -35220,6 +35224,7 @@ IP-CIDR,167.142.14.134/32,no-resolve
 IP-CIDR,167.142.14.138/32,no-resolve
 IP-CIDR,167.142.208.146/32,no-resolve
 IP-CIDR,169.45.248.118/32,no-resolve
+IP-CIDR,17.252.156.0/23,no-resolve
 IP-CIDR,170.238.0.198/32,no-resolve
 IP-CIDR,170.238.0.202/32,no-resolve
 IP-CIDR,170.238.0.206/32,no-resolve
