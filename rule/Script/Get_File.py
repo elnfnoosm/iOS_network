@@ -36,10 +36,13 @@ def load_file(rules_dict, file_dir):
     if not os.path.exists(file_dir):
         os.mkdir(file_dir)
         
+    safe_dir = os.path.basename(file_dir)
     for key in rules_dict:
-        response = requests.get(rules_dict[key], headers=HEADER)
+        response = requests.get(rules_dict[key], headers=HEADER, timeout=10)
         if response.status_code == 200:
-            with open(f"./{file_dir}/{key}.list", "wb") as f:
+            safe_key = os.path.basename(key)
+            file_path = os.path.join(".", safe_dir, f"{safe_key}.list")
+            with open(file_path, "wb") as f:
                 with response, io.BytesIO(response.content) as stream:
                     shutil.copyfileobj(stream, f)
             time.sleep(1)
