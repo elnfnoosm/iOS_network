@@ -33757,6 +33757,7 @@
 .fillersmart.com
 .fillseo.com
 .film-yuelongchina.com
+.filmorigin.com
 .fily.fun
 .fim34s.com
 .fimmu.com
@@ -56271,6 +56272,7 @@
 .kakappt.com
 .kakashuzi.net
 .kakatx.com
+.kakaxing.com
 .kakayuy.net
 .kaken-china.com
 .kaku-scdn.com
@@ -113921,7 +113923,6 @@ IP-CIDR,154.72.44.0/24,no-resolve
 IP-CIDR,154.72.47.0/24,no-resolve
 IP-CIDR,154.8.128.0/17,no-resolve
 IP-CIDR,154.8.48.0/20,no-resolve
-IP-CIDR,154.84.180.0/24,no-resolve
 IP-CIDR,154.89.32.0/20,no-resolve
 IP-CIDR,155.102.0.0/16,no-resolve
 IP-CIDR,155.126.176.0/23,no-resolve
@@ -114458,7 +114459,7 @@ IP-CIDR,175.24.0.0/14,no-resolve
 IP-CIDR,175.30.0.0/15,no-resolve
 IP-CIDR,175.42.0.0/15,no-resolve
 IP-CIDR,175.44.0.0/16,no-resolve
-IP-CIDR,175.45.179.0/24,no-resolve
+IP-CIDR,175.45.178.0/23,no-resolve
 IP-CIDR,175.46.0.0/15,no-resolve
 IP-CIDR,175.48.0.0/12,no-resolve
 IP-CIDR,175.64.0.0/11,no-resolve
