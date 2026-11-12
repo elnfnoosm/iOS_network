@@ -1,8 +1,0 @@
-#!name=今日热榜 
-#!desc=今日热榜 Premium 
- 
-[Script] 
-今日热榜 = type=http-response,pattern=^https://api2.tophub.app/account/sync,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/jinrirebang.js,script-update-interval=0 
- 
-[MITM] 
-hostname = %APPEND% api2.tophub.app

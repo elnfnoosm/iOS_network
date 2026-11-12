@@ -1,8 +1,0 @@
-#!name=itranslatePro解锁Pro-Eric
-#!desc=Mr.Eric转载注明出处，2022.9.27修复
-
-
-[MITM]
-hostname = %APPEND% ssl-api.itranslateapp.com
-[Script]
-itranslatePro = type=http-response,pattern=https://ssl-api.itranslateapp.com/accounts/v4/subscriptions/verify/ios,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/Alex0510/Eric/master/surge/Script/iTranslate.js
