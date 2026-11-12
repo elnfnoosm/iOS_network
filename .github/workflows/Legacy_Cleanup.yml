@@ -1,0 +1,58 @@
+name: Legacy_Cleanup
+
+# 一次性任务：只能手动点运行，不设定时，避免以后误删新内容
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# 与另外两个任务共用同一组，避免同时 push 冲突
+concurrency:
+  group: rule-generate
+  cancel-in-progress: false
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout（拉取完整历史，用于判断文件最后修改时间）
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: 全量核对并删除超期旧文件
+        run: python tools/cleanup_legacy.py
+
+      - name: 提交（只提交旧目录的删除与两份报告）
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A -- \
+            QuantumultX/Rewrite \
+            ShadowRocket/module \
+            ShadowRocket/scripts \
+            Loon/rewrite \
+            Stash/config-elnf.yaml \
+            LEGACY_CLEANUP_REPORT.md \
+            DEAD_LINKS.md
+          echo "=== 本次暂存的改动（应只含删除与两份报告）==="
+          git diff --cached --name-status | head -n 20
+          if git diff --cached --name-only | grep -q '^rule/'; then
+            echo "ERROR: rule/ 出现在本次提交中，立即中止"
+            exit 1
+          fi
+          if git diff --cached --quiet; then
+            echo "没有需要提交的改动（旧文件可能已清理过）"
+          else
+            git commit -m "Legacy cleanup: remove stale files ($(date -u +'%Y-%m-%d %H:%M') UTC)"
+            git pull --rebase origin main
+            git push
+          fi
