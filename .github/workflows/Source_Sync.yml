@@ -45,17 +45,11 @@ jobs:
       - name: 提交（只提交指定路径）
         if: always()
         run: |
-          mkdir -p Loon/Config Loon/Plugins Surge/Config Surge/Plugins \
-                   Stash/Config Stash/Plugins QuantumultX/Config QuantumultX/Plugins \
-                   ShadowRocket/Config ShadowRocket/Plugins
+          TARGETS=$(python -c "import json;c=json.load(open('sources.json',encoding='utf-8'));print(' '.join(p+'/'+m[k] for p,m in c['platforms'].items() for k in ('config','plugins')))")
+          mkdir -p $TARGETS
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add SOURCES_STATUS.md DEAD_LINKS.md \
-            Loon/Config Loon/Plugins \
-            Surge/Config Surge/Plugins \
-            Stash/Config Stash/Plugins \
-            QuantumultX/Config QuantumultX/Plugins \
-            ShadowRocket/Config ShadowRocket/Plugins
+          git add SOURCES_STATUS.md DEAD_LINKS.md $TARGETS
           if git diff --staged --quiet; then
             echo "本次没有变化"
           else
