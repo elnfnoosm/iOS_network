@@ -12,6 +12,9 @@ META_PATH = os.path.join(ROOT, ".sync_meta.json")
 
 RAW = "https://raw.githubusercontent.com"
 API = "https://api.github.com"
+RAW_BASE = "https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/"
+BLOB_BASE = "https://github.com/elnfnoosm/iOS_network/blob/main/"
+HUB_RAW = "https://raw.githubusercontent.com/Script-Hub-Org/Script-Hub/main/modules/"
 HEADERS = {"User-Agent": "iOS_network-source-sync"}
 TOKEN = os.environ.get("GH_TOKEN") or os.environ.get("GITHUB_TOKEN")
 
@@ -182,6 +185,189 @@ def plugins_readme(cfg, platform, meta, sources):
     return ("\n".join(lines)).encode("utf-8")
 
 
+PLUGIN_LABELS = {
+    "script-hub.loon.plugin": "Script-Hub 跨平台转换插件",
+    "script-hub.surge.sgmodule": "Script-Hub 跨平台转换模块",
+    "script-hub.stash.stoverride": "Script-Hub 跨平台转换覆写",
+    "script-hub.qx.conf": "Script-Hub 跨平台转换重写",
+    "script-hub.rocket.module": "Script-Hub 跨平台转换模块",
+    "Adblock4limbo.sgmodule": "综合去广告模块（limbopro）",
+    "Adblock4limbo.module": "综合去广告模块（limbopro）",
+    "Adblock4limbo.conf": "综合去广告重写（limbopro）",
+    "Google.sgmodule": "Google 去广告模块",
+    "NobyDa.sgmodule": "NobyDa 脚本模块",
+    "YouTubeAds.sgmodule": "YouTube 去广告模块",
+    "YouTubeAds.module": "YouTube 去广告模块",
+    "YouTubeAds.conf": "YouTube 去广告重写",
+    "Zhihu.conf": "知乎去广告重写",
+    "sr_direct_list.module": "国内直连规则模块（GMOogway）",
+    "sr_proxy_list.module": "国际加速规则模块（GMOogway）",
+    "sr_reject_list.module": "广告拦截规则模块（GMOogway）",
+}
+
+
+def plugin_label(name):
+    if name in PLUGIN_LABELS:
+        return PLUGIN_LABELS[name]
+    if name.startswith("script-hub"):
+        return "Script-Hub 跨平台转换"
+    stem = name.rsplit(".", 1)[0]
+    extension = name.rsplit(".", 1)[-1].lower()
+    kind = {
+        "sgmodule": "模块", "module": "模块", "stoverride": "覆写",
+        "plugin": "插件", "conf": "重写", "list": "规则文件",
+    }.get(extension, "文件")
+    return "%s %s（第三方，按原文件名标注）" % (stem, kind)
+
+
+def list_target_files(rel_dir):
+    path = os.path.join(ROOT, rel_dir)
+    if not os.path.isdir(path):
+        return []
+    return sorted(
+        name for name in os.listdir(path)
+        if os.path.isfile(os.path.join(path, name))
+        and not name.startswith(".")
+        and name.lower() != "readme.md"
+    )
+
+
+def platform_readme(cfg, platform, meta, checked_at):
+    config_rel = os.path.join(platform, meta["config"])
+    plugin_rel = os.path.join(platform, meta["plugins"])
+    configs = list_target_files(config_rel)
+    plugins = list_target_files(plugin_rel)
+    links = cfg["rule_links"]
+
+    def raw(rel):
+        return RAW_BASE + rel.replace("\\", "/")
+
+    def blob(rel):
+        return BLOB_BASE + rel.replace("\\", "/")
+
+    refs = []
+    for item in cfg.get("references", {}).get(platform, []):
+        refs.append("- [%s](%s)" % (item["name"], item["url"]))
+    for item in cfg.get("references", {}).get("all", []):
+        refs.append("- [%s](%s)" % (item["name"], item["url"]))
+
+    lines = [
+        "# %s 配置与插件" % platform,
+        "",
+        "面向使用者的说明。本文件由每日同步任务自动生成，",
+        "下面的配置与插件清单按仓库里的实际文件刷新，不会过期。",
+        "",
+        "- 最后更新：%s（UTC）" % checked_at[:10],
+        "- 配置目录：`%s/`；插件目录：`%s/`" % (meta["config"], meta["plugins"]),
+        "- 在 %s 里，这类文件叫「%s」" % (platform, meta["plugin_name"]),
+        "",
+        "## 一、配置使用说明",
+        "",
+        "### 本仓库提供的配置文件",
+        "",
+    ]
+    if configs:
+        lines += ["| 文件 | 导入 / 订阅链接 | 在 GitHub 查看 |", "| --- | --- | --- |"]
+        for name in configs:
+            rel = config_rel + "/" + name
+            lines.append("| `%s` | [订阅 / 下载](%s) | [查看](%s) |" % (name, raw(rel), blob(rel)))
+    else:
+        lines += [
+            "该平台目前没有现成的配置模板。配置里通常要填自己的节点，",
+            "不宜直接照搬别人的配置，请按下面的步骤自建。",
+        ]
+    lines += [
+        "",
+        "### 三大基础规则（每日自动更新，五个平台通用）",
+        "",
+        "| 用途 | 订阅链接 |",
+        "| --- | --- |",
+        "| 国内直连 | %s |" % links["China"],
+        "| 国际加速 | %s |" % links["Proxy"],
+        "| 广告拦截 | %s |" % links["Reject"],
+        "",
+        "这三条由本仓库 `rule/` 目录提供，被很多人引用。",
+        "配置与插件的同步任务永远不会改动它们。",
+        "",
+        "### 使用步骤",
+        "",
+        "1. 复制上表的「导入 / 订阅链接」，在 App 里导入配置模板（如果有）。",
+        "2. 填入你自己的节点或订阅信息 —— 本仓库不提供任何节点。",
+        "3. 在配置的分流规则里引用上面三条规则链接。",
+        "4. `%s/` 里的模板只在首次生成，之后不会覆盖你自己改过的配置。" % meta["config"],
+        "",
+        "## 二、插件清单",
+        "",
+        "在 %s 里这类文件叫「%s」，扩展名一般是 `%s`，" % (platform, meta["plugin_name"], meta["plugin_ext"]),
+        "存放目录是 `%s/`，当前共 **%d 个**。" % (meta["plugins"], len(plugins)),
+        "",
+    ]
+    if plugins:
+        lines += ["| 中文名称 / 说明 | 文件 | 安装链接 | 在 GitHub 查看 |", "| --- | --- | --- | --- |"]
+        for name in plugins:
+            rel = plugin_rel + "/" + name
+            lines.append("| %s | `%s` | [安装 / 订阅](%s) | [查看](%s) |" % (
+                plugin_label(name), name, raw(rel), blob(rel)))
+    else:
+        lines.append("目前该目录还没有插件文件。")
+    lines += [
+        "",
+        "中文名称按已登记来源标注；第三方重写的名称取自原文件名，未做功能翻译，以免误导。",
+        "",
+        "**安装方法**：复制「安装链接」，在 App 里通过导入远程插件 / 模块 / 覆写使用；",
+        "也可以先在浏览器打开链接确认内容。该目录每次同步会更新为上游最新版，",
+        "请不要在这里手工放自己的文件（会被覆盖）。",
+        "",
+        "## 三、其他说明",
+        "",
+        "### 目录结构",
+        "",
+        "- `%s/`：配置模板与三大规则说明，首次生成后不覆盖" % meta["config"],
+        "- `%s/`：插件 / 模块 / 覆写，每天自动同步上游最新版" % meta["plugins"],
+        "- 平台目录下的其它旧文件：历史存档，正在按体检报告逐步清理",
+        "",
+        "### 更新机制",
+        "",
+        "- 每天北京时间约 05:30 自动同步一次",
+        "- 来源登记在仓库根目录的 [`sources.json`](%s)，增减来源只改这一处" % blob("sources.json"),
+        "- 运行状态见 [`SOURCES_STATUS.md`](%s)，老文件体检见 [`DEAD_LINKS.md`](%s)" % (blob("SOURCES_STATUS.md"), blob("DEAD_LINKS.md")),
+        "",
+        "### 来源与参考（保留原作者与许可声明）",
+        "",
+    ]
+    lines += refs
+    lines += [
+        "",
+        "第三方内容请遵守各仓库的许可声明（MIT / GPL / CC-BY-SA 等，以各仓库 LICENSE 为准）。",
+        "",
+        "### 跨平台格式转换",
+        "",
+        "不同软件的规则和插件格式不同，可用 Script-Hub 或 Sub-Store 转换。",
+        "Script-Hub 提供的现成模块：",
+        "",
+        "- Surge / Egern / LanceX：[script-hub.surge.sgmodule](%s)" % (HUB_RAW + "script-hub.surge.sgmodule"),
+        "- ShadowRocket：[script-hub.rocket.module](%s)" % (HUB_RAW + "script-hub.rocket.module"),
+        "- Stash：[script-hub.stash.stoverride](%s)" % (HUB_RAW + "script-hub.stash.stoverride"),
+        "- Loon：[script-hub.loon.plugin](%s)" % (HUB_RAW + "script-hub.loon.plugin"),
+        "- QuantumultX：[script-hub.qx.conf](%s)" % (HUB_RAW + "script-hub.qx.conf"),
+        "",
+        "### 常见问题",
+        "",
+        "- **链接打不开**：确认复制的是 `raw.githubusercontent.com` 开头的链接；规则链接由 GitHub 提供，部分地区可能需要代理。",
+        "- **插件失效**：插件多为第三方脚本，App 版本更新后可能失效，等上游更新或自行停用即可。",
+        "- **想加 / 减插件**：改根目录 `sources.json` 的 `sources` 列表，保存后下次同步生效。",
+        "- **旧文件还有用吗**：老内容仍保留在原路径，已有订阅链接继续有效；清理按体检报告分批进行。",
+        "",
+        "### 免责声明",
+        "",
+        "本仓库内容整理自公开来源，仅供学习研究，使用前请自行测试。",
+        "本仓库不提供任何节点或订阅服务，也不保证第三方规则与插件长期有效；",
+        "因使用这些内容造成的问题，本仓库不承担责任。",
+        "",
+    ]
+    return ("\n".join(lines)).encode("utf-8")
+
+
 def count_files(rel_dir):
     path = os.path.join(ROOT, rel_dir)
     if not os.path.isdir(path):
@@ -309,6 +495,11 @@ def main():
             })
             if source.get("required", False):
                 hard_failure = True
+
+    for platform, meta in platforms.items():
+        write_file(os.path.join(platform, "README.md"),
+                   platform_readme(cfg, platform, meta, checked_at), "sync")
+    log("五个平台主目录的 README.md 已按实际文件清单刷新")
 
     status_text = build_status(cfg, results, failures, checked_at)
     write_file("SOURCES_STATUS.md", status_text.encode("utf-8"), "sync")
