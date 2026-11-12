@@ -1,0 +1,20 @@
+{
+  "checked_at": "2026-11-12 08:12:03 UTC",
+  "upstream_repo": "blackmatrix7/ios_rule_script (master)",
+  "upstream_last_commit": "2026-10-27T21:45:18Z",
+  "stale_days": 15,
+  "downloaded": {
+    "Reject-rule/Advertising.list": 793,
+    "Reject-rule/Advertising_Domain.list": 290404,
+    "Reject-rule/Privacy.list": 29,
+    "Reject-rule/Privacy_Domain.list": 39925,
+    "Proxy-rule/GlobalMedia.list": 1034,
+    "Proxy-rule/GlobalMedia_Domain.list": 1324,
+    "Proxy-rule/Global.list": 212,
+    "Proxy-rule/Global_Domain.list": 35133,
+    "Proxy-rule/Proxy.list": 145,
+    "Proxy-rule/Proxy_Domain.list": 6870,
+    "China-rule/ChinaMax.list": 12698,
+    "China-rule/ChinaMax_Domain.list": 110439
+  }
+}
