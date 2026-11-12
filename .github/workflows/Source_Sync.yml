@@ -1,0 +1,80 @@
+name: Source_Sync
+
+on:
+  schedule:
+    - cron: '30 21 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+# 与现有 Rule_Generate 共用同一组，保证两个任务不会同时 push 造成冲突
+concurrency:
+  group: rule-generate
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check requests
+
+      - name: 同步配置与插件
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/sync_sources.py
+
+      - name: 体检老文件（只报告，不删除）
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python tools/check_legacy.py
+
+      - name: 提交（只提交指定路径）
+        if: always()
+        run: |
+          mkdir -p Loon/Config Loon/Plugins Surge/Config Surge/Plugins \
+                   Stash/Config Stash/Plugins QuantumultX/Config QuantumultX/Plugins \
+                   ShadowRocket/Config ShadowRocket/Plugins
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SOURCES_STATUS.md DEAD_LINKS.md \
+            Loon/Config Loon/Plugins \
+            Surge/Config Surge/Plugins \
+            Stash/Config Stash/Plugins \
+            QuantumultX/Config QuantumultX/Plugins \
+            ShadowRocket/Config ShadowRocket/Plugins
+          if git diff --staged --quiet; then
+            echo "本次没有变化"
+          else
+            git commit -m "Source sync: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git pull --rebase origin main
+            git push
+          fi
+
+      - name: 上游停更提醒
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          STALE=$(python -c "import json;print(json.load(open('.sync_meta.json',encoding='utf-8'))['max_stale'])")
+          echo "最长停更 $STALE 天"
+          if [ "$STALE" -ge 7 ]; then
+            COUNT=$(gh issue list --state open --search 'in:title sources-stale' --json number --jq 'length')
+            if [ "$COUNT" = "0" ]; then
+              gh issue create --title "sources-stale: 有上游已停更 $STALE 天" --body "sources.json 登记的部分上游已超过 7 天没有新提交，配置与插件内容暂时不会再变化。自动任务仍在正常运行，详情见 SOURCES_STATUS.md。"
+            fi
+          fi
