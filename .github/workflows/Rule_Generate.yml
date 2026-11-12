@@ -9,35 +9,61 @@ on:
     types: [bot_trigger]
   workflow_dispatch:
 
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: rule-generate
+  cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
 
     steps:
-      # ✅ 关键：升级到 v6（原生 Node 24，无警告）
-      - uses: actions/checkout@v6
+      - name: Checkout
+        uses: actions/checkout@v6
 
-      - name: Print current directory
-        run: |
-          cd ./rule/
-          pwd
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
 
-      - name: "拉取"
+      - name: Install dependencies
+        run: pip install --disable-pip-version-check requests
+
+      - name: "拉取规则（含完整性校验）"
         run: python rule/Script/Get_File.py
 
-      - name: "合并"
+      - name: "合并规则并生成状态报告"
         run: python rule/Script/Merge_File.py
 
-      - name: Commit files
+      - name: Commit and push
+        if: github.event_name != 'pull_request'
         run: |
-          git config --local user.email "wwfnle@gmail.com"
-          git config --local user.name "elnfnoosm"
-          git add ./*
-          git diff --quiet && git diff --staged --quiet || git commit -m "Update Rules"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add rule/ STATUS.md
+          if git diff --staged --quiet; then
+            echo "本次没有任何变化，无需提交"
+          else
+            git commit -m "Daily check: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
 
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GIT_TOKEN }}
-          branch: main
-          force: false
+      - name: 上游停更提醒
+        if: github.event_name != 'pull_request'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          STALE=$(python -c "import json;print(json.load(open('rule/.run_meta.json',encoding='utf-8'))['stale_days'])")
+          echo "上游已停更 $STALE 天"
+          if [ "$STALE" -ge 7 ]; then
+            COUNT=$(gh issue list --state open --search 'in:title upstream-rules-stale' --json number --jq 'length')
+            if [ "$COUNT" = "0" ]; then
+              gh issue create --title "upstream-rules-stale: 规则源已停更 $STALE 天" --body "上游 blackmatrix7/ios_rule_script 已超过 7 天没有新提交，规则内容暂时不会再变化。自动任务仍在正常运行，详情见仓库根目录的 STATUS.md。"
+            fi
+          fi
