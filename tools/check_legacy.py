@@ -35,6 +35,9 @@ def legacy_files():
             for name in filenames:
                 if name.startswith("."):
                     continue
+                # 平台主 README 由同步任务自动生成，不属于历史旧文件
+                if name.lower() == "readme.md" and os.path.relpath(dirpath, base) == ".":
+                    continue
                 found.append(os.path.join(dirpath, name))
     return sorted(found)
 
@@ -142,6 +145,19 @@ def build_report(checked_at, files, dead, unknown, checked_count, url_count, dup
 def main():
     checked_at = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
     files = legacy_files()
+    if not files:
+        note = (
+            "# 老文件失效体检报告\n\n"
+            "- 检查时间：%s\n\n" % checked_at +
+            "历史旧文件已按「超过半年未更新」规则全量清理完毕，本次没有需要扫描的旧文件。\n\n"
+            "删除清单、替代来源与恢复方法见 "
+            "[LEGACY_CLEANUP_REPORT.md](https://github.com/elnfnoosm/iOS_network/blob/main/LEGACY_CLEANUP_REPORT.md)。\n\n"
+            "`rule/` 与三大规则 list 未参与清理，保持原样。\n"
+        )
+        with open(REPORT_PATH, "w", encoding="utf-8") as handle:
+            handle.write(note)
+        print("旧文件已清理完毕，无需体检", flush=True)
+        return
     url_to_files = defaultdict(list)
     for path in files:
         rel = os.path.relpath(path, ROOT).replace("\\", "/")
