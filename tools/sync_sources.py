@@ -197,7 +197,7 @@ def build_status(cfg, results, failures, checked_at):
         "",
         "- 本次检查：%s" % checked_at,
         "- 登记来源：%d 个，成功 %d 个，失败 %d 个" % (len(results) + len(failures), ok, len(failures)),
-        "- 同步范围：五个平台主目录下的 `Config/` 与 `Plugins/`",
+        "- 同步范围：五个平台主目录下的配置目录与各自命名的插件目录",
         "- **不包含** `rule/` 与三大规则 list，这些永远不动",
         "",
         "> 这个文件每天都会更新。只要它在变，就说明同步任务还在正常跑。",
@@ -265,7 +265,7 @@ def main():
             else:
                 data = plugins_readme(cfg, platform, meta, sources)
             write_file(os.path.join(rel_dir, "README.md"), data, "sync")
-    log("已确保五个平台的 Config/ 与 Plugins/ 目录及说明文件就绪")
+    log("已确保五个平台的配置与插件目录及说明文件就绪")
 
     results = []
     failures = []
