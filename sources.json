@@ -1,0 +1,64 @@
+{
+  "version": 1,
+  "updated": "2026-11-12",
+  "note": "只写五个平台主目录下的 Config/ 与 Plugins/，绝不触碰 rule/ 和三大规则 list。",
+  "platforms": {
+    "Loon": {"config": "Config", "plugins": "Plugins", "plugin_name": "插件", "plugin_ext": ".plugin", "config_ext": ".conf"},
+    "Surge": {"config": "Config", "plugins": "Plugins", "plugin_name": "模块", "plugin_ext": ".sgmodule", "config_ext": ".conf"},
+    "Stash": {"config": "Config", "plugins": "Plugins", "plugin_name": "覆写", "plugin_ext": ".stoverride", "config_ext": ".yaml"},
+    "QuantumultX": {"config": "Config", "plugins": "Plugins", "plugin_name": "重写", "plugin_ext": ".conf", "config_ext": ".conf"},
+    "ShadowRocket": {"config": "Config", "plugins": "Plugins", "plugin_name": "模块", "plugin_ext": ".module", "config_ext": ".conf"}
+  },
+  "rule_links": {
+    "China": "https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/China-rule/China-rule.list",
+    "Proxy": "https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Proxy-rule/Proxy-rule.list",
+    "Reject": "https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/Reject-rule/Reject-rule.list"
+  },
+  "sources": [
+    {"id": "loon_config_pure", "platform": "Loon", "kind": "config", "mode": "once", "repo": "deezertidal/private", "branch": "main", "files": ["Loon_pure.conf"], "required": true, "note": "Loon 精简配置模板"},
+    {"id": "qx_config_template", "platform": "QuantumultX", "kind": "config", "mode": "once", "repo": "curtinp118/QuantumultX", "branch": "main", "files": ["profile/QX_Config.conf"], "required": true, "note": "MIT 许可的 QX 配置模板"},
+    {"id": "stash_config_parser", "platform": "Stash", "kind": "config", "mode": "once", "repo": "deezertidal/stash-override", "branch": "master", "files": ["cfw-parser.yaml"], "required": false, "note": "Clash / Stash 配置解析片段"},
+
+    {"id": "hub_loon", "platform": "Loon", "kind": "plugins", "mode": "sync", "repo": "Script-Hub-Org/Script-Hub", "branch": "main", "files": ["modules/script-hub.loon.plugin"], "required": true, "note": "Loon 插件"},
+    {"id": "hub_surge", "platform": "Surge", "kind": "plugins", "mode": "sync", "repo": "Script-Hub-Org/Script-Hub", "branch": "main", "files": ["modules/script-hub.surge.sgmodule"], "required": true, "note": "Surge 模块"},
+    {"id": "hub_stash", "platform": "Stash", "kind": "plugins", "mode": "sync", "repo": "Script-Hub-Org/Script-Hub", "branch": "main", "files": ["modules/script-hub.stash.stoverride"], "required": true, "note": "Stash 覆写"},
+    {"id": "hub_qx", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "Script-Hub-Org/Script-Hub", "branch": "main", "files": ["modules/script-hub.qx.conf"], "required": true, "note": "QuantumultX 重写"},
+    {"id": "hub_sr", "platform": "ShadowRocket", "kind": "plugins", "mode": "sync", "repo": "Script-Hub-Org/Script-Hub", "branch": "main", "files": ["modules/script-hub.rocket.module"], "required": true, "note": "ShadowRocket 模块"},
+
+    {"id": "limbo_surge", "platform": "Surge", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.sgmodule", "Google.sgmodule", "NobyDa.sgmodule", "YouTubeAds.sgmodule"], "required": false, "note": "MIT 去广告模块"},
+    {"id": "limbo_sr", "platform": "ShadowRocket", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.module", "YouTubeAds.module"], "required": false, "note": "MIT 去广告模块"},
+    {"id": "limbo_qx", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.conf", "YouTubeAds.conf", "Zhihu.conf"], "required": false, "note": "MIT 去广告重写"},
+    {"id": "gmoogway_sr", "platform": "ShadowRocket", "kind": "plugins", "mode": "sync", "repo": "GMOogway/shadowrocket-rules", "branch": "master", "files": ["sr_direct_list.module", "sr_proxy_list.module", "sr_reject_list.module"], "required": false, "note": "GPL-3.0 分流模块"},
+    {"id": "dee_qx_rewrite", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "deezertidal/QuantumultX-Rewrite", "branch": "master", "dir": "rewrite", "extensions": [".conf"], "limit": 40, "required": false, "note": "QX 重写，上游共 277 个 .conf；默认同步前 40 个，调大 limit 可全量"}
+  ],
+  "references": {
+    "Loon": [
+      {"name": "deezertidal/private（插件、脚本、配置）", "url": "https://github.com/deezertidal/private"},
+      {"name": "NobyDa/Script（BoxJs 与 Loon 脚本）", "url": "https://github.com/NobyDa/Script"}
+    ],
+    "Surge": [
+      {"name": "deezertidal/Surge_Module（模块与脚本）", "url": "https://github.com/deezertidal/Surge_Module"},
+      {"name": "Loyalsoldier/surge-rules（RULE-SET）", "url": "https://github.com/Loyalsoldier/surge-rules"},
+      {"name": "SukkaW/Surge（规则片段与 Modules）", "url": "https://github.com/SukkaW/Surge"}
+    ],
+    "Stash": [
+      {"name": "deezertidal/stash-override（覆写与规则）", "url": "https://github.com/deezertidal/stash-override"},
+      {"name": "MetaCubeX/meta-rules-dat（mihomo 规则数据）", "url": "https://github.com/MetaCubeX/meta-rules-dat"},
+      {"name": "sub-store-org/Sub-Store（订阅与格式转换）", "url": "https://github.com/sub-store-org/Sub-Store"}
+    ],
+    "QuantumultX": [
+      {"name": "deezertidal/QuantumultX-Rewrite（277 个重写）", "url": "https://github.com/deezertidal/QuantumultX-Rewrite"},
+      {"name": "curtinp118/QuantumultX（MIT 配置模板）", "url": "https://github.com/curtinp118/QuantumultX"},
+      {"name": "ACL4SSR/ACL4SSR（分流规则）", "url": "https://github.com/ACL4SSR/ACL4SSR"}
+    ],
+    "ShadowRocket": [
+      {"name": "GMOogway/shadowrocket-rules（模块与规则）", "url": "https://github.com/GMOogway/shadowrocket-rules"},
+      {"name": "zhouzhouprogram/Shadowrocket-ADBlock-Rules（去广告）", "url": "https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules"}
+    ],
+    "all": [
+      {"name": "limbopro/Adblock4limbo（MIT，跨平台模板）", "url": "https://github.com/limbopro/Adblock4limbo"},
+      {"name": "Script-Hub-Org/Script-Hub（跨平台转换）", "url": "https://github.com/Script-Hub-Org/Script-Hub"},
+      {"name": "Loyalsoldier/v2ray-rules-dat（每日规则数据）", "url": "https://github.com/Loyalsoldier/v2ray-rules-dat"}
+    ]
+  }
+}
