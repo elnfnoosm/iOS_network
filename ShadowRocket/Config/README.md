@@ -24,6 +24,7 @@
 
 - [GMOogway/shadowrocket-rules（模块与规则）](https://github.com/GMOogway/shadowrocket-rules)
 - [zhouzhouprogram/Shadowrocket-ADBlock-Rules（去广告）](https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules)
+- [NobyDa/Script（旧模块引用的脚本源，仍在维护）](https://github.com/NobyDa/Script)
 - [limbopro/Adblock4limbo（MIT，跨平台模板）](https://github.com/limbopro/Adblock4limbo)
 - [Script-Hub-Org/Script-Hub（跨平台转换）](https://github.com/Script-Hub-Org/Script-Hub)
 - [Loyalsoldier/v2ray-rules-dat（每日规则数据）](https://github.com/Loyalsoldier/v2ray-rules-dat)

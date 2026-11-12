@@ -22,9 +22,11 @@
 
 ## 更多参考
 
-- [deezertidal/QuantumultX-Rewrite（277 个重写）](https://github.com/deezertidal/QuantumultX-Rewrite)
+- [deezertidal/QuantumultX-Rewrite（277 个重写，已全量同步）](https://github.com/deezertidal/QuantumultX-Rewrite)
 - [curtinp118/QuantumultX（MIT 配置模板）](https://github.com/curtinp118/QuantumultX)
 - [ACL4SSR/ACL4SSR（分流规则）](https://github.com/ACL4SSR/ACL4SSR)
+- [89996462/Quantumult-X（旧重写引用的脚本源，仍活跃）](https://github.com/89996462/Quantumult-X)
+- [app2smile/rules（模块与规则，仍活跃）](https://github.com/app2smile/rules)
 - [limbopro/Adblock4limbo（MIT，跨平台模板）](https://github.com/limbopro/Adblock4limbo)
 - [Script-Hub-Org/Script-Hub（跨平台转换）](https://github.com/Script-Hub-Org/Script-Hub)
 - [Loyalsoldier/v2ray-rules-dat（每日规则数据）](https://github.com/Loyalsoldier/v2ray-rules-dat)

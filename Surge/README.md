@@ -70,6 +70,7 @@
 - [deezertidal/Surge_Module（模块与脚本）](https://github.com/deezertidal/Surge_Module)
 - [Loyalsoldier/surge-rules（RULE-SET）](https://github.com/Loyalsoldier/surge-rules)
 - [SukkaW/Surge（规则片段与 Modules）](https://github.com/SukkaW/Surge)
+- [Alex0510/Eric（旧合集引用的脚本源，仍活跃）](https://github.com/Alex0510/Eric)
 - [limbopro/Adblock4limbo（MIT，跨平台模板）](https://github.com/limbopro/Adblock4limbo)
 - [Script-Hub-Org/Script-Hub（跨平台转换）](https://github.com/Script-Hub-Org/Script-Hub)
 - [Loyalsoldier/v2ray-rules-dat（每日规则数据）](https://github.com/Loyalsoldier/v2ray-rules-dat)
