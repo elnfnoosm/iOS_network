@@ -1,13 +1,13 @@
 {
   "version": 1,
   "updated": "2026-11-12",
-  "note": "只写五个平台主目录下的 Config/ 与 Plugins/，绝不触碰 rule/ 和三大规则 list。",
+  "note": "只写五个平台主目录下 sources.json 里登记的配置与插件目录，绝不触碰 rule/ 和三大规则 list。",
   "platforms": {
-    "Loon": {"config": "Config", "plugins": "Plugins", "plugin_name": "插件", "plugin_ext": ".plugin", "config_ext": ".conf"},
-    "Surge": {"config": "Config", "plugins": "Plugins", "plugin_name": "模块", "plugin_ext": ".sgmodule", "config_ext": ".conf"},
-    "Stash": {"config": "Config", "plugins": "Plugins", "plugin_name": "覆写", "plugin_ext": ".stoverride", "config_ext": ".yaml"},
-    "QuantumultX": {"config": "Config", "plugins": "Plugins", "plugin_name": "重写", "plugin_ext": ".conf", "config_ext": ".conf"},
-    "ShadowRocket": {"config": "Config", "plugins": "Plugins", "plugin_name": "模块", "plugin_ext": ".module", "config_ext": ".conf"}
+    "Loon": {"config": "Config", "plugins": "Plugin", "plugin_name": "插件", "plugin_ext": ".plugin", "config_ext": ".conf"},
+    "Surge": {"config": "Config", "plugins": "Module", "plugin_name": "模块", "plugin_ext": ".sgmodule", "config_ext": ".conf"},
+    "Stash": {"config": "Config", "plugins": "Rewrite", "plugin_name": "覆写", "plugin_ext": ".stoverride", "config_ext": ".yaml"},
+    "QuantumultX": {"config": "Config", "plugins": "Plugin", "plugin_name": "重写", "plugin_ext": ".conf", "config_ext": ".conf"},
+    "ShadowRocket": {"config": "Config", "plugins": "Module", "plugin_name": "模块", "plugin_ext": ".module", "config_ext": ".conf"}
   },
   "rule_links": {
     "China": "https://raw.githubusercontent.com/elnfnoosm/iOS_network/main/rule/China-rule/China-rule.list",
