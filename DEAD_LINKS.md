@@ -1,9 +1,9 @@
 # 老文件失效体检报告
 
-- 检查时间：2026-11-12 10:03:51 UTC
-- 扫描老文件：584 个（五个平台主目录，排除各自新设的配置与插件目录）
-- 发现远程引用：721 个，实际探测 150 个
-- 确认失效：40 个，无法确认：11 个
+- 检查时间：2026-11-12 13:20:42 UTC
+- 扫描老文件：585 个（五个平台主目录，排除各自新设的配置与插件目录）
+- 发现远程引用：815 个，实际探测 150 个
+- 确认失效：38 个，无法确认：11 个
 
 > **本报告只标记，不删除、不修改任何文件。**
 > `rule/` 与三大规则 list 不在扫描范围内，永远不动。
@@ -51,8 +51,6 @@
 | `QuantumultX/Rewrite/allinone@eric0510/surge/Script/wnRead.js` | https://p.du.163.com/readtime/info.json | 401 |
 | `ShadowRocket/module/enhanced_github.module` | https://raw.githubusercontent.com/1/2/master/3.txt | 404 |
 | `ShadowRocket/module/enhanced_github.module` | https://raw.githubusercontent.com/1/2/master/3.txtenhanced-github | 404 |
-| `QuantumultX/Rewrite/Symbolab.js` | https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Symbolab.js | 404 |
-| `QuantumultX/Rewrite/allinone@eric0510/surge/Module/bytq.sgmodule` | https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/bytq.js,script-update-interval=0 | 404 |
 
 ## 二、无法确认（超时或网络问题，先不要删）
 
