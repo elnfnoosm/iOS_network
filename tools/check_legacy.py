@@ -1,5 +1,6 @@
 import os
 import re
+import json
 import hashlib
 import datetime
 from collections import defaultdict
@@ -8,9 +9,6 @@ import requests
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORT_PATH = os.path.join(ROOT, "DEAD_LINKS.md")
-
-PLATFORMS = ["Loon", "Surge", "Stash", "QuantumultX", "ShadowRocket"]
-EXCLUDE_DIRS = {"Config", "Plugins"}
 MAX_URLS = 150
 
 URL_PATTERN = re.compile(r"https?://[^\s\)\]\"'<>]+")
@@ -19,14 +17,21 @@ REMOTE_HOSTS = ("raw.githubusercontent.com", "gist.githubusercontent.com", "gitl
 HEADERS = {"User-Agent": "iOS_network-legacy-check"}
 
 
+def platform_dirs():
+    with open(os.path.join(ROOT, "sources.json"), "r", encoding="utf-8") as handle:
+        cfg = json.load(handle)
+    return {name: {meta["config"], meta["plugins"]} for name, meta in cfg["platforms"].items()}
+
+
 def legacy_files():
     found = []
-    for platform in PLATFORMS:
+    for platform, excluded in platform_dirs().items():
         base = os.path.join(ROOT, platform)
         if not os.path.isdir(base):
             continue
         for dirpath, dirnames, filenames in os.walk(base):
-            dirnames[:] = [name for name in dirnames if name not in EXCLUDE_DIRS]
+            if os.path.relpath(dirpath, base) == ".":
+                dirnames[:] = [name for name in dirnames if name not in excluded]
             for name in filenames:
                 if name.startswith("."):
                     continue
@@ -83,7 +88,7 @@ def build_report(checked_at, files, dead, unknown, checked_count, url_count, dup
         "# 老文件失效体检报告",
         "",
         "- 检查时间：%s" % checked_at,
-        "- 扫描老文件：%d 个（五个平台主目录，`Config/` 与 `Plugins/` 除外）" % len(files),
+        "- 扫描老文件：%d 个（五个平台主目录，排除各自新设的配置与插件目录）" % len(files),
         "- 发现远程引用：%d 个，实际探测 %d 个" % (url_count, checked_count),
         "- 确认失效：%d 个，无法确认：%d 个" % (len(dead), len(unknown)),
         "",
