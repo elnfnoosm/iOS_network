@@ -1,7 +1,7 @@
 {
   "version": 1,
   "updated": "2026-11-12",
-  "note": "只写五个平台主目录下 sources.json 里登记的配置与插件目录，绝不触碰 rule/ 和三大规则 list。",
+  "note": "只写五个平台主目录下 sources.json 里登记的配置与插件目录，绝不触碰 rule/ 和三大规则 list。2026-11-12 起旧文件全量清理，QX 重写改为同步上游 277 个全量。",
   "platforms": {
     "Loon": {"config": "Config", "plugins": "Plugin", "plugin_name": "插件", "plugin_ext": ".plugin", "config_ext": ".conf"},
     "Surge": {"config": "Config", "plugins": "Module", "plugin_name": "模块", "plugin_ext": ".sgmodule", "config_ext": ".conf"},
@@ -27,9 +27,9 @@
 
     {"id": "limbo_surge", "platform": "Surge", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.sgmodule", "Google.sgmodule", "NobyDa.sgmodule", "YouTubeAds.sgmodule"], "required": false, "note": "MIT 去广告模块"},
     {"id": "limbo_sr", "platform": "ShadowRocket", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.module", "YouTubeAds.module"], "required": false, "note": "MIT 去广告模块"},
-    {"id": "limbo_qx", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.conf", "YouTubeAds.conf", "Zhihu.conf"], "required": false, "note": "MIT 去广告重写"},
+    {"id": "limbo_qx", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "limbopro/Adblock4limbo", "branch": "main", "files": ["Adblock4limbo.conf", "YouTubeAds.conf", "Zhihu.conf", "contentFarm.conf"], "required": false, "note": "MIT 去广告重写，含内容农场拦截"},
     {"id": "gmoogway_sr", "platform": "ShadowRocket", "kind": "plugins", "mode": "sync", "repo": "GMOogway/shadowrocket-rules", "branch": "master", "files": ["sr_direct_list.module", "sr_proxy_list.module", "sr_reject_list.module"], "required": false, "note": "GPL-3.0 分流模块"},
-    {"id": "dee_qx_rewrite", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "deezertidal/QuantumultX-Rewrite", "branch": "master", "dir": "rewrite", "extensions": [".conf"], "limit": 40, "required": false, "note": "QX 重写，上游共 277 个 .conf；默认同步前 40 个，调大 limit 可全量"}
+    {"id": "dee_qx_rewrite", "platform": "QuantumultX", "kind": "plugins", "mode": "sync", "repo": "deezertidal/QuantumultX-Rewrite", "branch": "master", "dir": "rewrite", "extensions": [".conf"], "limit": 300, "required": false, "note": "QX 重写全量 277 个，用于替代已清理的旧重写"}
   ],
   "references": {
     "Loon": [
@@ -39,7 +39,8 @@
     "Surge": [
       {"name": "deezertidal/Surge_Module（模块与脚本）", "url": "https://github.com/deezertidal/Surge_Module"},
       {"name": "Loyalsoldier/surge-rules（RULE-SET）", "url": "https://github.com/Loyalsoldier/surge-rules"},
-      {"name": "SukkaW/Surge（规则片段与 Modules）", "url": "https://github.com/SukkaW/Surge"}
+      {"name": "SukkaW/Surge（规则片段与 Modules）", "url": "https://github.com/SukkaW/Surge"},
+      {"name": "Alex0510/Eric（旧合集引用的脚本源，仍活跃）", "url": "https://github.com/Alex0510/Eric"}
     ],
     "Stash": [
       {"name": "deezertidal/stash-override（覆写与规则）", "url": "https://github.com/deezertidal/stash-override"},
@@ -47,13 +48,16 @@
       {"name": "sub-store-org/Sub-Store（订阅与格式转换）", "url": "https://github.com/sub-store-org/Sub-Store"}
     ],
     "QuantumultX": [
-      {"name": "deezertidal/QuantumultX-Rewrite（277 个重写）", "url": "https://github.com/deezertidal/QuantumultX-Rewrite"},
+      {"name": "deezertidal/QuantumultX-Rewrite（277 个重写，已全量同步）", "url": "https://github.com/deezertidal/QuantumultX-Rewrite"},
       {"name": "curtinp118/QuantumultX（MIT 配置模板）", "url": "https://github.com/curtinp118/QuantumultX"},
-      {"name": "ACL4SSR/ACL4SSR（分流规则）", "url": "https://github.com/ACL4SSR/ACL4SSR"}
+      {"name": "ACL4SSR/ACL4SSR（分流规则）", "url": "https://github.com/ACL4SSR/ACL4SSR"},
+      {"name": "89996462/Quantumult-X（旧重写引用的脚本源，仍活跃）", "url": "https://github.com/89996462/Quantumult-X"},
+      {"name": "app2smile/rules（模块与规则，仍活跃）", "url": "https://github.com/app2smile/rules"}
     ],
     "ShadowRocket": [
       {"name": "GMOogway/shadowrocket-rules（模块与规则）", "url": "https://github.com/GMOogway/shadowrocket-rules"},
-      {"name": "zhouzhouprogram/Shadowrocket-ADBlock-Rules（去广告）", "url": "https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules"}
+      {"name": "zhouzhouprogram/Shadowrocket-ADBlock-Rules（去广告）", "url": "https://github.com/zhouzhouprogram/Shadowrocket-ADBlock-Rules"},
+      {"name": "NobyDa/Script（旧模块引用的脚本源，仍在维护）", "url": "https://github.com/NobyDa/Script"}
     ],
     "all": [
       {"name": "limbopro/Adblock4limbo（MIT，跨平台模板）", "url": "https://github.com/limbopro/Adblock4limbo"},
