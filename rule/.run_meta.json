@@ -1,8 +1,8 @@
 {
-  "checked_at": "2026-11-12 08:12:03 UTC",
+  "checked_at": "2026-11-13 00:53:41 UTC",
   "upstream_repo": "blackmatrix7/ios_rule_script (master)",
   "upstream_last_commit": "2026-10-27T21:45:18Z",
-  "stale_days": 15,
+  "stale_days": 16,
   "downloaded": {
     "Reject-rule/Advertising.list": 793,
     "Reject-rule/Advertising_Domain.list": 290404,
