@@ -1,6 +1,6 @@
 # 配置与插件来源状态
 
-- 本次检查：2026-11-18 03:02:01 UTC
+- 本次检查：2026-11-19 02:43:05 UTC
 - 登记来源：13 个，成功 13 个，失败 0 个
 - 同步范围：五个平台主目录下的配置目录与各自命名的插件目录
 - **不包含** `rule/` 与三大规则 list，这些永远不动
@@ -21,23 +21,23 @@
 
 | 来源 | 平台 | 类别 | 文件 | 上游最后提交 | 停更天数 | 结果 |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| `loon_config_pure` | Loon | config | 1 | 2026-11-18T02:25:11Z | 0 | 正常 |
-| `qx_config_template` | QuantumultX | config | 1 | 2026-11-08T00:22:39Z | 10 | 正常 |
-| `stash_config_parser` | Stash | config | 1 | 2026-11-18T02:25:11Z | 0 | 正常 |
-| `hub_loon` | Loon | plugins | 1 | 2026-11-17T10:23:25Z | 0 | 正常 |
-| `hub_surge` | Surge | plugins | 1 | 2026-11-17T10:23:25Z | 0 | 正常 |
-| `hub_stash` | Stash | plugins | 1 | 2026-11-17T10:23:25Z | 0 | 正常 |
-| `hub_qx` | QuantumultX | plugins | 1 | 2026-11-17T10:23:25Z | 0 | 正常 |
-| `hub_sr` | ShadowRocket | plugins | 1 | 2026-11-17T10:23:25Z | 0 | 正常 |
-| `limbo_surge` | Surge | plugins | 4 | 2026-11-14T02:29:20Z | 4 | 正常 |
-| `limbo_sr` | ShadowRocket | plugins | 2 | 2026-11-14T02:29:20Z | 4 | 正常 |
-| `limbo_qx` | QuantumultX | plugins | 4 | 2026-11-14T02:29:20Z | 4 | 正常 |
-| `gmoogway_sr` | ShadowRocket | plugins | 3 | 2026-11-17T04:45:23Z | 0 | 正常 |
-| `dee_qx_rewrite` | QuantumultX | plugins | 277 | 2026-11-18T02:25:10Z | 0 | 正常 |
+| `loon_config_pure` | Loon | config | 1 | 2026-11-19T02:24:44Z | 0 | 正常 |
+| `qx_config_template` | QuantumultX | config | 1 | 2026-11-08T00:22:39Z | 11 | 正常 |
+| `stash_config_parser` | Stash | config | 1 | 2026-11-19T02:24:43Z | 0 | 正常 |
+| `hub_loon` | Loon | plugins | 1 | 2026-11-17T10:23:25Z | 1 | 正常 |
+| `hub_surge` | Surge | plugins | 1 | 2026-11-17T10:23:25Z | 1 | 正常 |
+| `hub_stash` | Stash | plugins | 1 | 2026-11-17T10:23:25Z | 1 | 正常 |
+| `hub_qx` | QuantumultX | plugins | 1 | 2026-11-17T10:23:25Z | 1 | 正常 |
+| `hub_sr` | ShadowRocket | plugins | 1 | 2026-11-17T10:23:25Z | 1 | 正常 |
+| `limbo_surge` | Surge | plugins | 4 | 2026-11-14T02:29:20Z | 5 | 正常 |
+| `limbo_sr` | ShadowRocket | plugins | 2 | 2026-11-14T02:29:20Z | 5 | 正常 |
+| `limbo_qx` | QuantumultX | plugins | 4 | 2026-11-14T02:29:20Z | 5 | 正常 |
+| `gmoogway_sr` | ShadowRocket | plugins | 3 | 2026-11-18T12:05:11Z | 0 | 正常 |
+| `dee_qx_rewrite` | QuantumultX | plugins | 277 | 2026-11-19T02:24:43Z | 0 | 正常 |
 
 ## 停更提醒
 
-- `qx_config_template` 已停更 **10 天**（curtinp118/QuantumultX）
+- `qx_config_template` 已停更 **11 天**（curtinp118/QuantumultX）
 
 ---
 
