@@ -1,6 +1,6 @@
 # 配置与插件来源状态
 
-- 本次检查：2026-11-27 03:42:44 UTC
+- 本次检查：2026-11-28 03:25:32 UTC
 - 登记来源：13 个，成功 13 个，失败 0 个
 - 同步范围：五个平台主目录下的配置目录与各自命名的插件目录
 - **不包含** `rule/` 与三大规则 list，这些永远不动
@@ -21,25 +21,30 @@
 
 | 来源 | 平台 | 类别 | 文件 | 上游最后提交 | 停更天数 | 结果 |
 | --- | --- | --- | ---: | --- | ---: | --- |
-| `loon_config_pure` | Loon | config | 1 | 2026-11-27T03:23:46Z | 0 | 正常 |
-| `qx_config_template` | QuantumultX | config | 1 | 2026-11-25T08:50:22Z | 1 | 正常 |
-| `stash_config_parser` | Stash | config | 1 | 2026-11-27T03:23:45Z | 0 | 正常 |
-| `hub_loon` | Loon | plugins | 1 | 2026-11-20T16:13:31Z | 6 | 正常 |
-| `hub_surge` | Surge | plugins | 1 | 2026-11-20T16:13:31Z | 6 | 正常 |
-| `hub_stash` | Stash | plugins | 1 | 2026-11-20T16:13:31Z | 6 | 正常 |
-| `hub_qx` | QuantumultX | plugins | 1 | 2026-11-20T16:13:31Z | 6 | 正常 |
-| `hub_sr` | ShadowRocket | plugins | 1 | 2026-11-20T16:13:31Z | 6 | 正常 |
-| `limbo_surge` | Surge | plugins | 4 | 2026-11-14T02:29:20Z | 13 | 正常 |
-| `limbo_sr` | ShadowRocket | plugins | 2 | 2026-11-14T02:29:20Z | 13 | 正常 |
-| `limbo_qx` | QuantumultX | plugins | 4 | 2026-11-14T02:29:20Z | 13 | 正常 |
-| `gmoogway_sr` | ShadowRocket | plugins | 3 | 2026-11-26T04:20:45Z | 0 | 正常 |
-| `dee_qx_rewrite` | QuantumultX | plugins | 277 | 2026-11-27T03:23:45Z | 0 | 正常 |
+| `loon_config_pure` | Loon | config | 1 | 2026-11-28T03:23:53Z | 0 | 正常 |
+| `qx_config_template` | QuantumultX | config | 1 | 2026-11-25T08:50:22Z | 2 | 正常 |
+| `stash_config_parser` | Stash | config | 1 | 2026-11-28T03:23:53Z | 0 | 正常 |
+| `hub_loon` | Loon | plugins | 1 | 2026-11-20T16:13:31Z | 7 | 正常 |
+| `hub_surge` | Surge | plugins | 1 | 2026-11-20T16:13:31Z | 7 | 正常 |
+| `hub_stash` | Stash | plugins | 1 | 2026-11-20T16:13:31Z | 7 | 正常 |
+| `hub_qx` | QuantumultX | plugins | 1 | 2026-11-20T16:13:31Z | 7 | 正常 |
+| `hub_sr` | ShadowRocket | plugins | 1 | 2026-11-20T16:13:31Z | 7 | 正常 |
+| `limbo_surge` | Surge | plugins | 4 | 2026-11-14T02:29:20Z | 14 | 正常 |
+| `limbo_sr` | ShadowRocket | plugins | 2 | 2026-11-14T02:29:20Z | 14 | 正常 |
+| `limbo_qx` | QuantumultX | plugins | 4 | 2026-11-14T02:29:20Z | 14 | 正常 |
+| `gmoogway_sr` | ShadowRocket | plugins | 3 | 2026-11-27T04:28:08Z | 0 | 正常 |
+| `dee_qx_rewrite` | QuantumultX | plugins | 277 | 2026-11-28T03:23:52Z | 0 | 正常 |
 
 ## 停更提醒
 
-- `limbo_surge` 已停更 **13 天**（limbopro/Adblock4limbo）
-- `limbo_sr` 已停更 **13 天**（limbopro/Adblock4limbo）
-- `limbo_qx` 已停更 **13 天**（limbopro/Adblock4limbo）
+- `hub_loon` 已停更 **7 天**（Script-Hub-Org/Script-Hub）
+- `hub_surge` 已停更 **7 天**（Script-Hub-Org/Script-Hub）
+- `hub_stash` 已停更 **7 天**（Script-Hub-Org/Script-Hub）
+- `hub_qx` 已停更 **7 天**（Script-Hub-Org/Script-Hub）
+- `hub_sr` 已停更 **7 天**（Script-Hub-Org/Script-Hub）
+- `limbo_surge` 已停更 **14 天**（limbopro/Adblock4limbo）
+- `limbo_sr` 已停更 **14 天**（limbopro/Adblock4limbo）
+- `limbo_qx` 已停更 **14 天**（limbopro/Adblock4limbo）
 
 ---
 
